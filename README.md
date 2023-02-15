@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-  <img src="docs/figs/logo.png" align="center" width="22%">
+  <img src="docs/figs/logo.png" align="center" width="21.5%">
   
   <h3 align="center"><strong>Robo3D: Towards Robust and Reliable 3D Perception against Corruptions</strong></h3>
 
@@ -117,11 +117,40 @@ To be updated.
 ### LiDAR Semantic Segmentation
 
 #### SemanticKITTI-C
-| Model            | mCE | mRR | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Crosstalk | Incomplete Echo |
-| :--------------: | :-----: | :-----: |:-----: | :-------: | :--------: | :---------: | :---------: | :----: | :-------: | :----: |
-| SqueezeSeg       |         |         |  |    |      |       |      |  |     | |
-| SqueezeSegV2     |         |         |  |    |      |       |      |  |     | |
+| Model             | mCE | mRR | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Crosstalk | Incomplete Echo |
+| :---------------: | :-----: | :-----: |:-----: | :-------: | :--------: | :---------: | :---------: | :----: | :-------: | :----: |
+|                   |         |         |  |    |      |       |      |  |     | |
+| SqueezeSeg        |         |         | 31.61 |    |      |       |      |  |     | |
+| SqueezeSegV2      |         |         | 41.28 |    |      |       |      |  |     | |
+| RangeNet-dark21   |         |         | 47.15 |    |      |       |      |  |     | |
+| RangeNet-dark53   |         |         | 50.29 |    |      |       |      |  |     | |
+| SalsaNext         |         |         | 55.80 |    |      |       |      |  |     | |
+| FIDNet            |         |         |  |    |      |       |      |  |     | |
+| CENet             |         |         | 62.55 |    |      |       |      |  |     | |
+|                   |         |         |  |    |      |       |      |  |     | |
+| KPConv            |         |         |  |    |      |       |      |  |     | |
+| WaffleIron        |         |         |  |    |      |       |      |  |     | |
+|                   |         |         |  |    |      |       |      |  |     | |
+| PolarNet          |         |         |  |    |      |       |      |  |     | |
+|                   |         |         |  |    |      |       |      |  |     | |
+| MinkUNet-18_cr1.0 |         |         |  |    |      |       |      |  |     | |
+| MinkUNet-34_cr1.6 |         |         |  |    |      |       |      |  |     | |
+| Cylinder3D        |         |         |  |    |      |       |      |  |     | |
+| Cylinder3D-TS     |         |         |  |    |      |       |      |  |     | |
+|                   |         |         |  |    |      |       |      |  |     | |
+| SPVCNN-18_cr1.0   |         |         |  |    |      |       |      |  |     | |
+| SPVCNN-34_cr1.6   |         |         |  |    |      |       |      |  |     | |
+| RPVNet            |         |         |  |    |      |       |      |  |     | |
+| 2DPASS            |         |         |  |    |      |       |      |  |     | |
+| GFNet             |         |         |  |    |      |       |      |  |     | |
 
+
+#### nuScenes-C
+To be updated.
+
+
+#### WaymoOpen-C
+To be updated.
 
 
 ## Create Corruption Sets
