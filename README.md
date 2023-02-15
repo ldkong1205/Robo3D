@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-  <img src="docs/figs/logo.png" align="center" width="21%">
+  <img src="docs/figs/logo.png" align="center" width="22%">
   
   <h3 align="center"><strong>Robo3D: Towards Robust and Reliable 3D Perception against Corruptions</strong></h3>
 
@@ -102,7 +102,12 @@ To be updated.
 <details open>
 <summary>&nbsp<b>3D Object Detection</b></summary>
 
-> - [ ] **[PointPillars]()**
+> - [x] **[SECOND](https://www.mdpi.com/1424-8220/18/10/3337), Sensors 2018.** <sup>[**`[Code]`**](https://github.com/traveller59/second.pytorch)</sup>
+> - [x] **[PointPillars](https://arxiv.org/abs/1812.05784), CVPR 2019.** <sup>[**`[Code]`**](https://github.com/nutonomy/second.pytorch)</sup>
+> - [x] **[PointRCNN](https://arxiv.org/abs/1812.04244), CVPR 2019.** <sup>[**`[Code]`**](https://github.com/sshaoshuai/PointRCNN)</sup>
+> - [x] **[Part-A2](https://arxiv.org/abs/1907.03670), TPAMI 2020.**
+> - [x] **[PV-RCNN](https://arxiv.org/abs/1912.13192), CVPR 2020.** <sup>[**`[Code]`**](https://github.com/sshaoshuai/PV-RCNN)</sup>
+> - [x] **[CenterPoint](https://arxiv.org/abs/2006.11275), CVPR 2021.** <sup>[**`[Code]`**](https://github.com/tianweiy/CenterPoint)</sup>
 
 </details>
 
@@ -114,8 +119,8 @@ To be updated.
 #### SemanticKITTI-C
 | Model            | mCE | mRR | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Crosstalk | Incomplete Echo |
 | :--------------: | :-----: | :-----: |:-----: | :-------: | :--------: | :---------: | :---------: | :----: | :-------: | :----: |
-|   |         |         |  |    |      |       |      |  |     | |
-
+| SqueezeSeg       |         |         |  |    |      |       |      |  |     | |
+| SqueezeSegV2     |         |         |  |    |      |       |      |  |     | |
 
 
 
