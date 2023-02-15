@@ -117,32 +117,32 @@ To be updated.
 ### LiDAR Semantic Segmentation
 
 #### SemanticKITTI-C
-| Model             | mCE | mRR | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Crosstalk | Incomplete Echo |
-| :---------------: | :-----: | :-----: |:-----: | :-------: | :--------: | :---------: | :---------: | :----: | :-------: | :----: |
-|                   |         |         |  |    |      |       |      |  |     | |
-| SqueezeSeg        |         |         | 31.61 |    |      |       |      |  |     | |
-| SqueezeSegV2      |         |         | 41.28 |    |      |       |      |  |     | |
-| RangeNet-dark21   |         |         | 47.15 |    |      |       |      |  |     | |
-| RangeNet-dark53   |         |         | 50.29 |    |      |       |      |  |     | |
-| SalsaNext         |         |         | 55.80 |    |      |       |      |  |     | |
-| FIDNet            |         |         |  |    |      |       |      |  |     | |
-| CENet             |         |         | 62.55 |    |      |       |      |  |     | |
-|                   |         |         |  |    |      |       |      |  |     | |
-| KPConv            |         |         |  |    |      |       |      |  |     | |
-| WaffleIron        |         |         |  |    |      |       |      |  |     | |
-|                   |         |         |  |    |      |       |      |  |     | |
-| PolarNet          |         |         |  |    |      |       |      |  |     | |
-|                   |         |         |  |    |      |       |      |  |     | |
-| MinkUNet-18_cr1.0 |         |         |  |    |      |       |      |  |     | |
-| MinkUNet-34_cr1.6 |         |         |  |    |      |       |      |  |     | |
-| Cylinder3D        |         |         |  |    |      |       |      |  |     | |
-| Cylinder3D-TS     |         |         |  |    |      |       |      |  |     | |
-|                   |         |         |  |    |      |       |      |  |     | |
-| SPVCNN-18_cr1.0   |         |         |  |    |      |       |      |  |     | |
-| SPVCNN-34_cr1.6   |         |         |  |    |      |       |      |  |     | |
-| RPVNet            |         |         |  |    |      |       |      |  |     | |
-| 2DPASS            |         |         |  |    |      |       |      |  |     | |
-| GFNet             |         |         |  |    |      |       |      |  |     | |
+| Model             | mCE  | mRR  | Clean   | Fog     | Wet Ground | Snow | Motion Blur | Beam Missing | Crosstalk | Incomplete Echo |
+| :---------------: | :--: | :--: | :-----: | :-----: | :--------: | :---------: | :---------: | :----: | :-------: | :----: |
+|                   |      |      |         |         |      |       |      |  |     | |
+| SqueezeSeg        |      |      | $31.61$ | $18.85$ |      |       |      |  |     | |
+| SqueezeSegV2      |      |      | $41.28$ | $25.64$ |      |       |      |  |     | |
+| RangeNet-dark21   |      |      | $47.15$ | $31.04$ |      |       |      |  |     | |
+| RangeNet-dark53   |      |      | $50.29$ | $36.33$ |      |       |      |  |     | |
+| SalsaNext         |      |      | $55.80$ | $34.89$ |      |       |      |  |     | |
+| FIDNet            |      |      |       |       |      |       |      |  |     | |
+| CENet             |      |      | $62.55$ | $42.70$ |      |       |      |  |     | |
+|                   |      |      |         |    |      |       |      |  |     | |
+| KPConv            |      |      | $62.17$ |    |      |       |      |  |     | |
+| WaffleIron        |      |      | $66.04$ |    |      |       |      |  |     | |
+|                   |      |      |  |    |      |       |      |  |     | |
+| PolarNet          |      |      | $58.17$ | $38.74$ |      |       |      |  |     | |
+|                   |      |      |  |    |      |       |      |  |     | |
+| MinkUNet-18_cr1.0 |      |      | $62.76$ | $55.87$ |      |       |      |  |     | |
+| MinkUNet-34_cr1.6 |      |      | $63.78$ | $53.54$ |      |       |      |  |     | |
+| Cylinder3D        |      |      |  |    |      |       |      |  |     | |
+| Cylinder3D-TS     |      |      | $61.00$ | $37.11$ |      |       |      |  |     | |
+|                   |      |      |  |    |      |       |      |  |     | |
+| SPVCNN-18_cr1.0   |      |      | $62.47$ | $55.32$ |      |       |      |  |     | |
+| SPVCNN-34_cr1.6   |      |      | $63.22$ | $56.53$ |      |       |      |  |     | |
+| RPVNet            |      |      | $63.75$ | $47.64$ |      |       |      |  |     | |
+| 2DPASS            |      |      | $64.61$ | $40.46$ |      |       |      |  |     | |
+| GFNet             |      |      | $63.00$ | $42.04$ |      |       |      |  |     | |
 
 
 #### nuScenes-C
