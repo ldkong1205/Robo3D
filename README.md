@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-  <img src="docs/figs/logo.png" align="center" width="24%">
+  <img src="docs/figs/logo.png" align="center" width="21%">
   
   <h3 align="center"><strong>Robo3D: Towards Robust and Reliable 3D Perception against Corruptions</strong></h3>
 
