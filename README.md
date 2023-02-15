@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="" target='_blank'>
-    <img src="https://img.shields.io/badge/Paper-%F0%9F%93%83-blue">
+    <img src="https://img.shields.io/badge/Paper-%F0%9F%93%83-slategray">
   </a>
   
   <a href="" target='_blank'>
@@ -23,7 +23,7 @@
   </a>
   
   <a href="" target='_blank'>
-    <img src="https://img.shields.io/badge/%E4%B8%AD%E8%AF%91%E7%89%88-%F0%9F%90%BC-red">
+    <img src="https://img.shields.io/badge/%E4%B8%AD%E8%AF%91%E7%89%88-%F0%9F%90%BC-firebrick">
   </a>
 </p>
 
@@ -146,11 +146,36 @@ To be updated.
 
 
 #### nuScenes-C
-To be updated.
+| Model             | mCE | mRR | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Crosstalk | Incomplete Echo |
+| :---------------: | :-----: | :-----: |:-----: | :-------: | :--------: | :---------: | :---------: | :----: | :-------: | :----: |
+|                   |         |         |  |    |      |       |      |  |     | |
 
 
 #### WaymoOpen-C
-To be updated.
+| Model             | mCE | mRR | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Crosstalk | Incomplete Echo |
+| :---------------: | :-----: | :-----: |:-----: | :-------: | :--------: | :---------: | :---------: | :----: | :-------: | :----: |
+|                   |         |         |  |    |      |       |      |  |     | |
+
+
+### 3D Object Detection
+
+#### KITTI-C
+| Model             | mCE | mRR | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Crosstalk | Incomplete Echo |
+| :---------------: | :-----: | :-----: |:-----: | :-------: | :--------: | :---------: | :---------: | :----: | :-------: | :----: |
+|                   |         |         |  |    |      |       |      |  |     | |
+
+
+#### nuScenes-C
+| Model             | mCE | mRR | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Crosstalk | Incomplete Echo |
+| :---------------: | :-----: | :-----: |:-----: | :-------: | :--------: | :---------: | :---------: | :----: | :-------: | :----: |
+|                   |         |         |  |    |      |       |      |  |     | |
+
+
+#### WaymoOpen-C
+| Model             | mCE | mRR | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Crosstalk | Incomplete Echo |
+| :---------------: | :-----: | :-----: |:-----: | :-------: | :--------: | :---------: | :---------: | :----: | :-------: | :----: |
+|                   |         |         |  |    |      |       |      |  |     | |
+
 
 
 ## Create Corruption Sets
