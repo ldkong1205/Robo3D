@@ -1,4 +1,4 @@
-<img src="../docs/figs/logo2.png" align="right" width="30%">
+<img src="../figs/logo2.png" align="right" width="30%">
 
 # Robo3D Benchmark
 
