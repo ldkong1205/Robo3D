@@ -30,7 +30,18 @@
 
 
 ## About
-`Robo3D` is an evaluation benchmark heading toward robust and reliable 3D perception in autonomous driving. With it, we probe the robustness of 3D detectors and segmentors under out-of-distribution (OoD) scenarios against corruptions that tend to occur in the real-world environment. Specifically, we consider natural corruptions happen in the following cases: <sup>1</sup>**adversarial weather conditions**, such as `fog`, `wet ground`, and `snow`; <sup>2</sup>**external distrubances** like `motion blur` and `beam missing`; and <sup>3</sup>**internal sensor failure**, including LiDAR `crosstalk` and `incomplete echo`.
+`Robo3D` is an evaluation benchmark heading toward robust and reliable 3D perception in autonomous driving. With it, we probe the robustness of 3D detectors and segmentors under out-of-distribution (OoD) scenarios against corruptions that tend to occur in the real-world environment. Specifically, we consider natural corruptions happen in the following cases:
+1. **Adversarial weather conditions**, such as `fog`, `wet ground`, and `snow`;
+2. **External disturbances** that are caused by `motion blur` or result in LiDAR `beam missing`;
+3. **Internal sensor failure**, including LiDAR `crosstalk` and possible `incomplete echo`.
+
+| **Clean** | **Fog** | **Wet Ground** | **Snow** |
+| :---: | :---: | :---: | :---: |
+| <img src="docs/figs/clean.png" width="160" height="80"> | <img src="docs/figs/fog.png" width="160" height="80"> | <img src="docs/figs/wet_ground.png" width="160" height="80"> | <img src="docs/figs/snow.png" width="160" height="80"> |
+| **Motion Blur** | **Beam Missing** | **Crosstalk** | **Incomplete Echo** |
+| <img src="docs/figs/motion_blur.png" width="160" height="80"> | <img src="docs/figs/beam_missing.png" width="160" height="80"> | <img src="docs/figs/crosstalk.png" width="160" height="80"> | <img src="docs/figs/incomplete_echo.png" width="160" height="80"> |
+
+Visit our [project page]() to explore more examples. :red_car:
 
 
 
