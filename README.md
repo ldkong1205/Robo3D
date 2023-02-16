@@ -30,7 +30,7 @@
 
 
 ## About
-`Robo3D` is
+`Robo3D` is an evaluation benchmark heading toward robust and reliable 3D perception in autonomous driving. With it, we probe the robustness of 3D detectors and segmentors under out-of-distribution (OoD) scenarios against corruptions that tend to occur in the real-world environment. Specifically, we consider natural corruptions happen in the following cases: <sup>1</sup>**adversarial weather conditions**, such as `fog`, `wet ground`, and `snow`; <sup>2</sup>**external distrubances** like `motion blur` and `beam missing`; and <sup>3</sup>**internal sensor failure**, including LiDAR `crosstalk` and `incomplete echo`.
 
 
 
