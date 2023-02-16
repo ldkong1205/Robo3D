@@ -23,7 +23,7 @@
 ```
 
 
-### nuScenes
+## nuScenes
 
 To install the [nuScenes](https://www.nuscenes.org/nuscenes) dataset, download the data, annotations, and other files from https://www.nuscenes.org/download. Unpack the compressed file(s) into `/data/sets/nuscenes` and your folder structure should end up looking like this:
 
@@ -45,7 +45,7 @@ To install the [nuScenes](https://www.nuscenes.org/nuscenes) dataset, download t
 ```
 
 
-### nuScenes-C
+## nuScenes-C
 
 To be updated.
 
