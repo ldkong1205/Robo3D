@@ -1,4 +1,4 @@
-<img src="../docs/figs/logo2.png" align="right" width="30%">
+<img src="../figs/logo2.png" align="right" width="30%">
 
 # Robo3D Benchmark
 
@@ -20,7 +20,7 @@ The following metrics are consistently used in our benchmark:
 ### SemanticKITTI-C
 | Corruption      | Light | Moderate | Heavy | Average | $\text{CE}_i$ | $\text{RR}_i$ |
 | :-------------: | :---: | :------: | :---: | :-----: | :-----------: | :-----------: |
-| Fog             |
+| Fog             | 20.21 | 18.62 | 17.72
 | Wet Ground      |
 | Snow            |
 | Motion Blur     |
@@ -28,7 +28,7 @@ The following metrics are consistently used in our benchmark:
 | Crosstalk       |
 | Incomplete Echo |
 
-- **Summary:** $\text{mIoU}_{\text{clean}} = $, $\text{mCE} = $, $\text{mRR} = $.
+- **Summary:** $\text{mIoU}_{\text{clean}} = 31.61$, $\text{mCE} = $, $\text{mRR} = $.
 
 
 ### nuScenes-C
@@ -42,10 +42,18 @@ To be updated.
 ## References
 
 ```bib
-@article{author20xxmethod,
-  title = {Title},
-  author = {Author 1, Author 2, Author 3},
-  journal = {arXiv preprint arXiv:2xxx.xxxxx},
-  year = {20xx},
+@inproceedings{wu2017squeezeseg,
+  title = {Squeezeseg: Convolutional Neural Nets with Recurrent CRF for Real-Time Road-Object Segmentation from 3D LiDAR Point Cloud},
+  author = {Wu, Bichen and Wan, Alvin and Yue, Xiangyu and Keutzer, Kurt},
+  booktitle = {IEEE International Conference on Robotics and Automation},
+  year = {2018},
+}
+```
+```bib
+@inproceedings{milioto2019rangenet,
+  title = {RangeNet++: Fast and Accurate LiDAR Semantic Segmentation},
+  author = {A. Milioto and I. Vizzo and J. Behley and C. Stachniss},
+  booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems},
+  year = {2019},
 }
 ```
