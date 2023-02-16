@@ -1,4 +1,5 @@
-<br />
+<p align="right">English | <a href="">简体中文</a></p>
+
 <p align="center">
   <img src="docs/figs/logo.png" align="center" width="21.5%">
   
