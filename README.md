@@ -2,7 +2,7 @@
 <p align="center">
   <img src="docs/figs/logo.png" align="center" width="21.5%">
   
-  <h3 align="center"><strong>Robo3D: Towards Robust and Reliable 3D Perception against Corruptions</strong></h3>
+  <h3 align="center"><strong>Robo3D: Towards Robust and Reliable 3D Perception against Common Corruptions</strong></h3>
 
   <p align="center">
   </p>
@@ -129,8 +129,8 @@ To be updated.
 | CENet             |      |      | $62.55$ | $42.70$ | $58.62$ | $53.64$ | $59.26$ | $55.78$ | $50.99$ | $58.41$ |
 |                   |      |      |         |         |         |         |         |         |         |         |
 | KPConv            |      |      | $62.17$ | $54.46$ | $59.23$ |         | $48.09$ | $57.35$ |  | |
-| WaffleIron        |      |      | $66.04$ | $45.52$ | $63.33$ | $49.30$ | $42.49$ | $59.28$ |  | |
-|                   |      |      |         |         |         |         |         |         |         | |
+| WaffleIron        |      |      | $66.04$ | $45.52$ | $63.33$ | $49.30$ | $42.49$ | $59.28$ | $30.79$ | $63.06$ |
+|                   |      |      |         |         |         |         |         |         |         |         |
 | PolarNet          |      |      | $58.17$ | $38.74$ | $53.11$ | $49.42$ | $53.18$ | $54.10$ | $33.30$ | $52.30$ |
 |                   |      |      |         |         |         |         |         |         |         |         |
 | MinkUNet-18_cr1.0 |      |      | $62.76$ | $55.87$ | $59.06$ | $53.28$ | $53.93$ | $56.32$ | $60.46$ | $58.68$ |
@@ -195,7 +195,7 @@ If you find this work helpful, please kindly consider citing our paper:
 
 ```bibtex
 @ARTICLE{robo3d,
-  title={Robo3D: Towards Robust and Reliable 3D Perception against Corruptions},
+  title={Robo3D: Towards Robust and Reliable 3D Perception against Common Corruptions},
   author={xxx},
   journal={arXiv preprint arXiv:23xx.xxxxx}, 
   year={2023},
