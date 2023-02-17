@@ -34,14 +34,14 @@
 `Robo3D` is an evaluation benchmark heading toward robust and reliable 3D perception in autonomous driving. With it, we probe the robustness of 3D detectors and segmentors under out-of-distribution (OoD) scenarios against corruptions that tend to occur in the real-world environment. Specifically, we consider natural corruptions happen in the following cases:
 1. **Adversarial weather conditions**, such as `fog`, `wet ground`, and `snow`;
 2. **External disturbances** that are caused by `motion blur` or result in LiDAR `beam missing`;
-3. **Internal sensor failure**, including LiDAR `crosstalk` and possible `incomplete echo`.
+3. **Internal sensor failure**, including `crosstalk`, possible `incomplete echo`, and `cross-sensor` scenarios.
 
 | | | | |
 | :---: | :---: | :---: | :---: |
 | <img src="docs/figs/clean.png" width="180" height="80"> | <img src="docs/figs/fog.png" width="180" height="80"> | <img src="docs/figs/wet_ground.png" width="180" height="80"> | <img src="docs/figs/snow.png" width="180" height="80"> |
-| **Clean** | **Fog** | **Wet Ground** | **Snow** |
+| **Fog** | **Wet Ground** | **Snow** | **Motion Blur** |
 | <img src="docs/figs/motion_blur.png" width="180" height="80"> | <img src="docs/figs/beam_missing.png" width="180" height="80"> | <img src="docs/figs/crosstalk.png" width="180" height="80"> | <img src="docs/figs/incomplete_echo.png" width="180" height="80"> |
-| **Motion Blur** | **Beam Missing** | **Crosstalk** | **Incomplete Echo** |
+| **Beam Missing** | **Crosstalk** | **Incomplete Echo** | **Cross-Sensor** |
 | | | | |
 
 Visit our [project page]() to explore more examples. :red_car:
@@ -131,7 +131,7 @@ To be updated.
 ### LiDAR Semantic Segmentation
 
 #### SemanticKITTI-C
-| Model | $\text{mCE}$ | $\text{mRR}$ | Clean | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
+| Model | $\text{mCE}$ (%) | $\text{mRR}$ (%) | Clean | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
 | :---------------: | :--: | :--: | :-----: | :-----: | :--------: | :---------: | :---------: | :----: | :-------: | :----: | :----: |
 | [SqueezeSeg](docs/results/SqueezeSeg.md) |  | 72.81 | 31.61 | 18.85 | 27.30 | 22.70 | 17.93 | 25.01 | 21.65 | 27.66 |
 | [SqueezeSegV2](docs/results/SqueezeSegV2.md) |  | 70.54 | 41.28 | 25.64 | 35.02 | 27.75 | 22.75 | 32.19 | 26.68 | 33.80 |
