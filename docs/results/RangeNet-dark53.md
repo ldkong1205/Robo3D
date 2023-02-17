@@ -27,8 +27,9 @@ The following metrics are consistently used in our benchmark:
 | Beam Missing    | 47.23 | 41.25 | 33.92 | 40.80 | | 81.13 |
 | Crosstalk       | 46.85 | 46.09 | 45.29 | 46.08 | | 91.63 |
 | Incomplete Echo | 43.98 | 42.95 | 41.09 | 42.67 | | 84.85 |
+| Cross-Sensor    | 23.61 | 19.64 | 7.69  | 16.98 | | 33.76 |
 
-- **Summary:** $\text{mIoU}_{\text{clean}} =$ 50.29%, $\text{mCE} =$ %, $\text{mRR} =$ 79.27%.
+- **Summary:** $\text{mIoU}_{\text{clean}} =$ 50.29%, $\text{mCE} =$ %, $\text{mRR} =$ 73.59%.
 
 
 ### nuScenes-C
