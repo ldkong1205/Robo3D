@@ -20,15 +20,15 @@ The following metrics are consistently used in our benchmark:
 ### SemanticKITTI-C
 | Corruption      | Light | Moderate | Heavy | Average | $\text{CE}_i$ | $\text{RR}_i$ |
 | :-------------: | :---: | :------: | :---: | :-----: | :-----------: | :-----------: |
-| Fog             | 20.21 | 18.62 | 17.72
-| Wet Ground      |
-| Snow            |
-| Motion Blur     |
-| Beam Missing    |
-| Crosstalk       |
-| Incomplete Echo |
+| Fog             | 20.21 | 18.62 | 17.72 | 18.85 | | 59.63 |
+| Wet Ground      | 29.07 | 26.51 | 26.33 | 27.30 | | 86.37 |
+| Snow            | 21.79 | 22.74 | 23.57 | 22.70 | | 71.81 |
+| Motion Blur     | 19.52 | 17.86 | 16.42 | 17.93 | | 56.72 |
+| Beam Missing    | 28.67 | 24.92 | 21.44 | 25.01 | | 79.12 |
+| Crosstalk       | 23.08 | 21.58 | 20.30 | 21.65 | | 68.49 |
+| Incomplete Echo | 28.22 | 27.85 | 26.90 | 27.66 | | 87.50 |
 
-- **Summary:** $\text{mIoU}_{\text{clean}} = 31.61$, $\text{mCE} = $, $\text{mRR} = $.
+- **Summary:** $\text{mIoU}_{\text{clean}} =$ 31.61%, $\text{mCE} =$ , $\text{mRR} =$ 72.81%.
 
 
 ### nuScenes-C
