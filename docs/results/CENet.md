@@ -15,7 +15,7 @@ The following metrics are consistently used in our benchmark:
   - The average RR for model $A$ on all $N$ corruption types, i.e., *mRR*, is calculated as: $\text{mRR} = \frac{1}{N}\sum\text{RR}_i$.
 
 
-## RangeNet (DarkNet21)
+## CENet
 
 ### SemanticKITTI-C
 | Corruption      | Light | Moderate | Heavy | Average | $\text{CE}_i$ | $\text{RR}_i$ |
@@ -27,8 +27,9 @@ The following metrics are consistently used in our benchmark:
 | Beam Missing    | 61.40 | 56.67 | 49.28 | 55.78 | | 89.18 |
 | Crosstalk       | 48.81 | 45.43 | 41.87 | 45.37 | | 72.53 |
 | Incomplete Echo | 57.77 | 54.25 | 48.19 | 53.40 | | 85.37 |
+| Cross-Sensor    | 58.16 | 51.34 | 28.01 | 45.84 | | 73.29 |
 
-- **Summary:** $\text{mIoU}_{\text{clean}} =$ 62.55%, $\text{mCE} =$ %, $\text{mRR} =$ 82.43%.
+- **Summary:** $\text{mIoU}_{\text{clean}} =$ 62.55%, $\text{mCE} =$ %, $\text{mRR} =$ 81.29%.
 
 
 ### nuScenes-C
