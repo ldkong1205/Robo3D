@@ -18,6 +18,7 @@ The following metrics are consistently used in our benchmark:
 ## Model Name
 
 ### SemanticKITTI-C
+
 | Corruption      | Light | Moderate | Heavy | Average | $\text{CE}_i$ | $\text{RR}_i$ |
 | :-------------: | :---: | :------: | :---: | :-----: | :-----------: | :-----------: |
 | Fog             |
@@ -27,16 +28,41 @@ The following metrics are consistently used in our benchmark:
 | Beam Missing    |
 | Crosstalk       |
 | Incomplete Echo |
+| Cross-Sensor    |
 
-- **Summary:** $\text{mIoU}_{\text{clean}} =$, $\text{mCE} =$, $\text{mRR} =$.
+- **Summary:** $\text{mIoU}_{\text{clean}} =$ %, $\text{mCE} =$ %, $\text{mRR} =$ %.
 
 
 ### nuScenes-C
-To be updated.
+
+| Corruption      | Light | Moderate | Heavy | Average | $\text{CE}_i$ | $\text{RR}_i$ |
+| :-------------: | :---: | :------: | :---: | :-----: | :-----------: | :-----------: |
+| Fog             |
+| Wet Ground      |
+| Snow            |
+| Motion Blur     |
+| Beam Missing    |
+| Crosstalk       |
+| Incomplete Echo |
+| Cross-Sensor    |
+
+- **Summary:** $\text{mIoU}_{\text{clean}} =$ %, $\text{mCE} =$ %, $\text{mRR} =$ %.
 
 
 ### WaymoOpen-C
-To be updated.
+
+| Corruption      | Light | Moderate | Heavy | Average | $\text{CE}_i$ | $\text{RR}_i$ |
+| :-------------: | :---: | :------: | :---: | :-----: | :-----------: | :-----------: |
+| Fog             |
+| Wet Ground      |
+| Snow            |
+| Motion Blur     |
+| Beam Missing    |
+| Crosstalk       |
+| Incomplete Echo |
+| Cross-Sensor    |
+
+- **Summary:** $\text{mIoU}_{\text{clean}} =$ %, $\text{mCE} =$ %, $\text{mRR} =$ %.
 
 
 ## References
