@@ -28,7 +28,7 @@ The following metrics are consistently used in our benchmark:
 | Crosstalk       | 29.06 | 26.56 | 24.42 | 26.68 | | 64.63 |
 | Incomplete Echo | 35.05 | 34.06 | 32.28 | 33.80 | | 81.88 |
 
-- **Summary:** $\text{mIoU}_{\text{clean}} =$ 41.28%, $\text{mCE} = $, $\text{mRR} = 70.54%$.
+- **Summary:** $\text{mIoU}_{\text{clean}} =$ 41.28%, $\text{mCE} = $, $\text{mRR} =$ 70.54%.
 
 
 ### nuScenes-C
