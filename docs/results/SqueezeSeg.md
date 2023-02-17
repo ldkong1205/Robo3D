@@ -32,14 +32,6 @@ The following metrics are consistently used in our benchmark:
 - **Summary:** $\text{mIoU}_{\text{clean}} =$ 31.61%, $\text{mCE} =$ , $\text{mRR} =$ 66.81%.
 
 
-### nuScenes-C
-To be updated.
-
-
-### WaymoOpen-C
-To be updated.
-
-
 ## References
 
 ```bib
