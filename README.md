@@ -133,8 +133,8 @@ To be updated.
 #### SemanticKITTI-C
 | Model | $\text{mCE}$ (%) | $\text{mRR}$ (%) | Clean | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
 | :---------------: | :--: | :--: | :-----: | :-----: | :--------: | :---------: | :---------: | :----: | :-------: | :----: | :----: |
-| [SqueezeSeg](docs/results/SqueezeSeg.md) |  | 72.81 | 31.61 | 18.85 | 27.30 | 22.70 | 17.93 | 25.01 | 21.65 | 27.66 |
-| [SqueezeSegV2](docs/results/SqueezeSegV2.md) |  | 70.54 | 41.28 | 25.64 | 35.02 | 27.75 | 22.75 | 32.19 | 26.68 | 33.80 |
+| [SqueezeSeg](docs/results/SqueezeSeg.md) |  | 66.81 | 31.61 | 18.85 | 27.30 | 22.70 | 17.93 | 25.01 | 21.65 | 27.66 | 7.85 |
+| [SqueezeSegV2](docs/results/SqueezeSegV2.md) |  | 65.29 | 41.28 | 25.64 | 35.02 | 27.75 | 22.75 | 32.19 | 26.68 | 33.80 | 11.78 |
 | [RangeNet-dark21](docs/results/RangeNet-dark21.md) |  | 78.23 | 47.15 | 31.04 | 40.88 | 37.43 | 31.16 | 38.16 | 37.98 | 41.54 |
 | [RangeNet-dark53](docs/results/RangeNet-dark21.md) |  | 79.27 | 50.29 | 36.33 | 43.07 | 40.02 | 30.10 | 40.80 | 46.08 | 42.67 |
 | SalsaNext         |  |  | 55.80 | 34.89 | 50.78 | 45.55 | 53.16 | 49.63 | 45.40 | 52.65 |
