@@ -28,7 +28,7 @@ The following metrics are consistently used in our benchmark:
 | Crosstalk       |
 | Incomplete Echo |
 
-- **Summary:** $\text{mIoU}_{\text{clean}} = $, $\text{mCE} = $, $\text{mRR} = $.
+- **Summary:** $\text{mIoU}_{\text{clean}} =$, $\text{mCE} =$, $\text{mRR} =$.
 
 
 ### nuScenes-C
