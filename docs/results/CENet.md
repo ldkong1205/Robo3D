@@ -36,10 +36,6 @@ The following metrics are consistently used in our benchmark:
 To be updated.
 
 
-### WaymoOpen-C
-To be updated.
-
-
 ## References
 
 ```bib
