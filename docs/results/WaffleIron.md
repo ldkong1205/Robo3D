@@ -39,7 +39,7 @@ The following metrics are consistently used in our benchmark:
 ## References
 
 ```bib
-@article{puy23waffleiron,
+@article{puy2023waffleiron,
   title = {Using a Waffle Iron for Automotive Point Cloud Semantic Segmentation},
   author = {Puy, Gilles and Boulch, Alexandre and Marlet, Renaud},
   journal = {arXiv preprint arxiv:2301.10100}
