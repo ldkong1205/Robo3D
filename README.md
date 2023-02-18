@@ -59,7 +59,7 @@ Visit our [project page]() to explore more examples. :oncoming_automobile:
 - [Taxonomy](#taxonomy)
 - [Model Zoo](#model-zoo)
 - [Benchmark](#benchmark)
-- [Create Corruption Sets](#create-corruption-sets)
+- [Create Corruption Set](#create-corruption-set)
 - [TODO List](#todo-list)
 - [Citation](#citation)
 - [License](#license)
@@ -157,11 +157,11 @@ The *mean Intersection-over-Union (mIoU)* is consistently used as the main indic
 | [Cylinder3D](docs/results/Cylinder3D.md) |  |  |         |         |         |         |         |         |         |         |
 | [Cylinder3D-TS](docs/results/Cylinder3D-TS.md) | 103.13 | 83.90 | 61.00 | 37.11 | 53.40 | 45.39 | 58.64 | 56.81 | 53.59 | 54.88 | 49.62 |
 | |
-| [SPVCNN-18_cr1.0](docs/results/SPVCNN-18_cr1.0.md) |  | 82.15 | 62.47 | 55.32 | 53.98 | 51.42 | 34.53 | 56.67 | 58.10 | 54.60 | 45.95 |
-| [SPVCNN-34_cr1.6](docs/results/SPVCNN-34_cr1.6.md) |  | 82.01 | 63.22 | 56.53 | 53.68 | 52.35 | 34.39 | 56.76 | 59.00 | 54.97 | 47.07 |
-| [RPVNet](docs/results/RPVNet.md) |  | 73.86 | 63.75 | 47.64 | 53.54 | 51.13 | 47.29 | 53.51 | 22.64 | 54.79 | 46.17 |
-| [2DPASS](docs/results/DPASS.md) |  | 77.50 | 64.61 | 40.46 | 60.68 | 48.53 | 57.80 | 58.78 | 28.46 | 55.84 | 50.01 |
-| [GFNet](docs/results/GFNet.md) |  | 77.92 | 63.00 | 42.04 | 56.57 | 56.71 | 58.59 | 56.95 | 17.14 | 55.23 | 49.48 |
+| [SPVCNN-18_cr1.0](docs/results/SPVCNN-18_cr1.0.md) | 100.30 | 82.15 | 62.47 | 55.32 | 53.98 | 51.42 | 34.53 | 56.67 | 58.10 | 54.60 | 45.95 |
+| [SPVCNN-34_cr1.6](docs/results/SPVCNN-34_cr1.6.md) | 99.16 | 82.01 | 63.22 | 56.53 | 53.68 | 52.35 | 34.39 | 56.76 | 59.00 | 54.97 | 47.07 |
+| [RPVNet](docs/results/RPVNet.md) | 111.74 | 73.86 | 63.75 | 47.64 | 53.54 | 51.13 | 47.29 | 53.51 | 22.64 | 54.79 | 46.17 |
+| [2DPASS](docs/results/DPASS.md) | 106.14 | 77.50 | 64.61 | 40.46 | 60.68 | 48.53 | 57.80 | 58.78 | 28.46 | 55.84 | 50.01 |
+| [GFNet](docs/results/GFNet.md) | 108.68 | 77.92 | 63.00 | 42.04 | 56.57 | 56.71 | 58.59 | 56.95 | 17.14 | 55.23 | 49.48 |
 
 **Note:** Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation.
 
@@ -236,7 +236,7 @@ The *mean average precision (mAP)* and *nuScenes detection score (NDS)* are cons
 **Note:** Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation.
 
 
-## Create Corruption Sets
+## Create Corruption Set
 You can manage to create your own "RoboDet" corrpution sets! Follow the instructions listed in [CREATE.md](docs/CREATE.md).
 
 
