@@ -135,7 +135,7 @@ The *mean Intersection-over-Union (mIoU)* is consistently used as the main indic
 - **mRR (the higher the better):** The *average resilience rate* (in percentage) of a candidate model compared to its "clean" performance, which is calculated among all corruption types across three severity levels.
 
 
-#### :red_car: - SemanticKITTI-C
+#### :red_car:&nbsp; SemanticKITTI-C
 
 | Model | mCE (%) | mRR (%) | Clean | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -164,9 +164,9 @@ The *mean Intersection-over-Union (mIoU)* is consistently used as the main indic
 | [GFNet](docs/results/GFNet.md) |  | 77.92 | 63.00 | 42.04 | 56.57 | 56.71 | 58.59 | 56.95 | 17.14 | 55.23 | 49.48 |
 
 
-#### :blue_car: - nuScenes-C
+#### :blue_car:&nbsp; nuScenes-C
 
-| Model             | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Crosstalk | Incomplete Echo | Cross-Sensor |
+| Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Crosstalk | Incomplete Echo | Cross-Sensor |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | [FIDNet](docs/results/FIDNet.md) |  |
 | [CENet](docs/results/CENet.md) |  |
@@ -186,9 +186,9 @@ The *mean Intersection-over-Union (mIoU)* is consistently used as the main indic
 | [GFNet](docs/results/GFNet.md) |
 
 
-#### :taxi: - WaymoOpen-C
+#### :taxi:&nbsp; WaymoOpen-C
 
-| Model             | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Crosstalk | Incomplete Echo | Cross-Sensor |
+| Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Crosstalk | Incomplete Echo | Cross-Sensor |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 |                   |         |         |  |    |      |       |      |  |     | |
 
@@ -200,21 +200,26 @@ The *average precision (AP)* and *nuScenes detection score (NDS)* are consistent
 - **mRR (the higher the better):** The *average resilience rate* (in percentage) of a candidate model compared to its "clean" performance, which is calculated among all corruption types across three severity levels.
 
 
-#### :red_car: - KITTI-C
+#### :red_car:&nbsp; KITTI-C
 
-| Model             | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Crosstalk | Incomplete Echo | Cross-Sensor |
+| Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Crosstalk | Incomplete Echo | Cross-Sensor |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| SECOND | |         |  |    |      |       |      |  |     | |
+| PointPillars |
+| PointRCNN |
+| PartA2-Free |
+| PartA2-Anchor |
+| PVRCNN |
+
+
+#### :blue_car:&nbsp; nuScenes-C
+| Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Crosstalk | Incomplete Echo | Cross-Sensor |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 |                   |         |         |  |    |      |       |      |  |     | |
 
 
-#### :blue_car: - nuScenes-C
-| Model             | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Crosstalk | Incomplete Echo | Cross-Sensor |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-|                   |         |         |  |    |      |       |      |  |     | |
-
-
-#### :taxi: - WaymoOpen-C
-| Model             | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Crosstalk | Incomplete Echo | Cross-Sensor |
+#### :taxi:&nbsp; WaymoOpen-C
+| Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Crosstalk | Incomplete Echo | Cross-Sensor |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 |                   |         |         |  |    |      |       |      |  |     | |
 
