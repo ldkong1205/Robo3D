@@ -210,12 +210,12 @@ The *mean average precision (mAP)* and *nuScenes detection score (NDS)* are cons
 
 | Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| SECOND | | | 68.49 | 53.24 |      |       |      |  |     | |
-| PointPillars | | | 66.70 | 45.70 | 
-| PointRCNN | | | 70.26 | 56.31 | 
-| PartA2-Free | | | 76.28 | 58.06 | 
-| PartA2-Anchor | | | 73.98 | 56.59 | 
-| PVRCNN | | | 72.36 | 55.36 | 
+| SECOND<sup>:star:</sup> | | | 68.49 | 53.24 |  |  |  | 54.14 |  |  |
+| PointPillars | | | 66.70 | 45.70 |  | | | 52.24 | 
+| PointRCNN | | | 70.26 | 56.31 | | | | 56.84 |
+| PartA2-Free | | | 76.28 | 58.06 | | | | 59.46 |
+| PartA2-Anchor | | | 73.98 | 56.59 | | | | 56.38 | 
+| PVRCNN | | | 72.36 | 55.36 | | | | 56.88 | 
 
 **Note:** Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation.
 
