@@ -210,8 +210,8 @@ The *mean average precision (mAP)* and *nuScenes detection score (NDS)* are cons
 
 | Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| SECOND<sup>:star:</sup> | | | 68.49 | 53.24 |  |  |  | 54.14 |  |  |
 | PointPillars | | | 66.70 | 45.70 |  | | | 52.24 | 
+| SECOND<sup>:star:</sup> | | | 68.49 | 53.24 |  |  |  | 54.14 |  |  |
 | PointRCNN | | | 70.26 | 56.31 | | | | 56.84 |
 | PartA2-Free | | | 76.28 | 58.06 | | | | 59.46 |
 | PartA2-Anchor | | | 73.98 | 56.59 | | | | 56.38 | 
@@ -223,7 +223,11 @@ The *mean average precision (mAP)* and *nuScenes detection score (NDS)* are cons
 ### :blue_car:&nbsp; nuScenes-C
 | Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-|                   |         |         |  |    |      |       |      |  |     | |
+| PointPillars-MH | 
+| SECOND-MH<sup>:star:</sup> | 
+| CenterPoint-PP | 
+| CenterPoint-LR |
+| CenterPoint-HR | 
 
 **Note:** Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation.
 
