@@ -168,7 +168,7 @@ The *mean Intersection-over-Union (mIoU)* is consistently used as the main indic
 
 ### :blue_car:&nbsp; nuScenes-C
 
-| Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Crosstalk | Incomplete Echo | Cross-Sensor |
+| Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | [FIDNet](docs/results/FIDNet.md) |  |
 | [CENet](docs/results/CENet.md) |  |
@@ -192,7 +192,7 @@ The *mean Intersection-over-Union (mIoU)* is consistently used as the main indic
 
 ### :taxi:&nbsp; WaymoOpen-C
 
-| Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Crosstalk | Incomplete Echo | Cross-Sensor |
+| Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 |                   |         |         |  |    |      |       |      |  |     | |
 
@@ -208,20 +208,20 @@ The *mean average precision (mAP)* and *nuScenes detection score (NDS)* are cons
 
 ### :red_car:&nbsp; KITTI-C
 
-| Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Crosstalk | Incomplete Echo | Cross-Sensor |
+| Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| SECOND | |         |  |    |      |       |      |  |     | |
-| PointPillars |
-| PointRCNN |
-| PartA2-Free |
-| PartA2-Anchor |
-| PVRCNN |
+| SECOND | | | 68.49 | 53.24 |      |       |      |  |     | |
+| PointPillars | | | 66.70 | 45.70 | 
+| PointRCNN | | | 70.26 | 56.31 | 
+| PartA2-Free | | | 76.28 | 58.06 | 
+| PartA2-Anchor | | | 73.98 | 56.59 | 
+| PVRCNN | | | 72.36 | 55.36 | 
 
 **Note:** Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation.
 
 
 ### :blue_car:&nbsp; nuScenes-C
-| Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Crosstalk | Incomplete Echo | Cross-Sensor |
+| Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 |                   |         |         |  |    |      |       |      |  |     | |
 
@@ -229,7 +229,7 @@ The *mean average precision (mAP)* and *nuScenes detection score (NDS)* are cons
 
 
 ### :taxi:&nbsp; WaymoOpen-C
-| Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Crosstalk | Incomplete Echo | Cross-Sensor |
+| Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 |                   |         |         |  |    |      |       |      |  |     | |
 
