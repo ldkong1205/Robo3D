@@ -138,24 +138,24 @@ The *mean Intersection-over-Union (mIoU)* is consistently used as the main indic
 ### :red_car:&nbsp; SemanticKITTI-C
 
 | Model | mCE (%) | mRR (%) | Clean | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
-| :- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| -: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | [SqueezeSeg](docs/results/SqueezeSeg.md) | 164.87 | 66.81 | 31.61 | 18.85 | 27.30 | 22.70 | 17.93 | 25.01 | 21.65 | 27.66 | 7.85 |
 | [SqueezeSegV2](docs/results/SqueezeSegV2.md) | 152.45 | 65.29 | 41.28 | 25.64 | 35.02 | 27.75 | 22.75 | 32.19 | 26.68 | 33.80 | 11.78 |
 | [RangeNet<sub>21</sub>](docs/results/RangeNet-dark21.md) | 136.33 | 73.42 | 47.15 | 31.04 | 40.88 | 37.43 | 31.16 | 38.16 | 37.98 | 41.54 | 18.76 |
 | [RangeNet<sub>53</sub>](docs/results/RangeNet-dark21.md) | 130.66 | 73.59 | 50.29 | 36.33 | 43.07 | 40.02 | 30.10 | 40.80 | 46.08 | 42.67 | 16.98 |
 | [SalsaNext](docs/results/SalsaNext.md) | 116.14 | 80.51 | 55.80 | 34.89 | 48.44 | 45.55 | 47.93 | 49.63 | 40.21 | 48.03 | 44.72 |
-| [FIDNet](docs/results/FIDNet.md) |      |      |         |         |         |         |         |         |         |         |
-| [CENet](docs/results/CENet.md) | 103.41 | 81.29 | 62.55 | 42.70 | 57.34 | 53.64 | 52.71 | 55.78 | 45.37 | 53.40 | 45.84 |
+| [FIDNet<sub>34</sub>](docs/results/FIDNet.md) |      |      |         |         |         |         |         |         |         |         |
+| [CENet<sub>34</sub>](docs/results/CENet.md) | 103.41 | 81.29 | 62.55 | 42.70 | 57.34 | 53.64 | 52.71 | 55.78 | 45.37 | 53.40 | 45.84 |
 | |
 | [KPConv](docs/results/KPConv.md) | 99.54 | 82.90 | 62.17 | 54.46 | 57.70 | 54.15 | 25.70 | 57.35 | 53.38 | 55.64 | 53.91 |
 | [WaffleIron](docs/results/WaffleIron.md) | 109.54 | 72.18 | 66.04 | 45.52 | 58.55 | 49.30 | 33.02 | 59.28 | 22.48 | 58.55 | 54.62 |
 | |
 | [PolarNet](docs/results/PolarNet.md) | 118.56 | 74.98 | 58.17 | 38.74 | 50.73 | 49.42 | 41.77 | 54.10 | 25.79 | 48.96 | 39.44 |
 | |
-| [MinkUNet<sub>18</sub><sup>:star:</sup>](docs/results/MinkUNet-18_cr1.0.md) | 100.00 | 81.90 | 62.76 | 55.87 | 53.99 | 53.28 | 32.92 | 56.32 | 58.34 | 54.43 | 46.05 |
+| <sup>:star:</sup>[MinkUNet<sub>18</sub>](docs/results/MinkUNet-18_cr1.0.md) | 100.00 | 81.90 | 62.76 | 55.87 | 53.99 | 53.28 | 32.92 | 56.32 | 58.34 | 54.43 | 46.05 |
 | [MinkUNet<sub>34</sub>](docs/results/MinkUNet-34_cr1.6.md) | 100.61 | 80.22 | 63.78 | 53.54 | 54.27 | 50.17 | 33.80 | 57.35 | 58.38 | 54.88 | 46.95 |
-| [Cylinder3D](docs/results/Cylinder3D.md) |  |  |         |         |         |         |         |         |         |         |
-| [Cylinder3D-TS](docs/results/Cylinder3D-TS.md) | 103.13 | 83.90 | 61.00 | 37.11 | 53.40 | 45.39 | 58.64 | 56.81 | 53.59 | 54.88 | 49.62 |
+| [Cylinder3D<sub>SPC</sub>](docs/results/Cylinder3D.md) |  |  |         |         |         |         |         |         |         |         |
+| [Cylinder3D<sub>TSC</sub>](docs/results/Cylinder3D-TS.md) | 103.13 | 83.90 | 61.00 | 37.11 | 53.40 | 45.39 | 58.64 | 56.81 | 53.59 | 54.88 | 49.62 |
 | |
 | [SPVCNN<sub>18</sub>](docs/results/SPVCNN-18_cr1.0.md) | 100.30 | 82.15 | 62.47 | 55.32 | 53.98 | 51.42 | 34.53 | 56.67 | 58.10 | 54.60 | 45.95 |
 | [SPVCNN<sub>34</sub>](docs/results/SPVCNN-34_cr1.6.md) | 99.16 | 82.01 | 63.22 | 56.53 | 53.68 | 52.35 | 34.39 | 56.76 | 59.00 | 54.97 | 47.07 |
@@ -169,7 +169,7 @@ The *mean Intersection-over-Union (mIoU)* is consistently used as the main indic
 ### :blue_car:&nbsp; nuScenes-C
 
 | Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
-| :- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| -: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | [FIDNet](docs/results/FIDNet.md) |  |
 | [CENet](docs/results/CENet.md) |  |
 | |
@@ -177,10 +177,10 @@ The *mean Intersection-over-Union (mIoU)* is consistently used as the main indic
 | |
 | [PolarNet](docs/results/PolarNet.md) |
 | |
-| [MinkUNet<sub>18</sub><sup>:star:</sup>](docs/results/MinkUNet-18_cr1.0.md) |
+| <sup>:star:</sup>[MinkUNet<sub>18</sub>](docs/results/MinkUNet-18_cr1.0.md) |
 | [MinkUNet<sub>34</sub>](docs/results/MinkUNet-34_cr1.6.md) |
-| [Cylinder3D](docs/results/Cylinder3D.md) |
-| [Cylinder3D-TS](docs/results/Cylinder3D-TS.md) |
+| [Cylinder3D<sub>SPC</sub>](docs/results/Cylinder3D.md) |
+| [Cylinder3D<sub>TSC</sub>](docs/results/Cylinder3D-TS.md) |
 | |
 | [SPVCNN<sub>18</sub>](docs/results/SPVCNN-18_cr1.0.md) |
 | [SPVCNN<sub>34</sub>](docs/results/SPVCNN-34_cr1.6.md) |
@@ -209,12 +209,12 @@ The *mean average precision (mAP)* and *nuScenes detection score (NDS)* are cons
 ### :red_car:&nbsp; KITTI-C
 
 | Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
-| :- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| -: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | [PointPillars]() | | | 66.70 | 45.70 |  | | | 52.24 | 
-| [SECOND<sup>:star:</sup>]() | | | 68.49 | 53.24 |  |  |  | 54.14 |  |  |
+| <sup>:star:</sup>[SECOND]() | | | 68.49 | 53.24 |  |  |  | 54.14 |  |  |
 | PointRCNN | | | 70.26 | 56.31 | | | | 56.84 |
-| PartA2-Free | | | 76.28 | 58.06 | | | | 59.46 |
-| PartA2-Anchor | | | 73.98 | 56.59 | | | | 56.38 | 
+| PartA2<sub>Free</sub> | | | 76.28 | 58.06 | | | | 59.46 |
+| PartA2<sub>Anchor</sub> | | | 73.98 | 56.59 | | | | 56.38 | 
 | PVRCNN | | | 72.36 | 55.36 | | | | 56.88 | 
 
 **Note:** Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation.
@@ -222,12 +222,12 @@ The *mean average precision (mAP)* and *nuScenes detection score (NDS)* are cons
 
 ### :blue_car:&nbsp; nuScenes-C
 | Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
-| :- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| [PointPillars-MH]() | 
-| [SECOND-MH<sup>:star:</sup>]() | 
-| CenterPoint-PP | 
-| CenterPoint-LR |
-| CenterPoint-HR | 
+| -: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| [PointPillars<sub>MH</sub>]() | 
+| <sup>:star:</sup>[SECOND<sub>MH</sub>]() | 
+| CenterPoint<sub>PP</sub> | 
+| CenterPoint<sub>LR</sub> |
+| CenterPoint<sub>HR</sub> | 
 
 **Note:** Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation.
 
