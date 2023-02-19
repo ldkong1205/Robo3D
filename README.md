@@ -31,7 +31,7 @@
 
 
 ## About
-`Robo3D` is an evaluation benchmark heading toward robust and reliable 3D perception in autonomous driving. With it, we probe the robustness of 3D detectors and segmentors under out-of-distribution (OoD) scenarios against corruptions that tend to occur in the real-world environment. Specifically, we consider natural corruptions happen in the following cases:
+`Robo3D` is an evaluation benchmark heading toward robust and reliable 3D perception in autonomous driving. With it, we probe the **robustness** of 3D **detectors** and **segmentors** under out-of-distribution (OoD) scenarios against **corruptions** that occur in the real-world environment. Specifically, we consider natural corruptions happen in the following cases:
 1. **Adversarial weather conditions**, such as `fog`, `wet ground`, and `snow`;
 2. **External disturbances** that are caused by `motion blur` or result in LiDAR `beam missing`;
 3. **Internal sensor failure**, including `crosstalk`, possible `incomplete echo`, and `cross-sensor` scenarios.
@@ -220,10 +220,10 @@ The *mean average precision (mAP)* and *nuScenes detection score (NDS)* are cons
 | -: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | [PointPillars]() | | | 66.70 | 45.70 |  | | | 52.24 | 
 | <sup>:star:</sup>[SECOND]() | | | 68.49 | 53.24 |  |  |  | 54.14 |  |  |
-| PointRCNN | | | 70.26 | 56.31 | | | | 56.84 |
-| PartA2<sub>Free</sub> | | | 76.28 | 58.06 | | | | 59.46 |
-| PartA2<sub>Anchor</sub> | | | 73.98 | 56.59 | | | | 56.38 | 
-| PV-RCNN | | | 72.36 | 55.36 | | | | 56.88 | 
+| [PointRCNN]() | | | 70.26 | 56.31 | | | | 56.84 |
+| [PartA2<sub>Free</sub>]() | | | 76.28 | 58.06 | | | | 59.46 |
+| [PartA2<sub>Anchor</sub>]() | | | 73.98 | 56.59 | | | | 56.38 | 
+| [PV-RCNN]() | | | 72.36 | 55.36 | | | | 56.88 | 
 
 **Note:** Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation.
 
@@ -234,9 +234,9 @@ The *mean average precision (mAP)* and *nuScenes detection score (NDS)* are cons
 | -: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | [PointPillars<sub>MH</sub>]() | 
 | <sup>:star:</sup>[SECOND<sub>MH</sub>]() | 
-| CenterPoint<sub>PP</sub> | 
-| CenterPoint<sub>LR</sub> |
-| CenterPoint<sub>HR</sub> | 
+| [CenterPoint<sub>PP</sub>]() | 
+| [CenterPoint<sub>LR</sub>]() |
+| [CenterPoint<sub>HR</sub>]() | 
 
 **Note:** Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation.
 
@@ -247,8 +247,8 @@ The *mean average precision (mAP)* and *nuScenes detection score (NDS)* are cons
 | -: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | [PointPillars]() | | | 
 | <sup>:star:</sup>[SECOND]() | | | 
-| CenterPoint | 
- PV-RCNN | 
+| [CenterPoint]() | 
+| [PV-RCNN]() | 
 
 **Note:** Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation.
 
