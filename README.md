@@ -38,11 +38,11 @@
 
 | | | |
 | :---: | :---: | :---: |
-| <img src="docs/figs/clean.png"> | <img src="docs/figs/fog.png"> | <img src="docs/figs/wet.png"> |
+| <img src="docs/figs/teaser/clean.png"> | <img src="docs/figs/teaser/fog.png"> | <img src="docs/figs/teaser/wet_ground.png"> |
 | **Clean** | **Fog** | **Wet Ground** |
-| <img src="docs/figs/snow.png"> | <img src="docs/figs/motion_blur.png"> | <img src="docs/figs/beam_missing.png">
+| <img src="docs/figs/teaser/snow.png"> | <img src="docs/figs/teaser/motion_blur.png"> | <img src="docs/figs/teaser/beam_missing.png">
 | **Snow** | **Motion Blur** | **Beam Missing** |
-| <img src="docs/figs/crosstalk.png"> | <img src="docs/figs/incomplete_echo.png"> | <img src="docs/figs/cross_sensor.png"> | 
+| <img src="docs/figs/teaser/crosstalk.png"> | <img src="docs/figs/teaser/incomplete_echo.png"> | <img src="docs/figs/teaser/cross_sensor.png"> | 
 | **Crosstalk** | **Incomplete Echo** | **Cross-Sensor** |
 | | | |
 
