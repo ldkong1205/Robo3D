@@ -46,16 +46,6 @@
 | **Crosstalk** | **Incomplete Echo** | **Cross-Sensor** |
 | | | |
 
-| | | |
-| :---: | :---: | :---: |
-| <img src="docs/figs/clean.png" width="247" height="138"> | <img src="docs/figs/fog.png" width="247" height="138"> | <img src="docs/figs/wet.png" width="247" height="138"> |
-| **Clean** | **Fog** | **Wet Ground** |
-| <img src="docs/figs/snow.png" width="247" height="138"> | <img src="docs/figs/motion_blur.png" width="247" height="138"> | <img src="docs/figs/beam_missing.png" width="247" height="138">
-| **Snow** | **Motion Blur** | **Beam Missing** |
-| <img src="docs/figs/crosstalk.png" width="247" height="138"> | <img src="docs/figs/incomplete_echo.png" width="247" height="138"> | <img src="docs/figs/cross_sensor.png" width="247" height="138"> | 
-| **Crosstalk** | **Incomplete Echo** | **Cross-Sensor** |
-| | | |
-
 Visit our [project page]() to explore more examples. :oncoming_automobile:
 
 
