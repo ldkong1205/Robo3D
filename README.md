@@ -38,7 +38,7 @@
 
 | | | |
 | :---: | :---: | :---: |
-| <img src="docs/figs/clean.png" width="245" height="150"> | <img src="docs/figs/fog.png" width="245" height="150"> | <img src="docs/figs/wet_ground.png" width="245" height="150"> |
+| <img src="docs/figs/clean.png" width="245" height="150"> | <img src="docs/figs/fog.png" width="245" height="150"> | <img src="docs/figs/wet.png" width="245" height="150"> |
 | **Clean** | **Fog** | **Wet Ground** |
 | <img src="docs/figs/snow.png" width="245" height="150"> | <img src="docs/figs/motion_blur.png" width="245" height="150"> | <img src="docs/figs/beam_missing.png" width="245" height="150">
 | **Snow** | **Motion Blur** | **Beam Missing** |
