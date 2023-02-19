@@ -36,13 +36,15 @@
 2. **External disturbances** that are caused by `motion blur` or result in LiDAR `beam missing`;
 3. **Internal sensor failure**, including `crosstalk`, possible `incomplete echo`, and `cross-sensor` scenarios.
 
-| | | | |
-| :---: | :---: | :---: | :---: |
-| <img src="docs/figs/clean.png" width="180" height="80"> | <img src="docs/figs/fog.png" width="180" height="80"> | <img src="docs/figs/wet_ground.png" width="180" height="80"> | <img src="docs/figs/snow.png" width="180" height="80"> |
-| **Fog** | **Wet Ground** | **Snow** | **Motion Blur** |
-| <img src="docs/figs/motion_blur.png" width="180" height="80"> | <img src="docs/figs/beam_missing.png" width="180" height="80"> | <img src="docs/figs/crosstalk.png" width="180" height="80"> | <img src="docs/figs/incomplete_echo.png" width="180" height="80"> |
-| **Beam Missing** | **Crosstalk** | **Incomplete Echo** | **Cross-Sensor** |
-| | | | |
+| | | |
+| :---: | :---: | :---: |
+| <img src="docs/figs/clean.png" width="240" height="150"> | <img src="docs/figs/fog.png" width="240" height="150"> | <img src="docs/figs/wet_ground.png" width="240" height="150"> |
+| **Clean** | **Fog** | **Wet Ground** |
+| <img src="docs/figs/snow.png" width="240" height="150"> | <img src="docs/figs/motion_blur.png" width="240" height="150"> | <img src="docs/figs/beam_missing.png" width="240" height="150">
+| **Snow** | **Motion Blur** | **Beam Missing** |
+| <img src="docs/figs/crosstalk.png" width="240" height="150"> | <img src="docs/figs/incomplete_echo.png" width="240" height="150"> | <img src="docs/figs/cross_sensor.png" width="240" height="150"> | 
+| **Crosstalk** | **Incomplete Echo** | **Cross-Sensor** |
+| | | |
 
 Visit our [project page]() to explore more examples. :oncoming_automobile:
 
