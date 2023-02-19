@@ -144,7 +144,7 @@ The *mean Intersection-over-Union (mIoU)* is consistently used as the main indic
 | [RangeNet<sub>21</sub>](docs/results/RangeNet-dark21.md) | 136.33 | 73.42 | 47.15 | 31.04 | 40.88 | 37.43 | 31.16 | 38.16 | 37.98 | 41.54 | 18.76 |
 | [RangeNet<sub>53</sub>](docs/results/RangeNet-dark21.md) | 130.66 | 73.59 | 50.29 | 36.33 | 43.07 | 40.02 | 30.10 | 40.80 | 46.08 | 42.67 | 16.98 |
 | [SalsaNext](docs/results/SalsaNext.md) | 116.14 | 80.51 | 55.80 | 34.89 | 48.44 | 45.55 | 47.93 | 49.63 | 40.21 | 48.03 | 44.72 |
-| [FIDNet<sub>34</sub>](docs/results/FIDNet.md) |      |      |         |         |         |         |         |         |         |         |
+| [FIDNet<sub>34</sub>](docs/results/FIDNet.md) | 113.81 | 76.99 | 58.80 | 43.66 | 51.63 | 49.68 | 40.38 | 49.32 | 49.46 | 48.17 | 29.85 |
 | [CENet<sub>34</sub>](docs/results/CENet.md) | 103.41 | 81.29 | 62.55 | 42.70 | 57.34 | 53.64 | 52.71 | 55.78 | 45.37 | 53.40 | 45.84 |
 | |
 | [KPConv](docs/results/KPConv.md) | 99.54 | 82.90 | 62.17 | 54.46 | 57.70 | 54.15 | 25.70 | 57.35 | 53.38 | 55.64 | 53.91 |
@@ -170,17 +170,17 @@ The *mean Intersection-over-Union (mIoU)* is consistently used as the main indic
 
 | Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
 | -: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| [FIDNet](docs/results/FIDNet.md) |  |
-| [CENet](docs/results/CENet.md) |  |
+| [FIDNet<sub>34</sub>](docs/results/FIDNet.md) |  |
+| [CENet<sub>34</sub>](docs/results/CENet.md) |  |
 | |
 | [WaffleIron](docs/results/WaffleIron.md) | 
 | |
-| [PolarNet](docs/results/PolarNet.md) |
+| [PolarNet](docs/results/PolarNet.md) | | | 71.37 |
 | |
 | <sup>:star:</sup>[MinkUNet<sub>18</sub>](docs/results/MinkUNet-18_cr1.0.md) |
 | [MinkUNet<sub>34</sub>](docs/results/MinkUNet-34_cr1.6.md) |
-| [Cylinder3D<sub>SPC</sub>](docs/results/Cylinder3D.md) |
-| [Cylinder3D<sub>TSC</sub>](docs/results/Cylinder3D-TS.md) |
+| [Cylinder3D<sub>SPC</sub>](docs/results/Cylinder3D.md) | | | 76.15 | 
+| [Cylinder3D<sub>TSC</sub>](docs/results/Cylinder3D-TS.md) | | | 73.54 |
 | |
 | [SPVCNN<sub>18</sub>](docs/results/SPVCNN-18_cr1.0.md) |
 | [SPVCNN<sub>34</sub>](docs/results/SPVCNN-34_cr1.6.md) |
@@ -193,8 +193,14 @@ The *mean Intersection-over-Union (mIoU)* is consistently used as the main indic
 ### :taxi:&nbsp; WaymoOpen-C
 
 | Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-|                   |         |         |  |    |      |       |      |  |     | |
+| -: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| <sup>:star:</sup>[MinkUNet<sub>18</sub>](docs/results/MinkUNet-18_cr1.0.md) |
+| [MinkUNet<sub>34</sub>](docs/results/MinkUNet-34_cr1.6.md) |
+| [Cylinder3D<sub>SPC</sub>](docs/results/Cylinder3D.md) |
+| [Cylinder3D<sub>TSC</sub>](docs/results/Cylinder3D-TS.md) |
+| |
+| [SPVCNN<sub>18</sub>](docs/results/SPVCNN-18_cr1.0.md) |
+| [SPVCNN<sub>34</sub>](docs/results/SPVCNN-34_cr1.6.md) |
 
 **Note:** Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation.
 
@@ -215,12 +221,13 @@ The *mean average precision (mAP)* and *nuScenes detection score (NDS)* are cons
 | PointRCNN | | | 70.26 | 56.31 | | | | 56.84 |
 | PartA2<sub>Free</sub> | | | 76.28 | 58.06 | | | | 59.46 |
 | PartA2<sub>Anchor</sub> | | | 73.98 | 56.59 | | | | 56.38 | 
-| PVRCNN | | | 72.36 | 55.36 | | | | 56.88 | 
+| PV-RCNN | | | 72.36 | 55.36 | | | | 56.88 | 
 
 **Note:** Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation.
 
 
 ### :blue_car:&nbsp; nuScenes-C
+
 | Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
 | -: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | [PointPillars<sub>MH</sub>]() | 
@@ -233,9 +240,13 @@ The *mean average precision (mAP)* and *nuScenes detection score (NDS)* are cons
 
 
 ### :taxi:&nbsp; WaymoOpen-C
+
 | Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-|                   |         |         |  |    |      |       |      |  |     | |
+| -: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| [PointPillars]() | | | 
+| <sup>:star:</sup>[SECOND]() | | | 
+| CenterPoint | 
+ PV-RCNN | 
 
 **Note:** Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation.
 
