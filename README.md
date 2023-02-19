@@ -252,14 +252,15 @@ The *mean average precision (mAP)* and *nuScenes detection score (NDS)* are cons
 
 
 ## Create Corruption Set
-You can manage to create your own "RoboDet" corrpution sets! Follow the instructions listed in [CREATE.md](docs/CREATE.md).
+You can manage to create your own "RoboDet" corrpution sets on other LiDAR-based point cloud datasets using our defined corruption types! Follow the instructions listed in [CREATE.md](docs/CREATE.md).
 
 
 ## TODO List
 - [x] Initial release. 🚀
-- [x] Add scripts for creating common corruptions.
+- [ ] Add scripts for creating common corruptions.
 - [ ] Add download links for corruption sets.
 - [ ] Add evaluation scripts on corruption sets.
+- [ ] Release checkpoints.
 - [ ] ...
 
 
