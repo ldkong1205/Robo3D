@@ -232,11 +232,11 @@ The *mean average precision (mAP)* and *nuScenes detection score (NDS)* are cons
 
 | Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
 | -: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| [PointPillars<sub>MH</sub>]() |  |  | 43.33 | 33.16 | 
-| <sup>:star:</sup>[SECOND<sub>MH</sub>]() | 100.00 |  | 47.87 | 38.00 | 
-| [CenterPoint<sub>PP</sub>]() |  |  | 45.99 | 35.01 | 
-| [CenterPoint<sub>LR</sub>]() |  |  | 49.72 | 36.39 | 
-| [CenterPoint<sub>HR</sub>]() |  |  | 50.31 | 39.55 | 
+| [PointPillars<sub>MH</sub>]() |  |  | 43.33 | 33.16 |  |  | 38.04 | 33.61 |  | 35.85 |  |
+| <sup>:star:</sup>[SECOND<sub>MH</sub>]() | 100.00 |  | 47.87 | 38.00 |  |  | 41.32 | 35.64 |  | 39.08 |  |
+| [CenterPoint<sub>PP</sub>]() |  |  | 45.99 | 35.01 |  |  | 41.79 | 35.16 |  | 37.89 |  |
+| [CenterPoint<sub>LR</sub>]() |  |  | 49.72 | 36.39 |  |  | 40.54 | 34.47 |  | 38.82 |  |
+| [CenterPoint<sub>HR</sub>]() |  |  | 50.31 | 39.55 |  |  | 43.21 | 36.21 |  | 40.71 |  |
 
 **Note:** Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation.
 
