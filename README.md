@@ -218,12 +218,12 @@ The *mean average precision (mAP)* and *nuScenes detection score (NDS)* are cons
 
 | Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
 | -: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| [PointPillars]() | | | 66.70 | 45.70 |  | | | 52.24 | 
-| <sup>:star:</sup>[SECOND]() | 100.00 | | 68.49 | 53.24 |  |  |  | 54.14 |  |  |
-| [PointRCNN]() | | | 70.26 | 56.31 | | | | 56.84 |
-| [PartA2<sub>Free</sub>]() | | | 76.28 | 58.06 | | | | 59.46 |
-| [PartA2<sub>Anchor</sub>]() | | | 73.98 | 56.59 | | | | 56.38 | 
-| [PV-RCNN]() | | | 72.36 | 55.36 | | | | 56.88 | 
+| [PointPillars]() | | | 66.70 | 45.70 | 66.71 | 35.77  | | 52.24 |  |  | 37.50 |
+| <sup>:star:</sup>[SECOND]() | 100.00 | | 68.49 | 53.24 | 68.51 | 54.92 |  | 54.14 |  |  | 48.00 |
+| [PointRCNN]() | | | 70.26 | 56.31 | 71.82 | 50.20 | | 56.84 |  |  | 54.73 |
+| [PartA2<sub>Free</sub>]() | | | 76.28 | 58.06 | 76.29 | 58.17 | | 59.46 |  |  | 51.22 |
+| [PartA2<sub>Anchor</sub>]() | | | 73.98 | 56.59 | 73.97 | 51.32 | | 56.38 |  |  | 49.15 |
+| [PV-RCNN]() | | | 72.36 | 55.36 | 72.89 | 52.12 | | 56.88 |  |  | 48.01 |
 
 **Note:** Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation.
 
