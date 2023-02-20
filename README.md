@@ -196,7 +196,7 @@ The *mean Intersection-over-Union (mIoU)* is consistently used as the main indic
 
 | Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
 | -: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| <sup>:star:</sup>[MinkUNet<sub>18</sub>](docs/results/MinkUNet-18_cr1.0.md) |
+| <sup>:star:</sup>[MinkUNet<sub>18</sub>](docs/results/MinkUNet-18_cr1.0.md) | 100.00 | 
 | [MinkUNet<sub>34</sub>](docs/results/MinkUNet-34_cr1.6.md) |
 | [Cylinder3D<sub>SPC</sub>](docs/results/Cylinder3D.md) |
 | [Cylinder3D<sub>TSC</sub>](docs/results/Cylinder3D-TS.md) |
@@ -219,7 +219,7 @@ The *mean average precision (mAP)* and *nuScenes detection score (NDS)* are cons
 | Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
 | -: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | [PointPillars]() | | | 66.70 | 45.70 |  | | | 52.24 | 
-| <sup>:star:</sup>[SECOND]() | | | 68.49 | 53.24 |  |  |  | 54.14 |  |  |
+| <sup>:star:</sup>[SECOND]() | 100.00 | | 68.49 | 53.24 |  |  |  | 54.14 |  |  |
 | [PointRCNN]() | | | 70.26 | 56.31 | | | | 56.84 |
 | [PartA2<sub>Free</sub>]() | | | 76.28 | 58.06 | | | | 59.46 |
 | [PartA2<sub>Anchor</sub>]() | | | 73.98 | 56.59 | | | | 56.38 | 
@@ -232,11 +232,11 @@ The *mean average precision (mAP)* and *nuScenes detection score (NDS)* are cons
 
 | Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
 | -: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| [PointPillars<sub>MH</sub>]() | 
-| <sup>:star:</sup>[SECOND<sub>MH</sub>]() | 
-| [CenterPoint<sub>PP</sub>]() | 
-| [CenterPoint<sub>LR</sub>]() |
-| [CenterPoint<sub>HR</sub>]() | 
+| [PointPillars<sub>MH</sub>]() |  |  | 43.33 | 33.16 | 
+| <sup>:star:</sup>[SECOND<sub>MH</sub>]() | 100.00 |  | 47.87 | 38.00 | 
+| [CenterPoint<sub>PP</sub>]() |  |  | 45.99 | 35.01 | 
+| [CenterPoint<sub>LR</sub>]() |  |  | 49.72 | 36.39 | 
+| [CenterPoint<sub>HR</sub>]() |  |  | 50.31 | 39.55 | 
 
 **Note:** Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation.
 
@@ -246,7 +246,7 @@ The *mean average precision (mAP)* and *nuScenes detection score (NDS)* are cons
 | Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
 | -: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | [PointPillars]() | | | 
-| <sup>:star:</sup>[SECOND]() | | | 
+| <sup>:star:</sup>[SECOND]() | 100.00 | | 
 | [CenterPoint]() | 
 | [PV-RCNN]() | 
 
