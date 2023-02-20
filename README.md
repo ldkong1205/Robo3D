@@ -175,7 +175,7 @@ The *mean Intersection-over-Union (mIoU)* is consistently used as the main indic
 | [FIDNet<sub>34</sub>](docs/results/FIDNet.md) |  |  | 71.38 | 64.80 |  |  | 48.90 | 48.14 | 70.81 | 48.76 | 23.59 | 
 | [CENet<sub>34</sub>](docs/results/CENet.md) |  |
 | |
-| [WaffleIron](docs/results/WaffleIron.md) |  |  | 76.07 | 56.07 |  |  |  | 65.19 | 
+| [WaffleIron](docs/results/WaffleIron.md) |  |  | 76.07 | 56.07 |  |  | 59.46 | 65.19 | 72.93 | 61.51 | 41.57 |
 | |
 | [PolarNet](docs/results/PolarNet.md) | | | 71.37 | 58.23 |  |  |  | 61.91 | 
 | |
