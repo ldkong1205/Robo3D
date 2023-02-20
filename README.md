@@ -172,22 +172,22 @@ The *mean Intersection-over-Union (mIoU)* is consistently used as the main indic
 
 | Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
 | -: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| [FIDNet<sub>34</sub>](docs/results/FIDNet.md) |  |
+| [FIDNet<sub>34</sub>](docs/results/FIDNet.md) |  |  | 71.3 | 
 | [CENet<sub>34</sub>](docs/results/CENet.md) |  |
 | |
-| [WaffleIron](docs/results/WaffleIron.md) | 
+| [WaffleIron](docs/results/WaffleIron.md) |  |  | 76.07 | 
 | |
 | [PolarNet](docs/results/PolarNet.md) | | | 71.37 |
 | |
-| <sup>:star:</sup>[MinkUNet<sub>18</sub>](docs/results/MinkUNet-18_cr1.0.md) |
-| [MinkUNet<sub>34</sub>](docs/results/MinkUNet-34_cr1.6.md) |
+| <sup>:star:</sup>[MinkUNet<sub>18</sub>](docs/results/MinkUNet-18_cr1.0.md) |  |  | 75.76 | 
+| [MinkUNet<sub>34</sub>](docs/results/MinkUNet-34_cr1.6.md) |  |  | 76.90 | 
 | [Cylinder3D<sub>SPC</sub>](docs/results/Cylinder3D.md) | | | 76.15 | 
 | [Cylinder3D<sub>TSC</sub>](docs/results/Cylinder3D-TS.md) | | | 73.54 |
 | |
-| [SPVCNN<sub>18</sub>](docs/results/SPVCNN-18_cr1.0.md) |
-| [SPVCNN<sub>34</sub>](docs/results/SPVCNN-34_cr1.6.md) |
-| [2DPASS](docs/results/DPASS.md) | 
-| [GFNet](docs/results/GFNet.md) |
+| [SPVCNN<sub>18</sub>](docs/results/SPVCNN-18_cr1.0.md) |  |  | 74.40 | 
+| [SPVCNN<sub>34</sub>](docs/results/SPVCNN-34_cr1.6.md) |  |  | 76.57 | 
+| [2DPASS](docs/results/DPASS.md) |  |  | 77.92 |
+| [GFNet](docs/results/GFNet.md) |  |  | 76.79 | 
 
 **Note:** Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation.
 
