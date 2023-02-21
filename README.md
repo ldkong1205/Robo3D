@@ -156,7 +156,7 @@ The *mean Intersection-over-Union (mIoU)* is consistently used as the main indic
 | |
 | <sup>:star:</sup>[MinkUNet<sub>18</sub>](docs/results/MinkUNet-18_cr1.0.md) | 100.00 | 81.90 | 62.76 | 55.87 | 53.99 | 53.28 | 32.92 | 56.32 | 58.34 | 54.43 | 46.05 |
 | [MinkUNet<sub>34</sub>](docs/results/MinkUNet-34_cr1.6.md) | 100.61 | 80.22 | 63.78 | 53.54 | 54.27 | 50.17 | 33.80 | 57.35 | 58.38 | 54.88 | 46.95 |
-| [Cylinder3D<sub>SPC</sub>](docs/results/Cylinder3D.md) |  |  |         |         |         |         |         |         |         |         |
+| [Cylinder3D<sub>SPC</sub>](docs/results/Cylinder3D.md) |  |  | 63.42 | 37.10 | 57.45 | 46.94  | 52.45 | 57.64 | 55.98 | 52.51 | 46.22 |
 | [Cylinder3D<sub>TSC</sub>](docs/results/Cylinder3D-TS.md) | 103.13 | 83.90 | 61.00 | 37.11 | 53.40 | 45.39 | 58.64 | 56.81 | 53.59 | 54.88 | 49.62 |
 | |
 | [SPVCNN<sub>18</sub>](docs/results/SPVCNN-18_cr1.0.md) | 100.30 | 82.15 | 62.47 | 55.32 | 53.98 | 51.42 | 34.53 | 56.67 | 58.10 | 54.60 | 45.95 |
@@ -172,21 +172,21 @@ The *mean Intersection-over-Union (mIoU)* is consistently used as the main indic
 
 | Model | mCE (%) | mRR (%) | Clean | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
 | -: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| [FIDNet<sub>34</sub>](docs/results/FIDNet.md) |  |  | 71.38 | 64.80 |  |  | 48.90 | 48.14 | 70.81 | 48.76 | 23.59 | 
+| [FIDNet<sub>34</sub>](docs/results/FIDNet.md) |  |  | 71.38 | 64.80 | 68.02 |  | 48.90 | 48.14 | 70.81 | 48.76 | 23.59 | 
 | [CENet<sub>34</sub>](docs/results/CENet.md) |  |
 | |
 | [WaffleIron](docs/results/WaffleIron.md) |  |  | 76.07 | 56.07 |  |  | 59.46 | 65.19 | 72.93 | 61.51 | 41.57 |
 | |
-| [PolarNet](docs/results/PolarNet.md) | | | 71.37 | 58.23 |  |  |  | 61.91 | 
+| [PolarNet](docs/results/PolarNet.md) | | | 71.37 | 58.23 | 69.91 |  | 44.60 | 61.91 | 69.73 | 53.64 | 40.28 |
 | |
-| <sup>:star:</sup>[MinkUNet<sub>18</sub>](docs/results/MinkUNet-18_cr1.0.md) | 100.00 |  | 75.76 | 53.64 | 
-| [MinkUNet<sub>34</sub>](docs/results/MinkUNet-34_cr1.6.md) |  |  | 76.90 | 56.91 | 
-| [Cylinder3D<sub>SPC</sub>](docs/results/Cylinder3D.md) | | | 76.15 | 59.85 |
-| [Cylinder3D<sub>TSC</sub>](docs/results/Cylinder3D-TS.md) | | | 73.54 | 61.42 | 
+| <sup>:star:</sup>[MinkUNet<sub>18</sub>](docs/results/MinkUNet-18_cr1.0.md) | 100.00 |  | 75.76 | 53.64 | 73.91 |  | 73.39 | 68.54 | 66.23 | 63.83 | 47.61 |
+| [MinkUNet<sub>34</sub>](docs/results/MinkUNet-34_cr1.6.md) |  |  | 76.90 | 56.91 | 74.93 |  | 75.24 | 70.10 | 66.82 | 64.96 | 48.93 |
+| [Cylinder3D<sub>SPC</sub>](docs/results/Cylinder3D.md) | | | 76.15 | 59.85 | 72.69 |  | 42.13 | 64.45 | 74.29 | 60.50 | 38.76 |
+| [Cylinder3D<sub>TSC</sub>](docs/results/Cylinder3D-TS.md) | | | 73.54 | 61.42 | 71.02 |  | 56.02 | 64.15 | 70.07 | 59.97 | 38.69 |
 | |
-| [SPVCNN<sub>18</sub>](docs/results/SPVCNN-18_cr1.0.md) |  |  | 74.40 | 59.01 | 
-| [SPVCNN<sub>34</sub>](docs/results/SPVCNN-34_cr1.6.md) |  |  | 76.57 | 55.86 | 
-| [2DPASS](docs/results/DPASS.md) |  |  | 77.92 | 64.50 | 
+| [SPVCNN<sub>18</sub>](docs/results/SPVCNN-18_cr1.0.md) |  |  | 74.40 | 59.01 | 72.46 |  | 58.36 | 65.36 | 69.29 | 62.29 | 45.68 |
+| [SPVCNN<sub>34</sub>](docs/results/SPVCNN-34_cr1.6.md) |  |  | 76.57 | 55.86 | 74.04 |  | 74.63 | 68.94 | 63.71 | 64.96 | 47.87 |
+| [2DPASS](docs/results/DPASS.md) |  |  | 77.92 | 64.50 | 76.76 |  | 62.04 | 67.84 | 74.42 | 63.19 | 43.30 |
 | [GFNet](docs/results/GFNet.md) |  |  | 76.79 | 
 
 **Note:** Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation.
@@ -218,12 +218,12 @@ The *mean average precision (mAP)* and *nuScenes detection score (NDS)* are cons
 
 | Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
 | -: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| [PointPillars]() | | | 66.70 | 45.70 | 66.71 | 35.77  | | 52.24 | 60.01  | 54.84 | 37.50 |
-| <sup>:star:</sup>[SECOND]() | 100.00 | | 68.49 | 53.24 | 68.51 | 54.92 |  | 54.14 | 67.19 | 59.25 | 48.00 |
-| [PointRCNN]() | | | 70.26 | 56.31 | 71.82 | 50.20 | | 56.84 | 65.70 | 62.02 | 54.73 |
-| [PartA2<sub>Free</sub>]() | | | 76.28 | 58.06 | 76.29 | 58.17 | | 59.46 | 75.59 | 65.66 | 51.22 |
-| [PartA2<sub>Anchor</sub>]() | | | 73.98 | 56.59 | 73.97 | 51.32 | | 56.38 | 71.72 | 63.29 | 49.15 |
-| [PV-RCNN]() | | | 72.36 | 55.36 | 72.89 | 52.12 | | 56.88 | 70.39 | 63.00 | 48.01 |
+| [PointPillars]() | | | 66.70 | 45.70 | 66.71 | 35.77 | 47.09 | 52.24 | 60.01 | 54.84 | 37.50 |
+| <sup>:star:</sup>[SECOND]() | 100.00 | | 68.49 | 53.24 | 68.51 | 54.92 | 49.19 | 54.14 | 67.19 | 59.25 | 48.00 |
+| [PointRCNN]() | | | 70.26 | 56.31 | 71.82 | 50.20 | 51.52 | 56.84 | 65.70 | 62.02 | 54.73 |
+| [PartA2<sub>Free</sub>]() | | | 76.28 | 58.06 | 76.29 | 58.17 | 55.15 | 59.46 | 75.59 | 65.66 | 51.22 |
+| [PartA2<sub>Anchor</sub>]() | | | 73.98 | 56.59 | 73.97 | 51.32 | 55.04 | 56.38 | 71.72 | 63.29 | 49.15 |
+| [PV-RCNN]() | | | 72.36 | 55.36 | 72.89 | 52.12 | 54.44 | 56.88 | 70.39 | 63.00 | 48.01 |
 
 **Note:** Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation.
 
