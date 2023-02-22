@@ -109,7 +109,7 @@ To be updated.
 > - [x] **[2DPASS](https://arxiv.org/abs/2207.04397), ECCV 2022.** <sup>[**`[Code]`**](https://github.com/yanx27/2DPASS)</sup>
 > - [x] **[GFNet](https://arxiv.org/abs/2207.02605), TMLR 2022.** <sup>[**`[Code]`**](https://github.com/haibo-qiu/GFNet)</sup>
 > - [ ] **[PCB-RandNet](https://arxiv.org/abs/2209.13797), arXiv 2022.** <sup>[**`[Code]`**](https://github.com/huixiancheng/PCB-RandNet)</sup>
-> - [ ] **[PIDS](https://arxiv.org/abs/2211.15759), WACV 2023.** <sup>[**`[Code]`**](https://github.com/lordzth666/WACV23_PIDS-Joint-Point-Interaction-Dimension-Search-for-3D-Point-Cloud)</sup>
+> - [x] **[PIDS](https://arxiv.org/abs/2211.15759), WACV 2023.** <sup>[**`[Code]`**](https://github.com/lordzth666/WACV23_PIDS-Joint-Point-Interaction-Dimension-Search-for-3D-Point-Cloud)</sup>
 > - [x] **[WaffleIron](http://arxiv.org/abs/2301.10100), arXiv 2023.** <sup>[**`[Code]`**](https://github.com/valeoai/WaffleIron)</sup>
 
 </details>
@@ -150,6 +150,8 @@ The *mean Intersection-over-Union (mIoU)* is consistently used as the main indic
 | [CENet<sub>34</sub>](docs/results/CENet.md) | 103.41 | 81.29 | 62.55 | 42.70 | 57.34 | 53.64 | 52.71 | 55.78 | 45.37 | 53.40 | 45.84 |
 | |
 | [KPConv](docs/results/KPConv.md) | 99.54 | 82.90 | 62.17 | 54.46 | 57.70 | 54.15 | 25.70 | 57.35 | 53.38 | 55.64 | 53.91 |
+| [PIDS<sub>NAS1.25x</sub>]() |  |  | 63.25 | 
+| [PIDS<sub>NAS2.0x</sub>]()  |  |  | 64.55 | 
 | [WaffleIron](docs/results/WaffleIron.md) | 109.54 | 72.18 | 66.04 | 45.52 | 58.55 | 49.30 | 33.02 | 59.28 | 22.48 | 58.55 | 54.62 |
 | |
 | [PolarNet](docs/results/PolarNet.md) | 118.56 | 74.98 | 58.17 | 38.74 | 50.73 | 49.42 | 41.77 | 54.10 | 25.79 | 48.96 | 39.44 |
@@ -173,9 +175,9 @@ The *mean Intersection-over-Union (mIoU)* is consistently used as the main indic
 | Model | mCE (%) | mRR (%) | Clean | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
 | -: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | [FIDNet<sub>34</sub>](docs/results/FIDNet.md) |  |  | 71.38 | 64.80 | 68.02 |  | 48.90 | 48.14 | 70.81 | 48.76 | 23.59 | 
-| [CENet<sub>34</sub>](docs/results/CENet.md) |  |
+| [CENet<sub>34</sub>](docs/results/CENet.md) |  |  | 73.28 | 67.01 | 69.87 | 
 | |
-| [WaffleIron](docs/results/WaffleIron.md) |  |  | 76.07 | 56.07 |  |  | 59.46 | 65.19 | 72.93 | 61.51 | 41.57 |
+| [WaffleIron](docs/results/WaffleIron.md) |  |  | 76.07 | 56.07 | 73.93 |  | 59.46 | 65.19 | 72.93 | 61.51 | 41.57 |
 | |
 | [PolarNet](docs/results/PolarNet.md) | | | 71.37 | 58.23 | 69.91 |  | 44.60 | 61.91 | 69.73 | 53.64 | 40.28 |
 | |
