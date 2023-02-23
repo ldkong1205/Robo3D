@@ -33,8 +33,18 @@ The following metrics are consistently used in our benchmark:
 
 
 ### nuScenes-C
-To be updated.
+| Corruption      | Light | Moderate | Heavy | Average | $\text{CE}_i$ | $\text{RR}_i$ |
+| :-------------: | :---: | :------: | :---: | :-----: | :-----------: | :-----------: |
+| Fog             | 66.31 | 65.56 | 62.52 | 64.80
+| Wet Ground      | 69.65 | 68.44 | 65.98 | 68.02
+| Snow            | 
+| Motion Blur     | 58.53 | 48.80 | 39.38 | 48.90
+| Beam Missing    | 57.44 | 47.42 | 39.56 | 48.14
+| Crosstalk       | 
+| Incomplete Echo | 52.08 | 48.47 | 45.73 | 48.76
+| Cross-Sensor    | 29.91 | 20.83 | 
 
+- **Summary:** $\text{mIoU}_{\text{clean}} =$ 71.38%, $\text{mCE} =$ %, $\text{mRR} =$ %.
 
 
 ## References
