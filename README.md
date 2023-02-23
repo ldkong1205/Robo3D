@@ -257,6 +257,11 @@ The *mean average precision (mAP)* and *nuScenes detection score (NDS)* are cons
 **Note:** Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation.
 
 
+### :vertical_traffic_light: More Benchmarking Results
+
+For more detailed experimental results and visual comparisons, please refer to [RESULTS.md](docs/RESULTS.md).
+
+
 ## Create Corruption Set
 You can manage to create your own "RoboDet" corrpution sets on other LiDAR-based point cloud datasets using our defined corruption types! Follow the instructions listed in [CREATE.md](docs/CREATE.md).
 
