@@ -18,6 +18,7 @@ The following metrics are consistently used in our benchmark:
 ## CENet
 
 ### SemanticKITTI-C
+
 | Corruption      | Light | Moderate | Heavy | Average | $\text{CE}_i$ | $\text{RR}_i$ |
 | :-------------: | :---: | :------: | :---: | :-----: | :-----------: | :-----------: |
 | Fog             | 45.80 | 44.84 | 37.47 | 42.70 | 129.84 | 68.27 |
@@ -33,7 +34,20 @@ The following metrics are consistently used in our benchmark:
 
 
 ### nuScenes-C
-To be updated.
+
+| Corruption      | Light | Moderate | Heavy | Average | $\text{CE}_i$ | $\text{RR}_i$ |
+| :-------------: | :---: | :------: | :---: | :-----: | :-----------: | :-----------: |
+| Fog             | 68.49 | 67.98 | 64.56 | 67.01
+| Wet Ground      | 71.51 | 70.23 | 67.86 | 69.87
+| Snow            | 
+| Motion Blur     | 63.99 | 58.75 | 52.18 | 58.31
+| Beam Missing    | 58.57 | 49.11 | 42.23 | 49.97
+| Crosstalk       | 
+| Incomplete Echo | 56.53 | 52.99 | 50.40 | 53.31
+| Cross-Sensor    | 
+
+- **Summary:** $\text{mIoU}_{\text{clean}} =$ 73.28%, $\text{mCE} =$ %, $\text{mRR} =$ %.
+
 
 
 ## References
