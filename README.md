@@ -227,7 +227,7 @@ The *mean average precision (mAP)* and *nuScenes detection score (NDS)* are cons
 | [PointRCNN]() | 95.97 | 83.46 | 70.26 | 56.31 | 71.82 | 50.20 | 51.52 | 56.84 | 65.70 | 62.02 | 54.73 |
 | [PartA2<sub>Free</sub>]() | 85.87 | 81.87 | 76.28 | 58.06 | 76.29 | 58.17 | 55.15 | 59.46 | 75.59 | 65.66 | 51.22 |
 | [PartA2<sub>Anchor</sub>]() | 92.64 | 80.67 | 73.98 | 56.59 | 73.97 | 51.32 | 55.04 | 56.38 | 71.72 | 63.29 | 49.15 |
-| [PV-RCNN]() | 94.06 | 81.73 | 72.36 | 55.36 | 72.89 | 52.12 | 54.44 | 56.88 | 70.39 | 63.00 | 48.01 |
+| [PVRCNN]() | 94.06 | 81.73 | 72.36 | 55.36 | 72.89 | 52.12 | 54.44 | 56.88 | 70.39 | 63.00 | 48.01 |
 
 **Note:** Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation.
 
@@ -236,11 +236,11 @@ The *mean average precision (mAP)* and *nuScenes detection score (NDS)* are cons
 
 | Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
 | -: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| [PointPillars<sub>MH</sub>]() |  |  | 43.33 | 33.16 |  |  | 38.04 | 33.61 |  | 30.90 |  |
-| <sup>:star:</sup>[SECOND<sub>MH</sub>]() | 100.00 |  | 47.87 | 38.00 |  |  | 41.32 | 35.64 |  | 34.12 |  |
-| [CenterPoint<sub>PP</sub>]() |  |  | 45.99 | 35.01 |  |  | 41.79 | 35.16 |  | 32.53 |  |
-| [CenterPoint<sub>LR</sub>]() |  |  | 49.72 | 36.39 |  |  | 40.54 | 34.47 |  | 35.50 |  |
-| [CenterPoint<sub>HR</sub>]() |  |  | 50.31 | 39.55 |  |  | 43.21 | 36.21 |  | 35.09 |  |
+| [PointPillars<sub>MH</sub>]() |  |  | 43.33 | 33.16 | 42.92 |  | 38.04 | 33.61 | 34.61 | 30.90 | 25.00 |
+| <sup>:star:</sup>[SECOND<sub>MH</sub>]() | 100.00 |  | 47.87 | 38.00 | 47.59 |  | 41.32 | 35.64 | 40.30 | 34.12 | 23.82 |
+| [CenterPoint<sub>PP</sub>]() |  |  | 45.99 | 35.01 | 45.41 |  | 41.79 | 35.16 | 35.22 | 32.53 | 25.78 |
+| [CenterPoint<sub>LR</sub>]() |  |  | 49.72 | 36.39 | 47.34 |  | 40.54 | 34.47 | 38.11 | 35.50 | 23.16 |
+| [CenterPoint<sub>HR</sub>]() |  |  | 50.31 | 39.55 | 49.77 |  | 43.21 | 36.21 | 40.98 | 35.09 | 23.38 |
 
 **Note:** Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation.
 
@@ -252,7 +252,8 @@ The *mean average precision (mAP)* and *nuScenes detection score (NDS)* are cons
 | [PointPillars]() | | | 
 | <sup>:star:</sup>[SECOND]() | 100.00 | | 
 | [CenterPoint]() | 
-| [PV-RCNN]() | 
+| [PVRCNN]() | 
+| [PVRCNN++]() | 
 
 **Note:** Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation.
 
