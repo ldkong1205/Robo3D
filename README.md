@@ -51,7 +51,7 @@ Visit our [project page]() to explore more examples. :oncoming_automobile:
 
 
 ## Updates
-- [2023.02] - The `KITTI-C`, `SemanticKITTI-C`, `nuScenes-C`, and `WaymoOpen-C` datasets are ready for downloading! See [here](docs/DATA_PREPARE.md) for more details.
+- [2023.01] - Launch of the `Robo3D` benchmark. In this initial version, we include 7 detectors (12 variants) and 17 segmentors (22 variants) in total, evaluated on 8 corruption types with 3 severity levels.
 
 
 ## Outline
