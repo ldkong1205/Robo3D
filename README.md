@@ -176,21 +176,21 @@ The *mean Intersection-over-Union (mIoU)* is consistently used as the main indic
 
 | Model | mCE (%) | mRR (%) | Clean | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
 | -: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| [FIDNet<sub>34</sub>](docs/results/FIDNet.md) |  |  | 71.38 | 64.80 | 68.02 |  | 48.90 | 48.14 | 70.81 | 48.76 | 23.59 | 
-| [CENet<sub>34</sub>](docs/results/CENet.md) |  |  | 73.28 | 67.01 | 69.87 | 
+| [FIDNet<sub>34</sub>](docs/results/FIDNet.md) |  |  | 71.38 | 64.80 | 68.02 |  | 48.90 | 48.14 | 57.45 | 48.76 | 23.70 | 
+| [CENet<sub>34</sub>](docs/results/CENet.md) |  |  | 73.28 | 67.01 | 69.87 |  | 58.31 | 49.97 | 60.89 | 53.31 | 24.78 |
 | |
-| [WaffleIron](docs/results/WaffleIron.md) |  |  | 76.07 | 56.07 | 73.93 |  | 59.46 | 65.19 | 72.93 | 61.51 | 41.57 |
+| [WaffleIron](docs/results/WaffleIron.md) |  |  | 76.07 | 56.07 | 73.93 |  | 59.46 | 65.19 | 33.12 | 61.51 | 44.01 |
 | |
-| [PolarNet](docs/results/PolarNet.md) | | | 71.37 | 58.23 | 69.91 |  | 44.60 | 61.91 | 69.73 | 53.64 | 40.28 |
+| [PolarNet](docs/results/PolarNet.md) | | | 71.37 | 58.23 | 69.91 |  | 44.60 | 61.91 |  | 53.64 |  |
 | |
-| <sup>:star:</sup>[MinkUNet<sub>18</sub>](docs/results/MinkUNet-18_cr1.0.md) | 100.00 |  | 75.76 | 53.64 | 73.91 |  | 73.39 | 68.54 | 66.23 | 63.83 | 47.61 |
-| [MinkUNet<sub>34</sub>](docs/results/MinkUNet-34_cr1.6.md) |  |  | 76.90 | 56.91 | 74.93 |  | 75.24 | 70.10 | 66.82 | 64.96 | 48.93 |
-| [Cylinder3D<sub>SPC</sub>](docs/results/Cylinder3D.md) | | | 76.15 | 59.85 | 72.69 |  | 42.13 | 64.45 | 74.29 | 60.50 | 38.76 |
-| [Cylinder3D<sub>TSC</sub>](docs/results/Cylinder3D-TS.md) | | | 73.54 | 61.42 | 71.02 |  | 56.02 | 64.15 | 70.07 | 59.97 | 38.69 |
+| <sup>:star:</sup>[MinkUNet<sub>18</sub>](docs/results/MinkUNet-18_cr1.0.md) | 100.00 |  | 75.76 | 53.64 | 73.91 |  | 73.39 | 68.54 |  | 63.83 |  |
+| [MinkUNet<sub>34</sub>](docs/results/MinkUNet-34_cr1.6.md) |  |  | 76.90 | 56.91 | 74.93 |  | 75.24 | 70.10 |  | 64.96 |  |
+| [Cylinder3D<sub>SPC</sub>](docs/results/Cylinder3D.md) | | | 76.15 | 59.85 | 72.69 |  | 42.13 | 64.45 |  | 60.50 |  |
+| [Cylinder3D<sub>TSC</sub>](docs/results/Cylinder3D-TS.md) | | | 73.54 | 61.42 | 71.02 |  | 56.02 | 64.15 |  | 59.97 |  |
 | |
-| [SPVCNN<sub>18</sub>](docs/results/SPVCNN-18_cr1.0.md) |  |  | 74.40 | 59.01 | 72.46 |  | 58.36 | 65.36 | 69.29 | 62.29 | 45.68 |
-| [SPVCNN<sub>34</sub>](docs/results/SPVCNN-34_cr1.6.md) |  |  | 76.57 | 55.86 | 74.04 |  | 74.63 | 68.94 | 63.71 | 64.96 | 47.87 |
-| [2DPASS](docs/results/DPASS.md) |  |  | 77.92 | 64.50 | 76.76 |  | 62.04 | 67.84 | 74.42 | 63.19 | 43.30 |
+| [SPVCNN<sub>18</sub>](docs/results/SPVCNN-18_cr1.0.md) |  |  | 74.40 | 59.01 | 72.46 |  | 58.36 | 65.36 |  | 62.29 |  |
+| [SPVCNN<sub>34</sub>](docs/results/SPVCNN-34_cr1.6.md) |  |  | 76.57 | 55.86 | 74.04 |  | 74.63 | 68.94 |  | 64.96 |  |
+| [2DPASS](docs/results/DPASS.md) |  |  | 77.92 | 64.50 | 76.76 |  | 62.04 | 67.84 |  | 63.19 |  |
 | [GFNet](docs/results/GFNet.md) |  |  | 76.79 | 
 
 **Note:** Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation.
@@ -200,13 +200,12 @@ The *mean Intersection-over-Union (mIoU)* is consistently used as the main indic
 
 | Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
 | -: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| <sup>:star:</sup>[MinkUNet<sub>18</sub>](docs/results/MinkUNet-18_cr1.0.md) | 100.00 | 
-| [MinkUNet<sub>34</sub>](docs/results/MinkUNet-34_cr1.6.md) |
-| [Cylinder3D<sub>SPC</sub>](docs/results/Cylinder3D.md) |
-| [Cylinder3D<sub>TSC</sub>](docs/results/Cylinder3D-TS.md) |
+| <sup>:star:</sup>[MinkUNet<sub>18</sub>](docs/results/MinkUNet-18_cr1.0.md) | 100.00 |  | 69.06 |
+| [MinkUNet<sub>34</sub>](docs/results/MinkUNet-34_cr1.6.md) |  |  | 70.15 | 
+| [Cylinder3D<sub>TSC</sub>](docs/results/Cylinder3D-TS.md) |  |  | 65.44 |
 | |
-| [SPVCNN<sub>18</sub>](docs/results/SPVCNN-18_cr1.0.md) |
-| [SPVCNN<sub>34</sub>](docs/results/SPVCNN-34_cr1.6.md) |
+| [SPVCNN<sub>18</sub>](docs/results/SPVCNN-18_cr1.0.md) |  |  | 67.40 |
+| [SPVCNN<sub>34</sub>](docs/results/SPVCNN-34_cr1.6.md) |  |  | 68.00 | 
 
 **Note:** Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation.
 
