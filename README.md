@@ -51,7 +51,7 @@ Visit our [project page]() to explore more examples. :oncoming_automobile:
 
 
 ## Updates
-- [2023.01] - Launch of the `Robo3D` benchmark. In this initial version, we include 7 detectors (12 variants) and 17 segmentors (22 variants) in total, evaluated on 8 corruption types with 3 severity levels.
+- [2023.01] - Launch of the `Robo3D` benchmark. In this initial version, we include **7** detectors (**12** variants) and **17** segmentors (**22** variants) in total, evaluated on **4** large-scale autonomous driving datasets (KITTI, SemanticKITTI, nuScenes, and Waymo Open) with **8** corruption types across **3** severity levels.
 
 
 ## Outline
@@ -176,22 +176,22 @@ The *mean Intersection-over-Union (mIoU)* is consistently used as the main indic
 
 | Model | mCE (%) | mRR (%) | Clean | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
 | -: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| [FIDNet<sub>34</sub>](docs/results/FIDNet.md) |  |  | 71.38 | 64.80 | 68.02 |  | 48.90 | 48.14 | 57.45 | 48.76 | 23.70 | 
-| [CENet<sub>34</sub>](docs/results/CENet.md) |  |  | 73.28 | 67.01 | 69.87 |  | 58.31 | 49.97 | 60.89 | 53.31 | 24.78 |
+| [FIDNet<sub>34</sub>](docs/results/FIDNet.md) | 122.42 | 73.33 | 71.38 | 64.80 | 68.02 | 58.97 | 48.90 | 48.14 | 57.45 | 48.76 | 23.70 | 
+| [CENet<sub>34</sub>](docs/results/CENet.md) | 112.79 | 76.04 | 73.28 | 67.01 | 69.87 | 61.64 | 58.31 | 49.97 | 60.89 | 53.31 | 24.78 |
 | |
-| [WaffleIron](docs/results/WaffleIron.md) |  |  | 76.07 | 56.07 | 73.93 |  | 59.46 | 65.19 | 33.12 | 61.51 | 44.01 |
+| [WaffleIron](docs/results/WaffleIron.md) | 106.73 | 72.78 | 76.07 | 56.07 | 73.93 | 49.59 | 59.46 | 65.19 | 33.12 | 61.51 | 44.01 |
 | |
-| [PolarNet](docs/results/PolarNet.md) | | | 71.37 | 58.23 | 69.91 |  | 44.60 | 61.91 |  | 53.64 |  |
+| [PolarNet](docs/results/PolarNet.md) | 115.09 | 76.34 | 71.37 | 58.23 | 69.91 | 64.82 | 44.60 | 61.91 | 40.77 | 53.64 | 42.01 |
 | |
-| <sup>:star:</sup>[MinkUNet<sub>18</sub>](docs/results/MinkUNet-18_cr1.0.md) | 100.00 |  | 75.76 | 53.64 | 73.91 |  | 73.39 | 68.54 |  | 63.83 |  |
-| [MinkUNet<sub>34</sub>](docs/results/MinkUNet-34_cr1.6.md) |  |  | 76.90 | 56.91 | 74.93 |  | 75.24 | 70.10 |  | 64.96 |  |
-| [Cylinder3D<sub>SPC</sub>](docs/results/Cylinder3D.md) | | | 76.15 | 59.85 | 72.69 |  | 42.13 | 64.45 |  | 60.50 |  |
-| [Cylinder3D<sub>TSC</sub>](docs/results/Cylinder3D-TS.md) | | | 73.54 | 61.42 | 71.02 |  | 56.02 | 64.15 |  | 59.97 |  |
+| <sup>:star:</sup>[MinkUNet<sub>18</sub>](docs/results/MinkUNet-18_cr1.0.md) | 100.00 | 74.44 | 75.76 | 53.64 | 73.91 | 40.35 | 73.39 | 68.54 | 26.58 | 63.83 | 50.95 |
+| [MinkUNet<sub>34</sub>](docs/results/MinkUNet-34_cr1.6.md) | 96.37 | 75.08 | 76.90 | 56.91 | 74.93 | 37.50 | 75.24 | 70.10 | 29.32 | 64.96 | 52.96 |
+| [Cylinder3D<sub>SPC</sub>](docs/results/Cylinder3D.md) | 111.84 | 72.94 | 76.15 | 59.85 | 72.69 | 58.07 | 42.13 | 64.45 | 44.44 | 60.50 | 42.23 |
+| [Cylinder3D<sub>TSC</sub>](docs/results/Cylinder3D-TS.md) | 105.56 | 78.08 | 73.54 | 61.42 | 71.02 | 58.40 | 56.02 | 64.15 | 45.36 | 59.97 | 43.03 |
 | |
-| [SPVCNN<sub>18</sub>](docs/results/SPVCNN-18_cr1.0.md) |  |  | 74.40 | 59.01 | 72.46 |  | 58.36 | 65.36 |  | 62.29 |  |
-| [SPVCNN<sub>34</sub>](docs/results/SPVCNN-34_cr1.6.md) |  |  | 76.57 | 55.86 | 74.04 |  | 74.63 | 68.94 |  | 64.96 |  |
-| [2DPASS](docs/results/DPASS.md) |  |  | 77.92 | 64.50 | 76.76 |  | 62.04 | 67.84 |  | 63.19 |  |
-| [GFNet](docs/results/GFNet.md) |  |  | 76.79 | 
+| [SPVCNN<sub>18</sub>](docs/results/SPVCNN-18_cr1.0.md) | 106.65 | 74.70 | 74.40 | 59.01 | 72.46 | 41.08 | 58.36 | 65.36 | 36.83 | 62.29 | 49.21 |
+| [SPVCNN<sub>34</sub>](docs/results/SPVCNN-34_cr1.6.md) | 97.45 | 75.10 | 76.57 | 55.86 | 74.04 | 41.95 | 74.63 | 68.94 | 28.11 | 64.96 | 51.57 |
+| [2DPASS](docs/results/DPASS.md) | 98.56 | 75.24 | 77.92 | 64.50 | 76.76 | 54.46 | 62.04 | 67.84 | 34.37 | 63.19 | 45.83 |
+| [GFNet](docs/results/GFNet.md) | 92.55 | 83.31 | 76.79 | 69.59 | 75.52 | 71.83 | 59.43 | 64.47 | 66.78 | 61.86 | 42.30 |
 
 **Note:** Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation.
 
