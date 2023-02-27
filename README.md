@@ -140,6 +140,11 @@ The *mean Intersection-over-Union (mIoU)* is consistently used as the main indic
 
 ### :red_car:&nbsp; SemanticKITTI-C
 
+<p align="center">
+  <img src="docs/figs/stat/stat_semkittic.png" align="center" width="100%">
+</p>
+
+
 | Model | mCE (%) | mRR (%) | Clean | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
 | -: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | [SqueezeSeg](docs/results/SqueezeSeg.md) | 164.87 | 66.81 | 31.61 | 18.85 | 27.30 | 22.70 | 17.93 | 25.01 | 21.65 | 27.66 | 7.85 |
