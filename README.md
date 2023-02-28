@@ -141,9 +141,8 @@ The *mean Intersection-over-Union (mIoU)* is consistently used as the main indic
 ### :red_car:&nbsp; SemanticKITTI-C
 
 <p align="center">
-  <img src="docs/figs/stat/stat_semkittic.png" align="center" width="100%">
+  <img src="docs/figs/stat/metrics_semkittic.png" align="center" width="100%">
 </p>
-
 
 | Model | mCE (%) | mRR (%) | Clean | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
 | -: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -178,6 +177,10 @@ The *mean Intersection-over-Union (mIoU)* is consistently used as the main indic
 
 
 ### :blue_car:&nbsp; nuScenes-C
+
+<p align="center">
+  <img src="docs/figs/stat/metrics_nuscenesc_seg.png" align="center" width="100%">
+</p>
 
 | Model | mCE (%) | mRR (%) | Clean | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
 | -: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -224,6 +227,10 @@ The *mean average precision (mAP)* and *nuScenes detection score (NDS)* are cons
 
 ### :red_car:&nbsp; KITTI-C
 
+<p align="center">
+  <img src="docs/figs/stat/metrics_kittic.png" align="center" width="100%">
+</p>
+
 | Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
 | -: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | [PointPillars]() | 115.69 | 74.94 | 66.70 | 45.70 | 66.71 | 35.77 | 47.09 | 52.24 | 60.01 | 54.84 | 37.50 |
@@ -237,6 +244,10 @@ The *mean average precision (mAP)* and *nuScenes detection score (NDS)* are cons
 
 
 ### :blue_car:&nbsp; nuScenes-C
+
+<p align="center">
+  <img src="docs/figs/stat/metrics_nuscenesc_det.png" align="center" width="100%">
+</p>
 
 | Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
 | -: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
