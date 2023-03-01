@@ -1,7 +1,7 @@
 <p align="right">English | <a href="">简体中文</a></p>
 
 <p align="center">
-  <img src="docs/figs/logo.png" align="center" width="21.8%">
+  <img src="docs/figs/logo.png" align="center" width="22%">
   
   <h3 align="center"><strong>Robo3D: Towards Robust and Reliable 3D Perception against Common Corruptions</strong></h3>
 
