@@ -3,7 +3,7 @@
 <p align="center">
   <img src="docs/figs/logo.png" align="center" width="22%">
   
-  <h3 align="center"><strong>Robo3D: Towards Robust and Reliable 3D Perception against Common Corruptions</strong></h3>
+  <h3 align="center"><strong>Robo3D: Towards Robust and Reliable 3D Perception against Corruptions</strong></h3>
 
   <p align="center">
       <a href="https://scholar.google.com/citations?user=-j1j7TkAAAAJ" target='_blank'>Lingdong Kong</a><sup>*</sup>&nbsp;&nbsp;
