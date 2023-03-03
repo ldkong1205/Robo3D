@@ -6,18 +6,17 @@
   <h3 align="center"><strong>Robo3D: Towards Robust and Reliable 3D Perception against Common Corruptions</strong></h3>
 
   <p align="center">
-      <a href="https://scholar.google.com/citations?user=-j1j7TkAAAAJ" target='_blank'>Lingdong Kong</a><sup>*</sup>,&nbsp;&nbsp;
-      <a href="" target='_blank'>Youquan Liu</a><sup>*</sup>,&nbsp;&nbsp;
-      <a href="" target='_blank'>Xin Li</a><sup>*</sup>,&nbsp;&nbsp;
-      <a href="" target='_blank'>Runnan Chen</a>,&nbsp;&nbsp;
-      <a href="" target='_blank'>Wenwei Zhang</a>,&nbsp;&nbsp;
+      <a href="https://scholar.google.com/citations?user=-j1j7TkAAAAJ" target='_blank'>Lingdong Kong</a><sup>*</sup>&nbsp;&nbsp;
+      <a href="" target='_blank'>Youquan Liu</a><sup>*</sup>&nbsp;&nbsp;
+      <a href="https://scholar.google.com/citations?user=7atts2cAAAAJ" target='_blank'>Xin Li</a><sup>*</sup>&nbsp;&nbsp;
+      <a href="https://scholar.google.com/citations?user=Uq2DuzkAAAAJ" target='_blank'>Runnan Chen</a>&nbsp;&nbsp;
+      <a href="https://scholar.google.com/citations?user=QDXADSEAAAAJ" target='_blank'>Wenwei Zhang</a>&nbsp;&nbsp;
       <a href="https://scholar.google.com/citations?user=YUKPVCoAAAAJ" target='_blank'>Jiawei Ren</a>
       <br>
-      <a href="https://scholar.google.com/citations?user=lSDISOcAAAAJ" target='_blank'>Liang Pan</a>,&nbsp;&nbsp;
-      <a href="" target='_blank'>Kai Chen</a>,&nbsp;&nbsp;
+      <a href="https://scholar.google.com/citations?user=lSDISOcAAAAJ" target='_blank'>Liang Pan</a>&nbsp;&nbsp;
+      <a href="https://scholar.google.com/citations?user=eGD0b7IAAAAJ" target='_blank'>Kai Chen</a>&nbsp;&nbsp;
       <a href="https://scholar.google.com/citations?user=lc45xlcAAAAJ" target='_blank'>Ziwei Liu</a>
     <br>
-  
   </p>
 
 </p>
