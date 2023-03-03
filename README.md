@@ -6,6 +6,17 @@
   <h3 align="center"><strong>Robo3D: Towards Robust and Reliable 3D Perception against Common Corruptions</strong></h3>
 
   <p align="center">
+      <a href="https://scholar.google.com/citations?user=-j1j7TkAAAAJ" target='_blank'>Lingdong Kong</a><sup> *</sup>,&nbsp;
+      <a href="" target='_blank'>Youquan Liu</a><sup> *</sup>,&nbsp;
+      <a href="" target='_blank'>Xin Li</a><sup> *</sup>,&nbsp;
+      <a href="" target='_blank'>Runnan Chen</a>,&nbsp;
+      <a href="" target='_blank'>Wenwei Zhang</a>,&nbsp;
+      <a href="https://scholar.google.com/citations?user=YUKPVCoAAAAJ" target='_blank'>Jiawei Ren</a>,&nbsp;
+      <a href="https://scholar.google.com/citations?user=lSDISOcAAAAJ" target='_blank'>Liang Pan</a>,&nbsp;
+      <a href="" target='_blank'>Kai Chen</a>,&nbsp;
+      <a href="https://scholar.google.com/citations?user=lc45xlcAAAAJ" target='_blank'>Ziwei Liu</a>
+    <br>
+  
   </p>
 
 </p>
@@ -210,10 +221,10 @@ The *mean Intersection-over-Union (mIoU)* is consistently used as the main indic
 | -: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | <sup>:star:</sup>[MinkUNet<sub>18</sub>](docs/results/MinkUNet-18_cr1.0.md) | 100.00 |  | 69.06 |
 | [MinkUNet<sub>34</sub>](docs/results/MinkUNet-34_cr1.6.md) |  |  | 70.15 | 
-| [Cylinder3D<sub>TSC</sub>](docs/results/Cylinder3D-TS.md) |  |  | 65.44 |
+| [Cylinder3D<sub>TSC</sub>](docs/results/Cylinder3D-TS.md) |  |  | 65.93 |
 | |
-| [SPVCNN<sub>18</sub>](docs/results/SPVCNN-18_cr1.0.md) |  |  | 67.40 |
-| [SPVCNN<sub>34</sub>](docs/results/SPVCNN-34_cr1.6.md) |  |  | 68.00 | 
+| [SPVCNN<sub>18</sub>](docs/results/SPVCNN-18_cr1.0.md) |  |  | 67.35 |
+| [SPVCNN<sub>34</sub>](docs/results/SPVCNN-34_cr1.6.md) |  |  | 69.01 | 
 
 **Note:** Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation.
 
