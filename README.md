@@ -69,7 +69,6 @@ Visit our [project page]() to explore more examples. :oncoming_automobile:
 - [Installation](#installation)
 - [Data Preparation](#data-preparation)
 - [Getting Started](#getting-started)
-- [Taxonomy](#taxonomy)
 - [Model Zoo](#model-zoo)
 - [Benchmark](#benchmark)
 - [Create Corruption Set](#create-corruption-set)
@@ -91,10 +90,6 @@ Kindly refer to [DATA_PREPARE.md](docs/DATA_PREPARE.md) for the details to prepa
 ## Getting Started
 
 To learn more usage about this codebase, kindly refer to [GET_STARTED.md](docs/GET_STARTED.md).
-
-
-## Taxonomy
-To be updated.
 
 
 ## Model Zoo
@@ -190,7 +185,7 @@ The *mean Intersection-over-Union (mIoU)* is consistently used as the main indic
 ### :blue_car:&nbsp; nuScenes-C
 
 <p align="center">
-  <img src="docs/figs/stat/metrics_nuscenesc_seg.png" align="center" width="100%">
+  <img src="docs/figs/stat/metrics_nusc_seg.png" align="center" width="100%">
 </p>
 
 | Model | mCE (%) | mRR (%) | Clean | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
@@ -217,14 +212,18 @@ The *mean Intersection-over-Union (mIoU)* is consistently used as the main indic
 
 ### :taxi:&nbsp; WaymoOpen-C
 
+<p align="center">
+  <img src="docs/figs/stat/metrics_waymo_seg.png" align="center" width="100%">
+</p>
+
 | Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
 | -: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| <sup>:star:</sup>[MinkUNet<sub>18</sub>](docs/results/MinkUNet-18_cr1.0.md) | 100.00 |  | 69.06 |
-| [MinkUNet<sub>34</sub>](docs/results/MinkUNet-34_cr1.6.md) |  |  | 70.15 | 
-| [Cylinder3D<sub>TSC</sub>](docs/results/Cylinder3D-TS.md) |  |  | 65.93 |
+| <sup>:star:</sup>[MinkUNet<sub>18</sub>](docs/results/MinkUNet-18_cr1.0.md) | 100.00 |  | 69.06 |  | 33.59 |  |  | 64.15 | 65.37 | 63.36 | 56.44 |
+| [MinkUNet<sub>34</sub>](docs/results/MinkUNet-34_cr1.6.md) |  |  | 70.15 |  | 35.31 |  |  | 65.79 | 66.48 | 64.55 | 59.02 | 
+| [Cylinder3D<sub>TSC</sub>](docs/results/Cylinder3D-TS.md) |  |  | 65.93 |  | 23.16 |  |  | 62.08 | 62.99 | 60.34 | 55.27 |
 | |
-| [SPVCNN<sub>18</sub>](docs/results/SPVCNN-18_cr1.0.md) |  |  | 67.35 |
-| [SPVCNN<sub>34</sub>](docs/results/SPVCNN-34_cr1.6.md) |  |  | 69.01 | 
+| [SPVCNN<sub>18</sub>](docs/results/SPVCNN-18_cr1.0.md) |  |  | 67.35 |  | 33.35 |  |  | 62.41 | 65.46 | 61.79 | 54.30 |
+| [SPVCNN<sub>34</sub>](docs/results/SPVCNN-34_cr1.6.md) |  |  | 69.01 |  | 37.16 |  |  | 64.67 | 64.70 | 64.14 | 58.63 |
 
 **Note:** Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation.
 
@@ -257,7 +256,7 @@ The *mean average precision (mAP)* and *nuScenes detection score (NDS)* are cons
 ### :blue_car:&nbsp; nuScenes-C
 
 <p align="center">
-  <img src="docs/figs/stat/metrics_nuscenesc_det.png" align="center" width="100%">
+  <img src="docs/figs/stat/metrics_nusc_det.png" align="center" width="100%">
 </p>
 
 | Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
@@ -272,6 +271,10 @@ The *mean average precision (mAP)* and *nuScenes detection score (NDS)* are cons
 
 
 ### :taxi:&nbsp; WaymoOpen-C
+
+<p align="center">
+  <img src="docs/figs/stat/metrics_waymo_det.png" align="center" width="100%">
+</p>
 
 | Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
 | -: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
