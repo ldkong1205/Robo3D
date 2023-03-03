@@ -1,7 +1,7 @@
 <p align="right">English | <a href="">简体中文</a></p>
 
 <p align="center">
-  <img src="docs/figs/logo.png" align="center" width="22%">
+  <img src="docs/figs/logo.png" align="center" width="22.5%">
   
   <h3 align="center"><strong>Robo3D: Towards Robust and Reliable 3D Perception against Corruptions</strong></h3>
 
@@ -310,7 +310,7 @@ If you find this work helpful, please kindly consider citing our paper:
 
 ```bibtex
 @ARTICLE{robo3d,
-  title={Robo3D: Towards Robust and Reliable 3D Perception against Common Corruptions},
+  title={Robo3D: Towards Robust and Reliable 3D Perception against Corruptions},
   author={xxx},
   journal={arXiv preprint arXiv:23xx.xxxxx}, 
   year={2023},
