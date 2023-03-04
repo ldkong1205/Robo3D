@@ -62,7 +62,7 @@ Visit our [project page]() to explore more examples. :oncoming_automobile:
 
 
 ## Updates
-- [2023.01] - Launch of the `Robo3D` benchmark. In this initial version, we include **7** detectors (**12** variants) and **17** segmentors (**22** variants) in total, evaluated on **4** large-scale autonomous driving datasets (KITTI, SemanticKITTI, nuScenes, and Waymo Open) with **8** corruption types across **3** severity levels.
+- [2023.01] - Launch of the `Robo3D` benchmark. In this initial version, we include **7** detectors (**12** variants) and **17** segmentors (**22** variants), evaluated on **4** large-scale autonomous driving datasets (KITTI, SemanticKITTI, nuScenes, and Waymo Open) with **8** corruption types across **3** severity levels.
 
 
 ## Outline
