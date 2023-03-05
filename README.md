@@ -213,7 +213,7 @@ The *mean Intersection-over-Union (mIoU)* is consistently used as the main indic
 ### :taxi:&nbsp; WaymoOpen-C
 
 <p align="center">
-  <img src="docs/figs/stat/metrics_waymo_seg.png" align="center" width="100%">
+  <img src="docs/figs/stat/metrics_wod_seg.png" align="center" width="100%">
 </p>
 
 | Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
@@ -273,7 +273,7 @@ The *mean average precision (mAP)* and *nuScenes detection score (NDS)* are cons
 ### :taxi:&nbsp; WaymoOpen-C
 
 <p align="center">
-  <img src="docs/figs/stat/metrics_waymo_det.png" align="center" width="100%">
+  <img src="docs/figs/stat/metrics_wod_det.png" align="center" width="100%">
 </p>
 
 | Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
