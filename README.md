@@ -122,6 +122,13 @@ To learn more usage about this codebase, kindly refer to [GET_STARTED.md](docs/G
 
 
 <details open>
+<summary>&nbsp<b>LiDAR Panoptic Segmentation</b></summary>
+
+> - [ ] **[DS-Net](https://arxiv.org/abs/2011.11964), CVPR 2021.** <sup>[**`[Code]`**](https://github.com/hongfz16/DS-Net)</sup>
+> - [ ] **[Panoptic-PolarNet](https://arxiv.org/abs/2103.14962), CVPR 2021.** <sup>[**`[Code]`**](https://github.com/edwardzhou130/Panoptic-PolarNet)</sup>
+
+
+<details open>
 <summary>&nbsp<b>3D Object Detection</b></summary>
 
 > - [x] **[SECOND](https://www.mdpi.com/1424-8220/18/10/3337), Sensors 2018.** <sup>[**`[Code]`**](https://github.com/traveller59/second.pytorch)</sup>
