@@ -1,4 +1,5 @@
-<p align="right">English | <a href="">简体中文</a></p>
+<p align="right">English | <a href="">简体中文</a></p>  
+
 
 <p align="center">
   <img src="docs/figs/logo.png" align="center" width="22.5%">
@@ -38,7 +39,11 @@
   </a>
   
   <a href="" target='_blank'>
-    <img src="https://img.shields.io/badge/%E4%B8%AD%E8%AF%91%E7%89%88-%F0%9F%90%BC-firebrick">
+    <img src="https://img.shields.io/badge/%E4%B8%AD%E8%AF%91%E7%89%88-%F0%9F%90%BC-red">
+  </a>
+  
+  <a href="" target='_blank'>
+    <img src="https://visitor-badge.glitch.me/badge?page_id=ldkong1205.Robo3D&left_color=gray&right_color=firebrick">
   </a>
 </p>
 
