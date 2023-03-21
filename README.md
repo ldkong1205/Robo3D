@@ -66,6 +66,7 @@ Visit our [project page]() to explore more examples. :oncoming_automobile:
 
 
 ## Outline
+- [Taxonomy](#taxonomy)
 - [Installation](#installation)
 - [Data Preparation](#data-preparation)
 - [Getting Started](#getting-started)
@@ -76,6 +77,16 @@ Visit our [project page]() to explore more examples. :oncoming_automobile:
 - [Citation](#citation)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
+
+
+## Taxonomy
+| | | | | 
+| :---: | :---: | :---: | :---: |
+| <img src="docs/figs/demo/bev_fog.gif"> | <img src="docs/figs/demo/bev_wet_ground.gif"> | <img src="docs/figs/demo/bev_snow.gif"> | <img src="docs/figs/demo/bev_motion_blur.gif"> | 
+| Fog | Wet Ground | Snow | Motion Blur |
+| <img src="docs/figs/demo/bev_beam_missing.gif"> | <img src="docs/figs/demo/bev_crosstalk.gif"> | <img src="docs/figs/demo/bev_incomplete_echo.gif"> | <img src="docs/figs/demo/bev_cross_sensor.gif"> | 
+| Beam Missing | Crosstalk | Incomplete Echo | Cross-Sensor |
+| | | | | 
 
 
 ## Installation
