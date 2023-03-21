@@ -6,17 +6,20 @@
   <h3 align="center"><strong>Robo3D: Towards Robust and Reliable 3D Perception against Corruptions</strong></h3>
 
   <p align="center">
-      <a href="https://scholar.google.com/citations?user=-j1j7TkAAAAJ" target='_blank'>Lingdong Kong</a><sup>*</sup>&nbsp;&nbsp;
-      <a href="" target='_blank'>Youquan Liu</a><sup>*</sup>&nbsp;&nbsp;
-      <a href="https://scholar.google.com/citations?user=7atts2cAAAAJ" target='_blank'>Xin Li</a><sup>*</sup>&nbsp;&nbsp;
-      <a href="https://scholar.google.com/citations?user=Uq2DuzkAAAAJ" target='_blank'>Runnan Chen</a>&nbsp;&nbsp;
-      <a href="https://scholar.google.com/citations?user=QDXADSEAAAAJ" target='_blank'>Wenwei Zhang</a>&nbsp;&nbsp;
-      <a href="https://scholar.google.com/citations?user=YUKPVCoAAAAJ" target='_blank'>Jiawei Ren</a>
+      <a href="https://scholar.google.com/citations?user=-j1j7TkAAAAJ" target='_blank'>Lingdong Kong</a><sup>1,2,*</sup>&nbsp;&nbsp;
+      <a href="" target='_blank'>Youquan Liu</a><sup>1,*</sup>&nbsp;&nbsp;
+      <a href="https://scholar.google.com/citations?user=7atts2cAAAAJ" target='_blank'>Xin Li</a><sup>1,*</sup>&nbsp;&nbsp;
+      <a href="https://scholar.google.com/citations?user=Uq2DuzkAAAAJ" target='_blank'>Runnan Chen</a><sup>1</sup>&nbsp;&nbsp;
+      <a href="https://scholar.google.com/citations?user=QDXADSEAAAAJ" target='_blank'>Wenwei Zhang</a><sup>1,3</sup>&nbsp;&nbsp;
+      <a href="https://scholar.google.com/citations?user=YUKPVCoAAAAJ" target='_blank'>Jiawei Ren</a><sup>3</sup>
       <br>
-      <a href="https://scholar.google.com/citations?user=lSDISOcAAAAJ" target='_blank'>Liang Pan</a>&nbsp;&nbsp;
-      <a href="https://scholar.google.com/citations?user=eGD0b7IAAAAJ" target='_blank'>Kai Chen</a>&nbsp;&nbsp;
-      <a href="https://scholar.google.com/citations?user=lc45xlcAAAAJ" target='_blank'>Ziwei Liu</a>
+      <a href="https://scholar.google.com/citations?user=lSDISOcAAAAJ" target='_blank'>Liang Pan</a><sup>3</sup>&nbsp;&nbsp;
+      <a href="https://scholar.google.com/citations?user=eGD0b7IAAAAJ" target='_blank'>Kai Chen</a><sup>1</sup>&nbsp;&nbsp;
+      <a href="https://scholar.google.com/citations?user=lc45xlcAAAAJ" target='_blank'>Ziwei Liu</a><sup>3</sup>
     <br>
+  <sup>1</sup>Shanghai AI Laboratory&nbsp;&nbsp;
+  <sup>2</sup>National University of Singapore&nbsp;&nbsp;
+  <sup>3</sup>S-Lab, Nanyang Technological University
   </p>
 
 </p>
