@@ -82,9 +82,11 @@ Visit our [project page]() to explore more examples. :oncoming_automobile:
 ## Taxonomy
 | | | | | 
 | :---: | :---: | :---: | :---: |
-| <img src="docs/figs/demo/bev_fog.gif"> | <img src="docs/figs/demo/bev_wet_ground.gif"> | <img src="docs/figs/demo/bev_snow.gif"> | <img src="docs/figs/demo/bev_motion_blur.gif"> | 
+| <img src="docs/figs/demo/bev_fog.gif"> | <img src="docs/figs/demo/bev_wet_ground.gif"> | <img src="docs/figs/demo/bev_snow.gif"> | <img src="docs/figs/demo/bev_motion_blur.gif"> |
+| <img src="docs/figs/demo/gt_fog.gif"> | <img src="docs/figs/demo/gt_wet_ground.gif"> | <img src="docs/figs/demo/gt_snow.gif"> | <img src="docs/figs/demo/gt_motion_blur.gif"> |
 | Fog | Wet Ground | Snow | Motion Blur |
-| <img src="docs/figs/demo/bev_beam_missing.gif"> | <img src="docs/figs/demo/bev_crosstalk.gif"> | <img src="docs/figs/demo/bev_incomplete_echo.gif"> | <img src="docs/figs/demo/bev_cross_sensor.gif"> | 
+| <img src="docs/figs/demo/bev_beam_missing.gif"> | <img src="docs/figs/demo/bev_crosstalk.gif"> | <img src="docs/figs/demo/bev_incomplete_echo.gif"> | <img src="docs/figs/demo/bev_cross_sensor.gif"> |
+| <img src="docs/figs/demo/gt_beam_missing.gif"> | <img src="docs/figs/demo/gt_crosstalk.gif"> | <img src="docs/figs/demo/gt_incomplete_echo.gif"> | <img src="docs/figs/demo/gt_cross_sensor.gif"> |
 | Beam Missing | Crosstalk | Incomplete Echo | Cross-Sensor |
 | | | | | 
 
