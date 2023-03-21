@@ -43,7 +43,7 @@
   </a>
   
   <a href="" target='_blank'>
-    <img src="https://visitor-badge.glitch.me/badge?page_id=ldkong1205.Robo3D&left_color=gray&right_color=firebrick">
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=ldkong1205.Robo3D&left_color=gray&right_color=firebrick">
   </a>
 </p>
 
