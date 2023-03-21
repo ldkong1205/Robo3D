@@ -67,6 +67,7 @@ Visit our [project page]() to explore more examples. :oncoming_automobile:
 
 ## Outline
 - [Taxonomy](#taxonomy)
+- [Video Demo](#video-demo)
 - [Installation](#installation)
 - [Data Preparation](#data-preparation)
 - [Getting Started](#getting-started)
@@ -89,6 +90,13 @@ Visit our [project page]() to explore more examples. :oncoming_automobile:
 | <img src="docs/figs/demo/rv_beam_missing.gif"> | <img src="docs/figs/demo/rv_crosstalk.gif"> | <img src="docs/figs/demo/rv_incomplete_echo.gif"> | <img src="docs/figs/demo/rv_cross_sensor.gif"> |
 | Beam Missing | Crosstalk | Incomplete Echo | Cross-Sensor |
 | | | | | 
+
+
+## Video Demo
+| Demo 1 | Demo 2| Demo 3 | 
+| :-: | :-: | :-: |
+| <img width="100%" src="docs/figs/demo1.png"> |  <img width="100%" src="docs/figs/demo2.png"> |  <img width="100%" src="docs/figs/demo3.png"> | 
+| [Link](https://youtu.be/) <sup>:arrow_heading_up:</sup> | [Link](https://youtu.be/) <sup>:arrow_heading_up:</sup> | [Link](https://youtu.be/) <sup>:arrow_heading_up:</sup> |
 
 
 ## Installation
