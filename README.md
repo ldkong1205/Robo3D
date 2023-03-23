@@ -91,11 +91,11 @@ Visit our [project page]() to explore more examples. :oncoming_automobile:
 ## Taxonomy
 | | | | | 
 | :---: | :---: | :---: | :---: |
-| <img src="docs/figs/demo/bev_fog.gif"> | <img src="docs/figs/demo/bev_wet_ground.gif"> | <img src="docs/figs/demo/bev_snow.gif"> | <img src="docs/figs/demo/bev_motion_blur.gif"> |
-| <img src="docs/figs/demo/rv_fog.gif"> | <img src="docs/figs/demo/rv_wet_ground.gif"> | <img src="docs/figs/demo/rv_snow.gif"> | <img src="docs/figs/demo/rv_motion_blur.gif"> |
+| <img src="docs/figs/demo/bev_fog.gif" width="95%"> | <img src="docs/figs/demo/bev_wet_ground.gif" width="95%"> | <img src="docs/figs/demo/bev_snow.gif" width="95%"> | <img src="docs/figs/demo/bev_motion_blur.gif" width="95%"> |
+| <img src="docs/figs/demo/rv_fog.gif" width="95%"> | <img src="docs/figs/demo/rv_wet_ground.gif" width="95%"> | <img src="docs/figs/demo/rv_snow.gif" width="95%"> | <img src="docs/figs/demo/rv_motion_blur.gif" width="95%"> |
 | Fog | Wet Ground | Snow | Motion Blur |
-| <img src="docs/figs/demo/bev_beam_missing.gif"> | <img src="docs/figs/demo/bev_crosstalk.gif"> | <img src="docs/figs/demo/bev_incomplete_echo.gif"> | <img src="docs/figs/demo/bev_cross_sensor.gif"> |
-| <img src="docs/figs/demo/rv_beam_missing.gif"> | <img src="docs/figs/demo/rv_crosstalk.gif"> | <img src="docs/figs/demo/rv_incomplete_echo.gif"> | <img src="docs/figs/demo/rv_cross_sensor.gif"> |
+| <img src="docs/figs/demo/bev_beam_missing.gif" width="95%"> | <img src="docs/figs/demo/bev_crosstalk.gif" width="95%"> | <img src="docs/figs/demo/bev_incomplete_echo.gif" width="95%"> | <img src="docs/figs/demo/bev_cross_sensor.gif" width="95%"> |
+| <img src="docs/figs/demo/rv_beam_missing.gif" width="95%"> | <img src="docs/figs/demo/rv_crosstalk.gif" width="95%"> | <img src="docs/figs/demo/rv_incomplete_echo.gif" width="95%"> | <img src="docs/figs/demo/rv_cross_sensor.gif" width="95%"> |
 | Beam Missing | Crosstalk | Incomplete Echo | Cross-Sensor |
 | | | | | 
 
@@ -145,6 +145,7 @@ To learn more usage about this codebase, kindly refer to [GET_STARTED.md](docs/G
 > - [x] **[GFNet](https://arxiv.org/abs/2207.02605), TMLR 2022.** <sup>[**`[Code]`**](https://github.com/haibo-qiu/GFNet)</sup>
 > - [ ] **[PCB-RandNet](https://arxiv.org/abs/2209.13797), arXiv 2022.** <sup>[**`[Code]`**](https://github.com/huixiancheng/PCB-RandNet)</sup>
 > - [x] **[PIDS](https://arxiv.org/abs/2211.15759), WACV 2023.** <sup>[**`[Code]`**](https://github.com/lordzth666/WACV23_PIDS-Joint-Point-Interaction-Dimension-Search-for-3D-Point-Cloud)</sup>
+> - [ ] **[SphereFormer](https://arxiv.org/abs/2303.12766), CVPR 2023.** <sup>[**`[Code]`**](https://github.com/dvlab-research/SphereFormer)</sup>
 > - [x] **[WaffleIron](http://arxiv.org/abs/2301.10100), arXiv 2023.** <sup>[**`[Code]`**](https://github.com/valeoai/WaffleIron)</sup>
 
 </details>
@@ -167,6 +168,7 @@ To learn more usage about this codebase, kindly refer to [GET_STARTED.md](docs/G
 > - [x] **[PV-RCNN](https://arxiv.org/abs/1912.13192), CVPR 2020.** <sup>[**`[Code]`**](https://github.com/sshaoshuai/PV-RCNN)</sup>
 > - [x] **[CenterPoint](https://arxiv.org/abs/2006.11275), CVPR 2021.** <sup>[**`[Code]`**](https://github.com/tianweiy/CenterPoint)</sup>
 > - [x] **[PV-RCNN++](https://arxiv.org/abs/2102.00463), IJCV 2022.** <sup>[**`[Code]`**](https://github.com/open-mmlab/OpenPCDet)</sup>
+> - [ ] **[SphereFormer](https://arxiv.org/abs/2303.12766), CVPR 2023.** <sup>[**`[Code]`**](https://github.com/dvlab-research/SphereFormer)</sup>
 
 </details>
 
@@ -279,12 +281,14 @@ The *mean average precision (mAP)* and *nuScenes detection score (NDS)* are cons
 
 | Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
 | -: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| [PointPillars]() | 115.69 | 74.94 | 66.70 | 45.70 | 66.71 | 35.77 | 47.09 | 52.24 | 60.01 | 54.84 | 37.50 |
-| <sup>:star:</sup>[SECOND]() | 100.00 | 82.94 | 68.49 | 53.24 | 68.51 | 54.92 | 49.19 | 54.14 | 67.19 | 59.25 | 48.00 |
-| [PointRCNN]() | 95.97 | 83.46 | 70.26 | 56.31 | 71.82 | 50.20 | 51.52 | 56.84 | 65.70 | 62.02 | 54.73 |
-| [PartA2<sub>Free</sub>]() | 85.87 | 81.87 | 76.28 | 58.06 | 76.29 | 58.17 | 55.15 | 59.46 | 75.59 | 65.66 | 51.22 |
-| [PartA2<sub>Anchor</sub>]() | 92.64 | 80.67 | 73.98 | 56.59 | 73.97 | 51.32 | 55.04 | 56.38 | 71.72 | 63.29 | 49.15 |
-| [PVRCNN]() | 94.06 | 81.73 | 72.36 | 55.36 | 72.89 | 52.12 | 54.44 | 56.88 | 70.39 | 63.00 | 48.01 |
+| [PointPillars]() |  | 74.94 | 66.70 | 45.70 | 66.71 | 35.77 | 47.09 | 52.24 | 60.01 | 54.84 | 37.50 |
+| [SECOND]() |  | 82.94 | 68.49 | 53.24 | 68.51 | 54.92 | 49.19 | 54.14 | 67.19 | 59.25 | 48.00 |
+| [PointRCNN]() |  | 83.46 | 70.26 | 56.31 | 71.82 | 50.20 | 51.52 | 56.84 | 65.70 | 62.02 | 54.73 |
+| [PartA2<sub>Free</sub>]() |  | 81.87 | 76.28 | 58.06 | 76.29 | 58.17 | 55.15 | 59.46 | 75.59 | 65.66 | 51.22 |
+| [PartA2<sub>Anchor</sub>]() |  | 80.67 | 73.98 | 56.59 | 73.97 | 51.32 | 55.04 | 56.38 | 71.72 | 63.29 | 49.15 |
+| [PVRCNN]() |  | 81.73 | 72.36 | 55.36 | 72.89 | 52.12 | 54.44 | 56.88 | 70.39 | 63.00 | 48.01 |
+| <sup>:star:</sup>[CenterPoint]() | 100.00 | 
+| [SphereFormer]() | - | - | - | - | - | - | - | - | - | - | - |
 
 **Note:** Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation.
 
@@ -297,11 +301,12 @@ The *mean average precision (mAP)* and *nuScenes detection score (NDS)* are cons
 
 | Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
 | -: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| [PointPillars<sub>MH</sub>]() | 105.63 | 77.24 | 43.33 | 33.16 | 42.92 | 29.49 | 38.04 | 33.61 | 34.61 | 30.90 | 25.00 |
-| <sup>:star:</sup>[SECOND<sub>MH</sub>]() | 100.00 | 76.96 | 47.87 | 38.00 | 47.59 | 33.92 | 41.32 | 35.64 | 40.30 | 34.12 | 23.82 |
-| [CenterPoint<sub>PP</sub>]() | 102.67 | 76.68 | 45.99 | 35.01 | 45.41 | 31.23 | 41.79 | 35.16 | 35.22 | 32.53 | 25.78 |
-| [CenterPoint<sub>LR</sub>]() | 101.29 | 72.49 | 49.72 | 36.39 | 47.34 | 32.81 | 40.54 | 34.47 | 38.11 | 35.50 | 23.16 |
-| [CenterPoint<sub>HR</sub>]() | 98.25 | 75.26 | 50.31 | 39.55 | 49.77 | 34.73 | 43.21 | 36.21 | 40.98 | 35.09 | 23.38 |
+| [PointPillars<sub>MH</sub>]() |  | 77.24 | 43.33 | 33.16 | 42.92 | 29.49 | 38.04 | 33.61 | 34.61 | 30.90 | 25.00 |
+| [SECOND<sub>MH</sub>]() |  |  | 47.87 | 38.00 | 47.59 | 33.92 | 41.32 | 35.64 | 40.30 | 34.12 | 23.82 |
+| <sup>:star:</sup>[CenterPoint]() | 100.00 | 76.68 | 45.99 | 35.01 | 45.41 | 31.23 | 41.79 | 35.16 | 35.22 | 32.53 | 25.78 |
+| [CenterPoint<sub>LR</sub>]() |  | 72.49 | 49.72 | 36.39 | 47.34 | 32.81 | 40.54 | 34.47 | 38.11 | 35.50 | 23.16 |
+| [CenterPoint<sub>HR</sub>]() |  | 75.26 | 50.31 | 39.55 | 49.77 | 34.73 | 43.21 | 36.21 | 40.98 | 35.09 | 23.38 |
+| [SphereFormer]() | - | - | - | - | - | - | - | - | - | - | - |
 
 **Note:** Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation.
 
@@ -314,11 +319,12 @@ The *mean average precision (mAP)* and *nuScenes detection score (NDS)* are cons
 
 | Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
 | -: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| [PointPillars]() | 107.47 | 67.54 | 50.17 | 31.24 | 21.01 | 20.07 | 34.93 | 43.93 | 39.80 | 43.41 | 36.67  | 
-| <sup>:star:</sup>[SECOND]() | 100.00 | 72.00 | 53.37 | 32.89 | 33.54 | 27.74 | 35.98 | 44.72 | 49.28 | 46.84 | 36.43 | 
-| [CenterPoint]() | 86.36 | 73.13 | 63.59 | 43.06 | 35.28 | 34.42 | 43.53 | 54.41 | 60.32 | 57.01 | 43.98 |
-| [PVRCNN]() | 83.46 | 79.67 | 61.27 | 37.32 | 60.90 | 47.23 | 42.78 | 49.53 | 59.59 | 54.43 | 38.73 |
-| [PVRCNN++]() | 78.94 | 75.72 | 67.45 | 45.50 | 44.64 | 39.82 | 47.35 | 57.83 | 64.71 | 60.96 | 47.77 |
+| [PointPillars]() |  | 67.54 | 50.17 | 31.24 | 21.01 | 20.07 | 34.93 | 43.93 | 39.80 | 43.41 | 36.67  | 
+| [SECOND]() |  | 72.00 | 53.37 | 32.89 | 33.54 | 27.74 | 35.98 | 44.72 | 49.28 | 46.84 | 36.43 | 
+| [PVRCNN]() |  | 79.67 | 61.27 | 37.32 | 60.90 | 47.23 | 42.78 | 49.53 | 59.59 | 54.43 | 38.73 |
+| <sup>:star:</sup>[CenterPoint]() | 100.00 | 73.13 | 63.59 | 43.06 | 35.28 | 34.42 | 43.53 | 54.41 | 60.32 | 57.01 | 43.98 |
+| [PVRCNN++]() |  | 75.72 | 67.45 | 45.50 | 44.64 | 39.82 | 47.35 | 57.83 | 64.71 | 60.96 | 47.77 |
+| [SphereFormer]() | - | - | - | - | - | - | - | - | - | - | - |
 
 **Note:** Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation.
 
