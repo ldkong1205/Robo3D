@@ -91,11 +91,11 @@ Visit our [project page]() to explore more examples. :oncoming_automobile:
 ## Taxonomy
 | | | | | 
 | :---: | :---: | :---: | :---: |
-| <img src="docs/figs/demo/bev_fog.gif" width="95%"> | <img src="docs/figs/demo/bev_wet_ground.gif" width="95%"> | <img src="docs/figs/demo/bev_snow.gif" width="95%"> | <img src="docs/figs/demo/bev_motion_blur.gif" width="95%"> |
-| <img src="docs/figs/demo/rv_fog.gif" width="95%"> | <img src="docs/figs/demo/rv_wet_ground.gif" width="95%"> | <img src="docs/figs/demo/rv_snow.gif" width="95%"> | <img src="docs/figs/demo/rv_motion_blur.gif" width="95%"> |
+| <img src="docs/figs/demo/bev_fog.gif" width="90%"> | <img src="docs/figs/demo/bev_wet_ground.gif" width="90%"> | <img src="docs/figs/demo/bev_snow.gif" width="90%"> | <img src="docs/figs/demo/bev_motion_blur.gif" width="90%"> |
+| <img src="docs/figs/demo/rv_fog.gif" width="90%"> | <img src="docs/figs/demo/rv_wet_ground.gif" width="90%"> | <img src="docs/figs/demo/rv_snow.gif" width="90%"> | <img src="docs/figs/demo/rv_motion_blur.gif" width="90%"> |
 | Fog | Wet Ground | Snow | Motion Blur |
-| <img src="docs/figs/demo/bev_beam_missing.gif" width="95%"> | <img src="docs/figs/demo/bev_crosstalk.gif" width="95%"> | <img src="docs/figs/demo/bev_incomplete_echo.gif" width="95%"> | <img src="docs/figs/demo/bev_cross_sensor.gif" width="95%"> |
-| <img src="docs/figs/demo/rv_beam_missing.gif" width="95%"> | <img src="docs/figs/demo/rv_crosstalk.gif" width="95%"> | <img src="docs/figs/demo/rv_incomplete_echo.gif" width="95%"> | <img src="docs/figs/demo/rv_cross_sensor.gif" width="95%"> |
+| <img src="docs/figs/demo/bev_beam_missing.gif" width="90%"> | <img src="docs/figs/demo/bev_crosstalk.gif" width="90%"> | <img src="docs/figs/demo/bev_incomplete_echo.gif" width="90%"> | <img src="docs/figs/demo/bev_cross_sensor.gif" width="90%"> |
+| <img src="docs/figs/demo/rv_beam_missing.gif" width="90%"> | <img src="docs/figs/demo/rv_crosstalk.gif" width="90%"> | <img src="docs/figs/demo/rv_incomplete_echo.gif" width="90%"> | <img src="docs/figs/demo/rv_cross_sensor.gif" width="90%"> |
 | Beam Missing | Crosstalk | Incomplete Echo | Cross-Sensor |
 | | | | | 
 
