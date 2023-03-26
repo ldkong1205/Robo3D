@@ -113,7 +113,7 @@ For details related to installation, kindly refer to [INSTALL.md](docs/INSTALL.m
 
 ## Data Preparation
 
-Kindly refer to [DATA_PREPARE.md](docs/DATA_PREPARE.md) for the details to prepare the <sup>1</sup>`KITTI`, <sup>2</sup>`KITTI-C`, <sup>3</sup>`SemanticKITTI`, <sup>4</sup>`SemanticKITTI-C`, <sup>5</sup>`nuScenes`, <sup>6</sup>`nuScenes-C`, <sup>7</sup>`WaymoOpen`, and <sup>8</sup>`WaymoOpen-C` datasets.
+Kindly refer to [DATA_PREPARE.md](docs/DATA_PREPARE.md) for the details to prepare the <sup>1</sup>`KITTI`, <sup>2</sup>`KITTI-C`, <sup>3</sup>`SemanticKITTI`, <sup>4</sup>`SemanticKITTI-C`, <sup>5</sup>`nuScenes`, <sup>6</sup>`nuScenes-C`, <sup>7</sup>`WOD`, and <sup>8</sup>`WOD-C` datasets.
 
 
 ## Getting Started
@@ -248,7 +248,7 @@ The *mean Intersection-over-Union (mIoU)* is consistently used as the main indic
 **Note:** Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation.
 
 
-### :taxi:&nbsp; WaymoOpen-C
+### :taxi:&nbsp; WOD-C
 
 <p align="center">
   <img src="docs/figs/stat/metrics_wod_seg.png" align="center" width="100%">
@@ -256,12 +256,12 @@ The *mean Intersection-over-Union (mIoU)* is consistently used as the main indic
 
 | Model | mCE (%) | mRR (%) | Clean  | Fog | Wet Ground | Snow | Motion Blur | Beam Missing | Cross-Talk | Incomplete Echo | Cross-Sensor |
 | -: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| <sup>:star:</sup>[MinkUNet<sub>18</sub>](docs/results/MinkUNet-18_cr1.0.md) | 100.00 | 81.21 | 69.06 | 66.99 | 33.59 | 29.86 | 68.92 | 64.15 | 65.37 | 63.36 | 56.44 |
-| [MinkUNet<sub>34</sub>](docs/results/MinkUNet-34_cr1.6.md) | 96.70 | 81.75 | 70.15 | 68.31 | 35.31 | 29.23 | 70.10 | 65.79 | 66.48 | 64.55 | 59.02 | 
-| [Cylinder3D<sub>TSC</sub>](docs/results/Cylinder3D-TS.md) | 108.01 | 79.75 | 65.93 | 63.09 | 23.16 | 27.96 | 65.72 | 62.08 | 62.99 | 60.34 | 55.27 |
+| <sup>:star:</sup>[MinkUNet<sub>18</sub>](docs/results/MinkUNet-18_cr1.0.md) | 100.00 |  | 69.06 | 66.99 | 60.59 | 57.75 | 68.92 | 64.15 | 65.37 | 63.36 | 56.44 |
+| [MinkUNet<sub>34</sub>](docs/results/MinkUNet-34_cr1.6.md) |  |  | 70.15 | 68.31 | 62.98 | 57.95 | 70.10 | 65.79 | 66.48 | 64.55 | 59.02 | 
+| [Cylinder3D<sub>TSC</sub>](docs/results/Cylinder3D-TS.md) |  |  | 65.93 | 63.09 | 59.40 | 58.43 | 65.72 | 62.08 | 62.99 | 60.34 | 55.27 |
 | |
-| [SPVCNN<sub>18</sub>](docs/results/SPVCNN-18_cr1.0.md) | 103.39 | 81.32 | 67.35 | 65.13 | 33.35 | 28.49 | 67.24 | 62.41 | 65.46 | 61.79 | 54.30 |
-| [SPVCNN<sub>34</sub>](docs/results/SPVCNN-34_cr1.6.md) | 98.31 | 82.59 | 69.01 | 67.10 | 37.16 | 30.64 | 68.92 | 64.67 | 64.70 | 64.14 | 58.63 |
+| [SPVCNN<sub>18</sub>](docs/results/SPVCNN-18_cr1.0.md) |  |  | 67.35 | 65.13 | 59.12 | 58.10 | 67.24 | 62.41 | 65.46 | 61.79 | 54.30 |
+| [SPVCNN<sub>34</sub>](docs/results/SPVCNN-34_cr1.6.md) |  |  | 69.01 | 67.10 | 62.41 | 57.57 | 68.92 | 64.67 | 64.70 | 64.14 | 58.63 |
 
 **Note:** Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation.
 
@@ -311,7 +311,7 @@ The *mean average precision (mAP)* and *nuScenes detection score (NDS)* are cons
 **Note:** Symbol <sup>:star:</sup> denotes the baseline model adopted in *mCE* calculation.
 
 
-### :taxi:&nbsp; WaymoOpen-C
+### :taxi:&nbsp; WOD-C
 
 <p align="center">
   <img src="docs/figs/stat/metrics_wod_det.png" align="center" width="100%">
