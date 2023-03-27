@@ -18,7 +18,7 @@
       <a href="https://scholar.google.com/citations?user=eGD0b7IAAAAJ" target='_blank'>Kai Chen</a><sup>1</sup>&nbsp;&nbsp;
       <a href="https://scholar.google.com/citations?user=lc45xlcAAAAJ" target='_blank'>Ziwei Liu</a><sup>6</sup>
     <br>
-  <sup>1</sup>Shanghai AI Laboratory&nbsp;&nbsp;
+  <small><sup>1</sup>Shanghai AI Lab&nbsp;&nbsp;</small>
   <sup>2</sup>National University of Singapore&nbsp;&nbsp;
   <sup>3</sup>Hochschule Bremerhaven&nbsp;&nbsp;
   <sup>4</sup>East China Normal University
