@@ -61,11 +61,11 @@
 
 | | | |
 | :---: | :---: | :---: |
-| <img src="docs/figs/teaser/clean.png"> | <img src="docs/figs/teaser/fog.png"> | <img src="docs/figs/teaser/wet_ground.png"> |
+| <img src="docs/figs/teaser/clean.png" width="240"> | <img src="docs/figs/teaser/fog.png" width="240"> | <img src="docs/figs/teaser/wet_ground.png" width="240"> |
 | **Clean** | **Fog** | **Wet Ground** |
-| <img src="docs/figs/teaser/snow.png"> | <img src="docs/figs/teaser/motion_blur.png"> | <img src="docs/figs/teaser/beam_missing.png">
+| <img src="docs/figs/teaser/snow.png" width="240"> | <img src="docs/figs/teaser/motion_blur.png" width="240"> | <img src="docs/figs/teaser/beam_missing.png" width="240">
 | **Snow** | **Motion Blur** | **Beam Missing** |
-| <img src="docs/figs/teaser/crosstalk.png"> | <img src="docs/figs/teaser/incomplete_echo.png"> | <img src="docs/figs/teaser/cross_sensor.png"> | 
+| <img src="docs/figs/teaser/crosstalk.png" width="240"> | <img src="docs/figs/teaser/incomplete_echo.png" width="240"> | <img src="docs/figs/teaser/cross_sensor.png" width="240"> | 
 | **Crosstalk** | **Incomplete Echo** | **Cross-Sensor** |
 | | | |
 
