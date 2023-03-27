@@ -74,7 +74,8 @@ Visit our [project page]() to explore more examples. :oncoming_automobile:
 
 
 ## Updates
-- [2023.01] - Launch of the `Robo3D` benchmark. In this initial version, we include **7** detectors (**12** variants) and **17** segmentors (**22** variants), evaluated on **4** large-scale autonomous driving datasets (KITTI, SemanticKITTI, nuScenes, and Waymo Open) with **8** corruption types across **3** severity levels.
+- \[2023.03\] - The `KITTI-C`, `SemanticKITTI-C`, and `nuScenes-C` datasets are ready for download at the [OpenDataLab](https://opendatalab.com/) platform. Kindly refer to [this](docs/DATA_PREPARE.md) page for more details on preparing these datasets. :beers:
+- \[2023.01\] - Launch of the `Robo3D` benchmark. In this initial version, we include **12** detectors and **22** segmentors, evaluated on **4** large-scale autonomous driving datasets (KITTI, SemanticKITTI, nuScenes, and Waymo Open) with **8** corruption types across **3** severity levels.
 
 
 ## Outline
