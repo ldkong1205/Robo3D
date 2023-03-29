@@ -26,7 +26,7 @@ def lidar_crosstalk_noise(pointcloud, percentage):
     return pointcloud, index
 
 def parse_arguments():
-    parser = argparse.ArgumentParser(description='LiDAR foggification')
+    parser = argparse.ArgumentParser(description='LiDAR crosstalk')
     parser.add_argument('-c', '--n_cpus', help='number of CPUs that should be used', type=int, default= mp.cpu_count())
     parser.add_argument('-f', '--n_features', help='number of point features', type=int, default=4)
     parser.add_argument('-r', '--root_folder', help='root folder of dataset', type=str,

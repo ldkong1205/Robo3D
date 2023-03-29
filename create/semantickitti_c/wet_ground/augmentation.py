@@ -357,7 +357,7 @@ def get_ground_plane_intensity_stats(pointcloud, recording=None, road_wettness=0
 
 def parse_arguments():
 
-    parser = argparse.ArgumentParser(description='LiDAR foggification')
+    parser = argparse.ArgumentParser(description='LiDAR wet ground')
 
     parser.add_argument('-c', '--n_cpus', help='number of CPUs that should be used', type=int, default= mp.cpu_count())
     parser.add_argument('-f', '--n_features', help='number of point features', type=int, default=4)

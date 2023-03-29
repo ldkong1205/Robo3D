@@ -24,7 +24,7 @@ with open("semantic-kitti.yaml", 'r') as stream:
 learning_map = semkittiyaml['learning_map']
 
 def parse_arguments():
-    parser = argparse.ArgumentParser(description='LiDAR foggification')
+    parser = argparse.ArgumentParser(description='LiDAR incomplete echo')
     parser.add_argument('-c', '--n_cpus', help='number of CPUs that should be used', type=int, default= mp.cpu_count())
     parser.add_argument('-f', '--n_features', help='number of point features', type=int, default=4)
     parser.add_argument('-r', '--root_folder', help='root folder of dataset',

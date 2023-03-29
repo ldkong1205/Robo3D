@@ -731,7 +731,7 @@ def augment(pc: np.ndarray, label: np.ndarray, particle_file_prefix: str, beam_d
     scattered = aug_pc[:, 4] == 2
     above_threshold = aug_pc[:, 3] > relative_output_intensity[:]
     scattered_or_above_threshold = np.logical_or(scattered, above_threshold)
-    print(aug_pc.shape)
+    # print(aug_pc.shape)
     num_removed = np.logical_not(scattered_or_above_threshold).sum()
     aug_pc = aug_pc[np.where(scattered_or_above_threshold)]
     aug_label = aug_label[np.where(scattered_or_above_threshold)]  #TODO 2
@@ -789,7 +789,7 @@ def xsi(R: float, R_1: float = 0.9, R_2: float = 1.0) -> float:
 
 def parse_arguments():
 
-    parser = argparse.ArgumentParser(description='LiDAR foggification')
+    parser = argparse.ArgumentParser(description='LiDAR snow')
 
     parser.add_argument('-c', '--n_cpus', help='number of CPUs that should be used', type=int, default= mp.cpu_count())
     parser.add_argument('-f', '--n_features', help='number of point features', type=int, default=4)
