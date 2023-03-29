@@ -356,12 +356,19 @@ You can manage to create your own "RoboDet" corrpution sets on other LiDAR-based
 If you find this work helpful, please kindly consider citing our paper:
 
 ```bibtex
-@ARTICLE{robo3d,
-  title={Robo3D: Towards Robust and Reliable 3D Perception against Corruptions},
-  author={xxx},
-  journal={arXiv preprint arXiv:23xx.xxxxx}, 
-  year={2023},
+@article{kong2023robo3d,
+  title = {Robo3D: Towards Robust and Reliable 3D Perception against Corruptions},
+  author = {Kong, Lingdong and Liu, Youquan and Li, Xin and Chen, Runnan and Zhang, Wenwei and Ren, Jiawei and Pan, Liang and Chen, Kai and Liu, Ziwei},
+  journal = {arXiv preprint arXiv:23xx.xxxxx}, 
+  year = {2023},
 }
+```
+```bibtex
+@misc{kong2023robo3d_benchmark,
+  title = {Robo3D: Towards Robust and Reliable 3D Perception against Corruptions},
+  author = {Kong, Lingdong and Liu, Youquan and Li, Xin and Chen, Runnan and Zhang, Wenwei and Ren, Jiawei and Pan, Liang and Chen, Kai and Liu, Ziwei},
+  howpublished = {\url{https://github.com/ldkong1205/Robo3D}},
+  year = {2023},
 ```
 
 
