@@ -55,7 +55,7 @@
 
 ## About
 `Robo3D` is an evaluation benchmark heading toward robust and reliable 3D perception in autonomous driving. With it, we probe the **robustness** of 3D **detectors** and **segmentors** under out-of-distribution (OoD) scenarios against **corruptions** that occur in the real-world environment. Specifically, we consider natural corruptions happen in the following cases:
-1. **Adversarial weather conditions**, such as `fog`, `wet ground`, and `snow`;
+1. **Adverse weather conditions**, such as `fog`, `wet ground`, and `snow`;
 2. **External disturbances** that are caused by `motion blur` or result in LiDAR `beam missing`;
 3. **Internal sensor failure**, including `crosstalk`, possible `incomplete echo`, and `cross-sensor` scenarios.
 
@@ -341,7 +341,7 @@ For more detailed experimental results and visual comparisons, please refer to [
 
 
 ## Create Corruption Set
-You can manage to create your own "RoboDet" corrpution sets on other LiDAR-based point cloud datasets using our defined corruption types! Follow the instructions listed in [CREATE.md](docs/CREATE.md).
+You can manage to create your own "Robo3D" corrpution sets on other LiDAR-based point cloud datasets using our defined corruption types! Follow the instructions listed in [CREATE.md](docs/CREATE.md).
 
 
 ## TODO List
