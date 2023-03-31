@@ -366,7 +366,7 @@ If you find this work helpful, please kindly consider citing our paper:
 ```
 ```bibtex
 @misc{kong2023robo3d_benchmark,
-  title = {Robo3D: Towards Robust and Reliable 3D Perception against Corruptions},
+  title = {The Robo3D Benchmark for Robust and Reliable 3D Perception},
   author = {Kong, Lingdong and Liu, Youquan and Li, Xin and Chen, Runnan and Zhang, Wenwei and Ren, Jiawei and Pan, Liang and Chen, Kai and Liu, Ziwei},
   howpublished = {\url{https://github.com/ldkong1205/Robo3D}},
   year = {2023},
