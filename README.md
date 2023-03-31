@@ -360,7 +360,7 @@ If you find this work helpful, please kindly consider citing our paper:
 @article{kong2023robo3d,
   title = {Robo3D: Towards Robust and Reliable 3D Perception against Corruptions},
   author = {Kong, Lingdong and Liu, Youquan and Li, Xin and Chen, Runnan and Zhang, Wenwei and Ren, Jiawei and Pan, Liang and Chen, Kai and Liu, Ziwei},
-  journal = {arXiv preprint arXiv:23xx.xxxxx}, 
+  journal = {arXiv preprint arXiv:2303.17597}, 
   year = {2023},
 }
 ```
@@ -380,6 +380,10 @@ This work is under the <a rel="license" href="http://creativecommons.org/license
 
 
 ## Acknowledgements
-To be updated.
+:heart: We thank Jiangmiao Pang and Tai Wang for their insightful discussions and feedback. We thank the [OpenDataLab](https://opendatalab.com/) platform for hosting the datasets.
+
+
+
+
 
 
