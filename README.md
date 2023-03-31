@@ -69,7 +69,7 @@
 | **Crosstalk** | **Incomplete Echo** | **Cross-Sensor** |
 | | | |
 
-Visit our [project page]() to explore more examples. :oncoming_automobile:
+Visit our [project page](https://ldkong.com/Robo3D) to explore more examples. :oncoming_automobile:
 
 
 
@@ -380,7 +380,9 @@ This work is under the <a rel="license" href="http://creativecommons.org/license
 
 
 ## Acknowledgements
-:heart: We thank Jiangmiao Pang and Tai Wang for their insightful discussions and feedback. We thank the [OpenDataLab](https://opendatalab.com/) platform for hosting the datasets.
+This work is developed based on the [MMDetection3D](https://github.com/open-mmlab/mmdetection3d) codebase.
+
+:heart: We thank Jiangmiao Pang and Tai Wang for their insightful discussions and feedback. We thank the [OpenDataLab](https://opendatalab.com/) platform for hosting our datasets.
 
 
 
