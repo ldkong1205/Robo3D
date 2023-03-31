@@ -30,11 +30,11 @@
 </p>
 
 <p align="center">
-  <a href="" target='_blank'>
+  <a href="https://arxiv.org/abs/2303.17597" target='_blank'>
     <img src="https://img.shields.io/badge/Paper-%F0%9F%93%83-slategray">
   </a>
   
-  <a href="" target='_blank'>
+  <a href="https://ldkong.com/Robo3D" target='_blank'>
     <img src="https://img.shields.io/badge/Project-%F0%9F%94%97-lightblue">
   </a>
   
