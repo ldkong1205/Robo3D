@@ -15,11 +15,11 @@
          │   │    └── wet_ground
          │   │── SemanticKITTI-C    
          │   │── nuScenes-C
-         │   └── WaymoOpen-C                                                                                   
+         │   └── WOD-C                                                                                   
          │── KITTI          
          │── SemanticKITTI       
          │── nuScenes                
-         └── WaymoOpen            
+         └── WOD            
 ```
 
 
@@ -152,7 +152,7 @@ Please note that you should cite the corresponding paper(s) once you use these d
 ```
 
 
-### WaymoOpen
+### Waymo Open
 
 ```bibtex
 @inproceedings{sun2020waymoopen,
