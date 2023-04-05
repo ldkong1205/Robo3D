@@ -54,7 +54,7 @@
 
 
 ## About
-`Robo3D` is an evaluation benchmark heading toward robust and reliable 3D perception in autonomous driving. With it, we probe the **robustness** of 3D **detectors** and **segmentors** under out-of-distribution (OoD) scenarios against **corruptions** that occur in the real-world environment. Specifically, we consider natural corruptions happen in the following cases:
+`Robo3D` is an evaluation suite heading toward robust and reliable 3D perception in autonomous driving. With it, we probe the **robustness** of 3D **detectors** and **segmentors** under out-of-distribution (OoD) scenarios against **corruptions** that occur in the real-world environment. Specifically, we consider natural corruptions happen in the following cases:
 1. **Adverse weather conditions**, such as `fog`, `wet ground`, and `snow`;
 2. **External disturbances** that are caused by `motion blur` or result in LiDAR `beam missing`;
 3. **Internal sensor failure**, including `crosstalk`, possible `incomplete echo`, and `cross-sensor` scenarios.
@@ -74,7 +74,7 @@ Visit our [project page](https://ldkong.com/Robo3D) to explore more examples. :o
 
 
 ## Updates
-- \[2023.03\] - We establish *"Robust 3D Perception"* leaderboards on [Paper-with-Code](https://paperswithcode.com/paper/robo3d-towards-robust-and-reliable-3d): <sup>1</sup>[`KITTI-C`](https://paperswithcode.com/dataset/kitti-c), <sup>2</sup>[`SemanticKITTI-C`](https://paperswithcode.com/dataset/semantickitti-c), <sup>3</sup>[`nuScenes-C`](https://paperswithcode.com/dataset/nuscenes-c), and <sup>4</sup>[`WOD-C`](https://paperswithcode.com/dataset/wod-c). Join the benchmark today! :raising_hand:
+- \[2023.03\] - We establish *"Robust 3D Perception"* leaderboards on [Paper-with-Code](https://paperswithcode.com/paper/robo3d-towards-robust-and-reliable-3d): <sup>1</sup>[`KITTI-C`](https://paperswithcode.com/dataset/kitti-c), <sup>2</sup>[`SemanticKITTI-C`](https://paperswithcode.com/dataset/semantickitti-c), <sup>3</sup>[`nuScenes-C`](https://paperswithcode.com/dataset/nuscenes-c), and <sup>4</sup>[`WOD-C`](https://paperswithcode.com/dataset/wod-c). Join the challenge today! :raising_hand:
 - \[2023.03\] - The `KITTI-C`, `SemanticKITTI-C`, and `nuScenes-C` datasets are ready for download at the [OpenDataLab](https://opendatalab.com/) platform. Kindly refer to [this](docs/DATA_PREPARE.md) page for more details on preparing these datasets. :beers:
 - \[2023.01\] - Launch of the `Robo3D` benchmark. In this initial version, we include **12** detectors and **22** segmentors, evaluated on **4** large-scale autonomous driving datasets (KITTI, SemanticKITTI, nuScenes, and Waymo Open) with **8** corruption types across **3** severity levels.
 
@@ -171,8 +171,10 @@ To learn more usage about this codebase, kindly refer to [GET_STARTED.md](docs/G
 > - [x] **[SECOND](https://www.mdpi.com/1424-8220/18/10/3337), Sensors 2018.** <sup>[**`[Code]`**](https://github.com/traveller59/second.pytorch)</sup>
 > - [x] **[PointPillars](https://arxiv.org/abs/1812.05784), CVPR 2019.** <sup>[**`[Code]`**](https://github.com/nutonomy/second.pytorch)</sup>
 > - [x] **[PointRCNN](https://arxiv.org/abs/1812.04244), CVPR 2019.** <sup>[**`[Code]`**](https://github.com/sshaoshuai/PointRCNN)</sup>
-> - [x] **[Part-A2](https://arxiv.org/abs/1907.03670), TPAMI 2020.**
+> - [x] **[Part-A2](https://arxiv.org/abs/1907.03670), T-PAMI 2020.**
 > - [x] **[PV-RCNN](https://arxiv.org/abs/1912.13192), CVPR 2020.** <sup>[**`[Code]`**](https://github.com/sshaoshuai/PV-RCNN)</sup>
+> - [ ] **[3DSSD](https://arxiv.org/abs/2002.10187), CVPR 2020.** <sup>[**`[Code]`**](https://github.com/open-mmlab/mmdetection3d/tree/master/configs/3dssd)</sup>
+> - [ ] **[SA-SSD](https://openaccess.thecvf.com/content_CVPR_2020/html/He_Structure_Aware_Single-Stage_3D_Object_Detection_From_Point_Cloud_CVPR_2020_paper.html), CVPR 2020.** <sup>[**`[Code]`**](https://github.com/open-mmlab/mmdetection3d/tree/master/configs/sassd)</sup>
 > - [x] **[CenterPoint](https://arxiv.org/abs/2006.11275), CVPR 2021.** <sup>[**`[Code]`**](https://github.com/tianweiy/CenterPoint)</sup>
 > - [x] **[PV-RCNN++](https://arxiv.org/abs/2102.00463), IJCV 2022.** <sup>[**`[Code]`**](https://github.com/open-mmlab/OpenPCDet)</sup>
 > - [ ] **[SphereFormer](https://arxiv.org/abs/2303.12766), CVPR 2023.** <sup>[**`[Code]`**](https://github.com/dvlab-research/SphereFormer)</sup>
