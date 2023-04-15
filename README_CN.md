@@ -39,7 +39,7 @@
   </a>
   
   <a href="" target='_blank'>
-    <img src="https://img.shields.io/badge/Demo-%F0%9F%8E%AC-pink">
+    <img src="https://img.shields.io/badge/演示-%F0%9F%8E%AC-pink">
   </a>
   
   <a href="" target='_blank'>
@@ -54,9 +54,9 @@
 
 
 ## 项目概览
-`Robo3D` is an evaluation suite heading toward robust and reliable 3D perception in autonomous driving. With it, we probe the **robustness** of 3D **detectors** and **segmentors** under out-of-distribution (OoD) scenarios against **corruptions** that occur in the real-world environment. Specifically, we consider natural corruptions happen in the following cases:
+`Robo3D` 是一个详实的鲁棒性评测套件，旨在于自动驾驶场景中实现稳健且可靠的3D感知。 基于此套件，我们探究了3D检测器和3D分割器在分布外 (OoD) 场景下对于真实环境中发生的数据"损坏"条件下的鲁棒性。 具体地，我们共考虑了以下几种可能发生数据"损坏"的情形:
 1. **恶劣天气情况**, 例如 `雾天`, `潮湿地面`, 以及 `雪天`;
-2. **外界干扰情况**, 例如 `运动模糊` 和 LiDAR `射线丢失`;
+2. **外界干扰情况**, 例如 `运动模糊` 和 激光雷达 `射线丢失`;
 3. **内部传感器损坏**, 例如 `交扰`, `非完整回声`, 以及 `跨传感器` 情形.
 
 | | | |
@@ -69,19 +69,19 @@
 | **交扰** | **非完整回声** | **跨传感器** |
 | | | |
 
-Visit our [项目主页](https://ldkong.com/Robo3D) to explore more examples. :oncoming_automobile:
+请参阅我们的[项目主页](https://ldkong.com/Robo3D)以获取更多细节与例子. :oncoming_automobile:
 
 
 
 ## 版本更新
-- \[2023.03\] - We establish *"Robust 3D Perception"* leaderboards on [Paper-with-Code](https://paperswithcode.com/paper/robo3d-towards-robust-and-reliable-3d): <sup>1</sup>[`KITTI-C`](https://paperswithcode.com/dataset/kitti-c), <sup>2</sup>[`SemanticKITTI-C`](https://paperswithcode.com/dataset/semantickitti-c), <sup>3</sup>[`nuScenes-C`](https://paperswithcode.com/dataset/nuscenes-c), and <sup>4</sup>[`WOD-C`](https://paperswithcode.com/dataset/wod-c). Join the challenge today! :raising_hand:
+- \[2023.03\] - 我们在 [Paper-with-Code](https://paperswithcode.com/paper/robo3d-towards-robust-and-reliable-3d) 平台搭建了如下 *"鲁棒3D感知"* 基线: <sup>1</sup>[`KITTI-C`](https://paperswithcode.com/dataset/kitti-c), <sup>2</sup>[`SemanticKITTI-C`](https://paperswithcode.com/dataset/semantickitti-c), <sup>3</sup>[`nuScenes-C`](https://paperswithcode.com/dataset/nuscenes-c), and <sup>4</sup>[`WOD-C`](https://paperswithcode.com/dataset/wod-c). 现在就加入鲁棒性评测吧! :raising_hand:
 - \[2023.03\] - The `KITTI-C`, `SemanticKITTI-C`, and `nuScenes-C` datasets are ready for download at the [OpenDataLab](https://opendatalab.com/) platform. Kindly refer to [this](docs/DATA_PREPARE.md) page for more details on preparing these datasets. :beers:
 - \[2023.01\] - Launch of the `Robo3D` benchmark. In this initial version, we include **12** detectors and **22** segmentors, evaluated on **4** large-scale autonomous driving datasets (KITTI, SemanticKITTI, nuScenes, and Waymo Open) with **8** corruption types across **3** severity levels.
 
 
 ## 大纲
 - [分类](#分类)
-- [视频Demo](#视频demo)
+- [视频演示](#视频演示)
 - [安装](#安装)
 - [数据准备](#数据准备)
 - [开始实验](#开始实验)
@@ -107,7 +107,7 @@ Visit our [项目主页](https://ldkong.com/Robo3D) to explore more examples. :o
 | | | | | 
 
 
-## 视频Demo
+## 视频演示
 | Demo 1 | Demo 2| Demo 3 | 
 | :-: | :-: | :-: |
 | <img width="100%" src="docs/figs/demo1.png"> |  <img width="100%" src="docs/figs/demo2.png"> |  <img width="100%" src="docs/figs/demo3.png"> | 
