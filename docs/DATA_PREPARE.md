@@ -24,13 +24,39 @@
 
 
 ## KITTI
+To install the [KITTI](https://www.cvlibs.net/datasets/kitti/index.php) dataset, download the data, annotations, and other files from https://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d. Unpack the compressed file(s) into `/data/sets/kitti` and re-organize the data structure. Your folder structure should end up looking like this:
 
-To be updated.
-
+```
+└── kitti  
+    ├── ImageSets
+    │       ├── train.txt
+    │       └── val.txt
+    ├── training
+    │       └── calib & velodyne & label_2 & image_2 & (optional: planes) & (optional: depth_2)
+    └── testing
+            └── calib & velodyne & image_2
+```
 
 ## KITTI-C
 
-To be updated.
+Download the `KITTI-C` dataset at the [OpenDataLab](https://opendatalab.com/) platform and unpack it. Alternatively, you can follow the `create` folder for generation.  Your folder structure should end up looking like this:
+
+```  
+└── KITTI-C  
+    ├── fog
+    │    ├── light
+    │    │     └── velodyne         
+    │    │         
+    │    ├── moderate
+    │    └── heavy
+    ├── wet_ground
+    ├── snow
+    ├── motion_blur
+    ├── beam_missing
+    ├── crosstalk
+    ├── incomplete_echo
+    └── cross_sensor
+```
 
 
 
@@ -59,7 +85,23 @@ To install the [SemanticKITTI](http://semantic-kitti.org/index) dataset, downloa
 
 ## SemanticKITTI-C
 
-To be updated.
+Download the `SemanticKITTI-C` dataset at the [OpenDataLab](https://opendatalab.com/) platform and unpack it. Alternatively, you can follow the `create` folder for generation.  Your folder structure should end up looking like this:
+```  
+└── SemanticKITTI-C  
+    ├── fog
+    │    ├── light
+    │    │     ├── velodyne           
+    │    │     └── labels    
+    │    ├── moderate
+    │    └── heavy
+    ├── wet_ground
+    ├── snow
+    ├── motion_blur
+    ├── beam_missing
+    ├── crosstalk
+    ├── incomplete_echo
+    └── cross_sensor
+```
 
 
 ## nuScenes
@@ -77,17 +119,35 @@ To install the [nuScenes](https://www.nuscenes.org/nuscenes) dataset, download t
     │                                      have any .bin files associated with it)
     │
     └── v1.0-{mini, test, trainval}
-        ├── Usual files (e.g. attribute.json, calibrated_sensor.json etc.)
-        ├── lidarseg.json  <- contains the mapping of each .bin file to the token   
-        └── category.json  <- contains the categories of the labels (note that the 
-                              category.json from nuScenes v1.0 is overwritten)
+    |   ├── Usual files (e.g. attribute.json, calibrated_sensor.json etc.)
+    |   ├── lidarseg.json  <- contains the mapping of each .bin file to the token   
+    |   └── category.json  <- contains the categories of the labels (note that the 
+    |                         category.json from nuScenes v1.0 is overwritten)
+    |
+    └──  nuscenes_infos_val.pkl  
 ```
-
+Notably that nuscenes_infos_val.pkl we follow the data pre-processing in [Cylinder3D](https://github.com/xinge008/Cylinder3D/blob/master/NUSCENES-GUIDE.md) to prepare the nuscenes_info file for nuScenes validation set. You can find nuscenes_infos_val.pkl in [Link](https://drive.google.com/drive/folders/1zSZ9xE4UkKBMCMH0le7KdSxvbyjuuUp8). 
 
 ## nuScenes-C
 
-To be updated.
+Download the `nuScenes-C` dataset at the [OpenDataLab](https://opendatalab.com/) platform and unpack it. Alternatively, you can follow the `create` folder for generation and you need to download the precomputed snowflake patterns in [Link](https://drive.google.com/drive/folders/1Rx_OBWXBl6OxsHVVtn0YPloUlPlH_TUk?usp=sharing) and put it into `./Robo3D/create/nuscenes_c/snow` folder.  Your folder structure should end up looking like this:
 
+```  
+└── nuScenes-C  
+    ├── fog
+    │    ├── light
+    │    │     ├── samples/LIDAR_TOP        
+    │    │     └── lidarseg/v1.0-trainval   
+    │    ├── moderate
+    │    └── heavy
+    ├── wet_ground
+    ├── snow
+    ├── motion_blur
+    ├── beam_missing
+    ├── crosstalk
+    ├── incomplete_echo
+    └── cross_sensor
+```
 
 ## WaymoOpen
 
