@@ -25,4 +25,4 @@ torchsparse_dir/
 *.egg-info/
 *.log
 *.pth
-*.sh
+
