@@ -111,7 +111,7 @@ Visit our [project page](https://ldkong.com/Robo3D) to explore more examples. :o
 | Demo 1 | Demo 2| Demo 3 | 
 | :-: | :-: | :-: |
 | <img width="100%" src="docs/figs/demo1.png"> |  <img width="100%" src="docs/figs/demo2.png"> |  <img width="100%" src="docs/figs/demo3.png"> | 
-| [Link](https://youtu.be/) <sup>:arrow_heading_up:</sup> | [Link](https://youtu.be/) <sup>:arrow_heading_up:</sup> | [Link](https://youtu.be/) <sup>:arrow_heading_up:</sup> |
+| [Link](https://www.youtube.com/watch?v=kM8n-jMg0qw) <sup>:arrow_heading_up:</sup> | [Link](https://www.youtube.com/watch?v=7fk1jLOdB4Y) <sup>:arrow_heading_up:</sup> | [Link](https://www.youtube.com/watch?v=u22aB3_A_CI) <sup>:arrow_heading_up:</sup> |
 
 
 ## Installation
