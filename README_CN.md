@@ -76,8 +76,8 @@
 ## 版本更新
 - \[2023.07\] - Robo3D 被收录于 [ICCV 2023](https://iccv2023.thecvf.com/)! 🎉
 - \[2023.03\] - 我们在 [Paper-with-Code](https://paperswithcode.com/paper/robo3d-towards-robust-and-reliable-3d) 平台搭建了如下 *"鲁棒3D感知"* 基线: <sup>1</sup>[`KITTI-C`](https://paperswithcode.com/dataset/kitti-c), <sup>2</sup>[`SemanticKITTI-C`](https://paperswithcode.com/dataset/semantickitti-c), <sup>3</sup>[`nuScenes-C`](https://paperswithcode.com/dataset/nuscenes-c), and <sup>4</sup>[`WOD-C`](https://paperswithcode.com/dataset/wod-c). 现在就加入鲁棒性评测吧! :raising_hand:
-- \[2023.03\] - The `KITTI-C`, `SemanticKITTI-C`, and `nuScenes-C` datasets are ready for download at the [OpenDataLab](https://opendatalab.com/) platform. Kindly refer to [this](docs/DATA_PREPARE.md) page for more details on preparing these datasets. :beers:
-- \[2023.01\] - Launch of the `Robo3D` benchmark. In this initial version, we include **12** detectors and **22** segmentors, evaluated on **4** large-scale autonomous driving datasets (KITTI, SemanticKITTI, nuScenes, and Waymo Open) with **8** corruption types across **3** severity levels.
+- \[2023.03\] - `KITTI-C`, `SemanticKITTI-C` 以及 `nuScenes-C` 数据集可以在 [OpenDataLab](https://opendatalab.com/) 平台上下载. 请参阅 [这份](docs/DATA_PREPARE.md) 项目文档以了解更多有关数据准备的细节. :beers:
+- \[2023.01\] - `Robo3D` 基线现已上线. 在这个初步版本中, 我们测试了 **12** 种3D检测器和 **22** 种3D分割器在 **4** 个大规模自动驾驶感知数据集 (KITTI, SemanticKITTI, nuScenes 以及 Waymo Open) 上的 **8** 种"损坏"条件下的鲁棒性.
 
 
 ## 大纲
@@ -112,7 +112,7 @@
 | Demo 1 | Demo 2| Demo 3 | 
 | :-: | :-: | :-: |
 | <img width="100%" src="docs/figs/demo1.png"> |  <img width="100%" src="docs/figs/demo2.png"> |  <img width="100%" src="docs/figs/demo3.png"> | 
-| [链接](https://youtu.be/) <sup>:arrow_heading_up:</sup> | [链接](https://youtu.be/) <sup>:arrow_heading_up:</sup> | [链接](https://youtu.be/) <sup>:arrow_heading_up:</sup> |
+| [链接](https://www.youtube.com/watch?v=kM8n-jMg0qw) <sup>:arrow_heading_up:</sup> | [链接](https://www.youtube.com/watch?v=7fk1jLOdB4Y) <sup>:arrow_heading_up:</sup> | [链接](https://www.youtube.com/watch?v=u22aB3_A_CI) <sup>:arrow_heading_up:</sup> |
 
 
 ## 安装
