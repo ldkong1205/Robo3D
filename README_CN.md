@@ -74,6 +74,7 @@
 
 
 ## 版本更新
+- \[2023.07\] - Robo3D 被收录于 [ICCV 2023](https://iccv2023.thecvf.com/)! 🎉
 - \[2023.03\] - 我们在 [Paper-with-Code](https://paperswithcode.com/paper/robo3d-towards-robust-and-reliable-3d) 平台搭建了如下 *"鲁棒3D感知"* 基线: <sup>1</sup>[`KITTI-C`](https://paperswithcode.com/dataset/kitti-c), <sup>2</sup>[`SemanticKITTI-C`](https://paperswithcode.com/dataset/semantickitti-c), <sup>3</sup>[`nuScenes-C`](https://paperswithcode.com/dataset/nuscenes-c), and <sup>4</sup>[`WOD-C`](https://paperswithcode.com/dataset/wod-c). 现在就加入鲁棒性评测吧! :raising_hand:
 - \[2023.03\] - The `KITTI-C`, `SemanticKITTI-C`, and `nuScenes-C` datasets are ready for download at the [OpenDataLab](https://opendatalab.com/) platform. Kindly refer to [this](docs/DATA_PREPARE.md) page for more details on preparing these datasets. :beers:
 - \[2023.01\] - Launch of the `Robo3D` benchmark. In this initial version, we include **12** detectors and **22** segmentors, evaluated on **4** large-scale autonomous driving datasets (KITTI, SemanticKITTI, nuScenes, and Waymo Open) with **8** corruption types across **3** severity levels.
