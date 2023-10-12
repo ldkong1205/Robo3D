@@ -366,7 +366,7 @@ If you find this work helpful, please kindly consider citing our paper:
 
 ```bibtex
 @inproceedings{kong2023robo3d,
-    author = {Kong, Lingdong and Liu, Youquan and Li, Xin and Chen, Runnan and Zhang, Wenwei and Ren, Jiawei and Pan, Liang and Chen, Kai and Liu, Ziwei},
+    author = {Lingdong Kong and Youquan Liu and Xin Li and Runnan Chen and Wenwei Zhang and Jiawei Ren and Liang Pan and Kai Chen and Ziwei Liu},
     title = {Robo3D: Towards Robust and Reliable 3D Perception against Corruptions},
     booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
     pages = {19994--20006},
