@@ -39,14 +39,40 @@ To install the [KITTI](https://www.cvlibs.net/datasets/kitti/index.php) dataset,
 
 ## KITTI-C
 
-Download the `KITTI-C` dataset at the [OpenDataLab](https://opendatalab.com/) platform and unpack it. Alternatively, you can follow the `create` folder for generation.  Your folder structure should end up looking like this:
+Download the `KITTI-C` dataset at the [OpenDataLab](https://opendatalab.com/) platform and unpack it.
+- Direct download:
+  - Go to https://opendatalab.com/OpenDataLab/KITTI-C/tree/main/raw.
+  - Click the `download` button on the right to download the dataset.
+- CLI download:
+  - Install the `openxlab` package.
+  - ```
+    pip install openxlab
+    ```
+  - Use the following command to download the dataset.
+  - 
+    ```
+    openxlab dataset get --dataset-repo OpenDataLab/KITTI-C
+    ```
+- Python SDK download:
+  - Install the `openxlab` package.
+  - ```
+    pip install openxlab
+    ```
+  - Use the following command to download the dataset.
+  - ```
+    from openxlab.dataset import get
+    get(dataset_repo='OpenDataLab/KITTI-C', target_path='/path/to/local/folder/')
+    ```
+
+Alternatively, you can follow the `create` folder for generating corrupted data.
+
+Your folder structure should end up looking like this:
 
 ```  
 └── KITTI-C  
     ├── fog
     │    ├── light
-    │    │     └── velodyne         
-    │    │         
+    │    │     └── velodyne              
     │    ├── moderate
     │    └── heavy
     ├── wet_ground
@@ -85,7 +111,34 @@ To install the [SemanticKITTI](http://semantic-kitti.org/index) dataset, downloa
 
 ## SemanticKITTI-C
 
-Download the `SemanticKITTI-C` dataset at the [OpenDataLab](https://opendatalab.com/) platform and unpack it. Alternatively, you can follow the `create` folder for generation.  Your folder structure should end up looking like this:
+Download the `SemanticKITTI-C` dataset at the [OpenDataLab](https://opendatalab.com/) platform and unpack it.
+- Direct download:
+  - Go to https://opendatalab.com/OpenDataLab/SemanticKITTI-C/tree/main/raw.
+  - Click the `download` button on the right to download the dataset.
+- CLI download:
+  - Install the `openxlab` package.
+  - ```
+    pip install openxlab
+    ```
+  - Use the following command to download the dataset.
+  - 
+    ```
+    openxlab dataset get --dataset-repo OpenDataLab/SemanticKITTI-C
+    ```
+- Python SDK download:
+  - Install the `openxlab` package.
+  - ```
+    pip install openxlab
+    ```
+  - Use the following command to download the dataset.
+  - ```
+    from openxlab.dataset import get
+    get(dataset_repo='OpenDataLab/SemanticKITTI-C', target_path='/path/to/local/folder/')
+    ```
+
+Alternatively, you can follow the `create` folder for generating corrupted data.
+
+Your folder structure should end up looking like this:
 ```  
 └── SemanticKITTI-C  
     ├── fog
@@ -126,11 +179,40 @@ To install the [nuScenes](https://www.nuscenes.org/nuscenes) dataset, download t
     |
     └──  nuscenes_infos_val.pkl  
 ```
-Notably that nuscenes_infos_val.pkl we follow the data pre-processing in [Cylinder3D](https://github.com/xinge008/Cylinder3D/blob/master/NUSCENES-GUIDE.md) to prepare the nuscenes_info file for nuScenes validation set. You can find nuscenes_infos_val.pkl in [Link](https://drive.google.com/drive/folders/1zSZ9xE4UkKBMCMH0le7KdSxvbyjuuUp8). 
+Notably, we follow the data pre-processing in [Cylinder3D](https://github.com/xinge008/Cylinder3D/blob/master/NUSCENES-GUIDE.md) to prepare the `nuscenes_infos_val.pkl` file for the nuScenes validation set. You can find the `nuscenes_infos_val.pkl` file from [this](https://drive.google.com/drive/folders/1zSZ9xE4UkKBMCMH0le7KdSxvbyjuuUp8) link. 
 
 ## nuScenes-C
 
-Download the `nuScenes-C` dataset at the [OpenDataLab](https://opendatalab.com/) platform and unpack it. Alternatively, you can follow the `create` folder for generation and you need to download the precomputed snowflake patterns in [Link](https://drive.google.com/drive/folders/1Rx_OBWXBl6OxsHVVtn0YPloUlPlH_TUk?usp=sharing) and put it into `./Robo3D/create/nuscenes_c/snow` folder.  Your folder structure should end up looking like this:
+Download the `nuScenes-C` dataset at the [OpenDataLab](https://opendatalab.com/) platform and unpack it.
+
+Download the `nuScenes-C` dataset at the [OpenDataLab](https://opendatalab.com/) platform and unpack it.
+- Direct download:
+  - Go to https://opendatalab.com/OpenDataLab/nuScenes-C/tree/main/raw.
+  - Click the `download` button on the right to download the dataset.
+- CLI download:
+  - Install the `openxlab` package.
+  - ```
+    pip install openxlab
+    ```
+  - Use the following command to download the dataset.
+  - 
+    ```
+    openxlab dataset get --dataset-repo OpenDataLab/nuScenes-C
+    ```
+- Python SDK download:
+  - Install the `openxlab` package.
+  - ```
+    pip install openxlab
+    ```
+  - Use the following command to download the dataset.
+  - ```
+    from openxlab.dataset import get
+    get(dataset_repo='OpenDataLab/nuScenes-C', target_path='/path/to/local/folder/')
+    ```
+
+Alternatively, you can follow the `create` folder for generating corrupted data. You will need to download the precomputed snowflake patterns in [Link](https://drive.google.com/drive/folders/1Rx_OBWXBl6OxsHVVtn0YPloUlPlH_TUk?usp=sharing) and put it into `./Robo3D/create/nuscenes_c/snow` folder.
+
+Your folder structure should end up looking like this:
 
 ```  
 └── nuScenes-C  
