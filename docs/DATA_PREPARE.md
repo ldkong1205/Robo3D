@@ -1,4 +1,4 @@
-<img src="./figs/logo2.png" align="right" width="30%">
+<img src="https://github.com/ldkong1205/Robo3D/blob/main/docs/figs/logo2.png" align="right" width="30%">
 
 # Data Preparation
 
