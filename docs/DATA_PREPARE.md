@@ -39,7 +39,7 @@ To install the [KITTI](https://www.cvlibs.net/datasets/kitti/index.php) dataset,
 
 ## KITTI-C
 
-Download the `KITTI-C` dataset at the [OpenDataLab](https://opendatalab.com/) platform and unpack it.
+Download the `KITTI-C` dataset from the [OpenDataLab](https://opendatalab.com/) platform and unpack it.
 - Direct download:
   - Go to https://opendatalab.com/OpenDataLab/KITTI-C/tree/main/raw.
   - Click the `download` button on the right to download the dataset.
@@ -111,7 +111,7 @@ To install the [SemanticKITTI](http://semantic-kitti.org/index) dataset, downloa
 
 ## SemanticKITTI-C
 
-Download the `SemanticKITTI-C` dataset at the [OpenDataLab](https://opendatalab.com/) platform and unpack it.
+Download the `SemanticKITTI-C` dataset from the [OpenDataLab](https://opendatalab.com/) platform and unpack it.
 - Direct download:
   - Go to https://opendatalab.com/OpenDataLab/SemanticKITTI-C/tree/main/raw.
   - Click the `download` button on the right to download the dataset.
@@ -183,11 +183,9 @@ Notably, we follow the data pre-processing in [Cylinder3D](https://github.com/xi
 
 ## nuScenes-C
 
-Download the `nuScenes-C` dataset at the [OpenDataLab](https://opendatalab.com/) platform and unpack it.
-
-Download the `nuScenes-C` dataset at the [OpenDataLab](https://opendatalab.com/) platform and unpack it.
+Download the `nuScenes-C` dataset from the [OpenDataLab](https://opendatalab.com/) platform and unpack it.
 - Direct download:
-  - Go to https://opendatalab.com/OpenDataLab/nuScenes-C/tree/main/raw.
+  - Go to https://opendatalab.com/OpenDataLab/nuScenes-C/tree/main/raw/pointcloud.
   - Click the `download` button on the right to download the dataset.
 - CLI download:
   - Install the `openxlab` package.
