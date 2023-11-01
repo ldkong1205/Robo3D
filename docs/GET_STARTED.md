@@ -21,7 +21,7 @@
 
 ## Robustness Evaluation
 
-:warning: **Important:** By default, we evaluate the model on the corruption set after each epoch, **without** using extra tricks including model ensemble and test-time-augmentation (TTA). To ensure fair comparisons, we suggest you follow the **same** configuration strictly.
+:warning: **Important:** By default, we evaluate the model's robustness on the corruption sets **without** using extra tricks including model ensemble and test-time-augmentation (TTA). To ensure fair comparisons, we suggest you follow the **same** configuration strictly.
 
 Our generated corruption sets follow the same dataset structure as the original validation sets. You can think of each severity level as one validation set and interactively validate all three levels from every corruption type.
 
