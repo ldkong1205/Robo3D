@@ -8,7 +8,7 @@
 
   <p align="center">
       <a href="https://scholar.google.com/citations?user=-j1j7TkAAAAJ" target='_blank'>Lingdong Kong</a><sup>1,2,*</sup>&nbsp;&nbsp;&nbsp;
-      <a href="" target='_blank'>Youquan Liu</a><sup>1,3,*</sup>&nbsp;&nbsp;&nbsp;
+      <a href="https://github.com/youquanl" target='_blank'>Youquan Liu</a><sup>1,3,*</sup>&nbsp;&nbsp;&nbsp;
       <a href="https://scholar.google.com/citations?user=7atts2cAAAAJ" target='_blank'>Xin Li</a><sup>1,4,*</sup>&nbsp;&nbsp;&nbsp;
       <a href="https://scholar.google.com/citations?user=Uq2DuzkAAAAJ" target='_blank'>Runnan Chen</a><sup>1,5</sup>&nbsp;&nbsp;&nbsp;
       <a href="https://scholar.google.com/citations?user=QDXADSEAAAAJ" target='_blank'>Wenwei Zhang</a><sup>1,6</sup>
@@ -191,7 +191,7 @@ To learn more usage about this codebase, kindly refer to [GET_STARTED.md](docs/G
 
 ### LiDAR Semantic Segmentation
 
-The *mean Intersection-over-Union (mIoU)* is consistently used as the main indicator for evaluating model performance in our  LiDAR semantic segmentation benchmark. The following two metrics are adopted to compare between models' robustness:
+The *mean Intersection-over-Union (mIoU)* is consistently used as the main indicator for evaluating model performance in our  LiDAR semantic segmentation benchmark. The following two metrics are adopted to compare among models' robustness:
 - **mCE (the lower the better):** The *average corruption error* (in percentage) of a candidate model compared to the baseline model, which is calculated among all corruption types across three severity levels.
 - **mRR (the higher the better):** The *average resilience rate* (in percentage) of a candidate model compared to its "clean" performance, which is calculated among all corruption types across three severity levels.
 
@@ -349,14 +349,14 @@ For more detailed experimental results and visual comparisons, please refer to [
 
 
 ## Create Corruption Set
-You can manage to create your own "Robo3D" corrpution sets on other LiDAR-based point cloud datasets using our defined corruption types! Follow the instructions listed in [CREATE.md](docs/CREATE.md).
+You can manage to create your own "Robo3D" corruption sets on other LiDAR-based point cloud datasets using our defined corruption types! Follow the instructions listed in [CREATE.md](docs/CREATE.md).
 
 
 ## TODO List
 - [x] Initial release. 🚀
 - [x] Add scripts for creating common corruptions.
 - [x] Add download links for corruption sets.
-- [ ] Add evaluation scripts on corruption sets.
+- [x] Add evaluation scripts on corruption sets.
 - [ ] Release checkpoints.
 - [ ] ...
 
@@ -376,7 +376,7 @@ If you find this work helpful, please kindly consider citing our paper:
 ```bibtex
 @misc{kong2023robo3d_benchmark,
   title = {The Robo3D Benchmark for Robust and Reliable 3D Perception},
-  author = {Kong, Lingdong and Liu, Youquan and Li, Xin and Chen, Runnan and Zhang, Wenwei and Ren, Jiawei and Pan, Liang and Chen, Kai and Liu, Ziwei},
+  author = {Lingdong Kong and Youquan Liu and Xin Li and Runnan Chen and Wenwei Zhang and Jiawei Ren and Liang Pan and Kai Chen and Ziwei Liu},
   howpublished = {\url{https://github.com/ldkong1205/Robo3D}},
   year = {2023},
 }
