@@ -66,7 +66,8 @@ Follow the code blocks below to calculate the mean Corruption Error (mCE) and me
       return mRR, RR
   ```
 
-### Baseline
+
+## Baseline
 
 We select [CenterPoint](https://github.com/ldkong1205/Robo3D/blob/main) and [MinkUNet](https://github.com/ldkong1205/Robo3D/blob/main/docs/results/MinkUNet-18_cr1.0.md) as the baseline models for the 3D object detection and LiDAR segmentation tasks, respectively.
 
@@ -101,7 +102,24 @@ The **scores** of baseline models from each corruption set are attached as follo
   mRR: 81.90%.
   RR: [89.02 86.03 84.89 52.45 89.74 92.96 86.73 73.37].
   ```
-- 
+
+- **KITTI-C:**
+  ```python
+  CenterPoint = {
+    # type,             mAP,
+    'clean':           [68.70], 
+    'fog':             [53.10],
+    'wet_ground':      [68.71],
+    'snow':            [48.56],
+    'motion_blur':     [47.94],
+    'beam_missing':    [49.88],
+    'crosstalk':       [66.00],
+    'incomplete_echo': [58.90],
+    'cross_sensor':    [45.12],
+  }
+  ```
+
+- nuScenes-C (Seg3D):
 
 
 
