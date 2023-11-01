@@ -53,10 +53,12 @@ Follow the code blocks below to calculate the mean Corruption Error (mCE) and me
       score_baseline = [baseline[key][0] for key in baseline.keys() if key != 'clean']
       score_baseline = 100 - np.array(score_baseline)
       CE = score / score_baseline
+  
       mCE = np.mean(CE)
       print("mCE: {:.2f}%.".format(mCE * 100))
       CE = np.round(CE * 100, 2)
       print("CE: {}.".format(CE))
+  
       return mCE, CE
   ```
   
@@ -66,10 +68,12 @@ Follow the code blocks below to calculate the mean Corruption Error (mCE) and me
       score = [model[key][0] for key in model.keys() if key != 'clean']
       score = np.array(score)
       RR = score / model['clean'][0]
+  
       mRR = np.mean(RR)
       print("mRR: {:.2f}%.".format(mRR * 100))
       RR = np.round(RR * 100, 2)
       print("RR: {}.".format(RR))
+  
       return mRR, RR
   ```
 
