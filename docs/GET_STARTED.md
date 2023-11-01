@@ -2,6 +2,13 @@
 
 # Getting Started
 
+- [**Model Training**](#model-training)
+- [**Robustness Evaluation**](#robustness-evaluation)
+  - [**Definition**](#definition)
+  - [**Calculation**](#calculation)
+- [**Baseline**](#baseline)
+- [**Custom Model**](#custom-model)
+
 ## Model Training
 
 - This task aims to probe the **out-of-distribution (OoD) generalization** of 3D object detection and LiDAR segmentation models. We assume the training data come from the **original** datasets directly, **without** knowing the distributions of corrupted data beforehand.
@@ -93,14 +100,14 @@ The **scores** of baseline models from each corruption set are attached as follo
   ```
   ```python
   mCE: 100.00%.
-  CE: [100. 100. 100. 100. 100. 100. 100. 100.].
+  CE: [ 100. 100. 100. 100. 100. 100. 100. 100. ].
   ```
   ```python
   MinkUNet_18_cr10_mRR, MinkUNet_18_cr10_RR = calculate_mRR(MinkUNet_18_cr10)
   ```
   ```python
   mRR: 81.90%.
-  RR: [89.02 86.03 84.89 52.45 89.74 92.96 86.73 73.37].
+  RR: [ 89.02 86.03 84.89 52.45 89.74 92.96 86.73 73.37 ].
   ```
 
 - **KITTI-C:**
@@ -118,10 +125,169 @@ The **scores** of baseline models from each corruption set are attached as follo
     'cross_sensor':    [45.12],
   }
   ```
+  ```python
+  CenterPoint_mCE = calculate_mCE(CenterPoint, CenterPoint)
+  ```
+  ```python
+  mCE: 100.00%.
+  CE: [ 100. 100. 100. 100. 100. 100. 100. 100. ].
+  ```
+  ```python
+  CenterPoint_mRR = calculate_mRR(CenterPoint)
+  ```
+  ```python
+  mRR: 79.73%.
+  RR: [ 77.29 100.01 70.68 69.78 72.61 96.07 85.74 65.68 ].
+  ```
 
-- nuScenes-C (Seg3D):
+
+- **nuScenes-C (Seg3D):**
+  ```python
+  MinkUNet_18_cr10 = {
+    # type,             mIoU,
+    'clean':           [75.76], 
+    'fog':             [53.64],
+    'wet_ground':      [73.91],
+    'snow':            [40.35],
+    'motion_blur':     [73.39],
+    'beam_missing':    [68.54],
+    'crosstalk':       [26.58],
+    'incomplete_echo': [63.83],
+    'cross_sensor':    [50.95],
+  }
+  ```
+  ```python
+  MinkUNet_18_cr10_mCE, MinkUNet_18_cr10_CE = calculate_mCE(MinkUNet_18_cr10, MinkUNet_18_cr10)
+  ```
+  ```python
+  mCE: 100.00%.
+  CE: [ 100. 100. 100. 100. 100. 100. 100. 100. ].
+  ```
+  ```python
+  MinkUNet_18_cr10_mRR, MinkUNet_18_cr10_RR = calculate_mRR(MinkUNet_18_cr10)
+  ```
+  ```python
+  mRR: 74.44%.
+  RR: [ 70.80 97.56 53.26 96.87 90.47 35.08 84.25 67.25 ].
 
 
+- **nuScenes-C (Det3D):**
+  ```python
+  CenterPoint_PP = {
+    # type,             NDS,
+    'clean':           [45.99], 
+    'fog':             [35.01],
+    'wet_ground':      [45.41],
+    'snow':            [31.23],
+    'motion_blur':     [41.79],
+    'beam_missing':    [35.16],
+    'crosstalk':       [35.22],
+    'incomplete_echo': [32.53],
+    'cross_sensor':    [25.78],
+  }
+  ```
+  ```python
+  CenterPoint_mCE = calculate_mCE(CenterPoint, CenterPoint)
+  ```
+  ```python
+  mCE: 100.00%.
+  CE: [ 100. 100. 100. 100. 100. 100. 100. 100. ].
+  ```
+  ```python
+  CenterPoint_mRR = calculate_mRR(CenterPoint)
+  ```
+  ```python
+  mRR: 76.68%.
+  RR: [ 76.13 98.74 67.91 90.87 76.45 76.58 70.73 56.06 ].
+  ```
 
 
+- **WOD-C (Seg3D):**
+  ```python
+  MinkU18 = {
+    # type,             mIoU,
+    'clean':           [69.06], 
+    'fog':             [66.99],
+    'wet_ground':      [60.99],
+    'snow':            [57.75],
+    'motion_blur':     [68.92],
+    'beam_missing':    [64.15],
+    'crosstalk':       [65.37],
+    'incomplete_echo': [63.36],
+    'cross_sensor':    [56.44],
+  }
+  ```
+  ```python
+  MinkUNet_18_mCE, MinkUNet_18_CE = calculate_mCE(MinkUNet_18, MinkUNet_18)
+  ```
+  ```python
+  mCE: 100.00%.
+  CE: [ 100. 100. 100. 100. 100. 100. 100. 100. ].
+  ```
+  ```python
+  MinkUNet_18_mRR, MinkUNet_18_RR = calculate_mRR(MinkUNet_18)
+  ```
+  ```python
+  mRR: 91.22%.
+  RR: [ 97.00 88.31 83.62 99.80 92.89 94.66 91.75 81.73 ].
+  ```
+
+
+- **WOD-C (Det3D):**
+  ```python
+  CenterPoint = {
+    # type,            mAPH_L2,
+    'clean':           [63.59], 
+    'fog':             [43.06],
+    'wet_ground':      [62.84],
+    'snow':            [58.59],
+    'motion_blur':     [43.53],
+    'beam_missing':    [54.41],
+    'crosstalk':       [60.32],
+    'incomplete_echo': [57.01],
+    'cross_sensor':    [43.98],
+  }
+  ```
+  ```python
+  CenterPoint_mCE = calculate_mCE(CenterPoint, CenterPoint)
+  ```
+  ```python
+  mCE: 100.00%.
+  CE: [ 100. 100. 100. 100. 100. 100. 100. 100. ].
+  ```
+  ```python
+  CenterPoint_mRR = calculate_mRR(CenterPoint)
+  ```
+  ```python
+  mRR: 83.30%.
+  RR: [ 67.72 98.82 92.14 68.45 85.56 94.86 89.65 69.16 ].
+  ```
+
+
+## Custom Model
+
+You can adopt the following **template** to probe the robustness of your custom model:
+
+```python
+YOUR_MODEL = {
+    # type            metric
+    'clean':           [  ], 
+    'fog':             [  ],
+    'wet_ground':      [  ],
+    'snow':            [  ],
+    'motion_blur':     [  ],
+    'beam_missing':    [  ],
+    'crosstalk':       [  ],
+    'incomplete_echo': [  ],
+    'cross_sensor':    [  ],
+}
+```
+
+```python
+mCE = calculate_mCE(YOUR_MODEL, BASELINE)
+```
+
+```python
+mRR = calculate_mRR(YOUR_MODEL)
+```
 
