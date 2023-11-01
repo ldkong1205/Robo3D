@@ -45,21 +45,21 @@ Download the `KITTI-C` dataset from the [OpenDataLab](https://opendatalab.com/) 
   - Click the `download` button on the right to download the dataset.
 - CLI download:
   - Install the `openxlab` package.
-  - ```
+  - ```python
     pip install openxlab
     ```
   - Use the following command to download the dataset.
   - 
-    ```
+    ```python
     openxlab dataset get --dataset-repo OpenDataLab/KITTI-C
     ```
 - Python SDK download:
   - Install the `openxlab` package.
-  - ```
+  - ```python
     pip install openxlab
     ```
   - Use the following command to download the dataset.
-  - ```
+  - ```python
     from openxlab.dataset import get
     get(dataset_repo='OpenDataLab/KITTI-C', target_path='/path/to/local/folder/')
     ```
@@ -117,21 +117,21 @@ Download the `SemanticKITTI-C` dataset from the [OpenDataLab](https://opendatala
   - Click the `download` button on the right to download the dataset.
 - CLI download:
   - Install the `openxlab` package.
-  - ```
+  - ```python
     pip install openxlab
     ```
   - Use the following command to download the dataset.
   - 
-    ```
+    ```python
     openxlab dataset get --dataset-repo OpenDataLab/SemanticKITTI-C
     ```
 - Python SDK download:
   - Install the `openxlab` package.
-  - ```
+  - ```python
     pip install openxlab
     ```
   - Use the following command to download the dataset.
-  - ```
+  - ```python
     from openxlab.dataset import get
     get(dataset_repo='OpenDataLab/SemanticKITTI-C', target_path='/path/to/local/folder/')
     ```
@@ -189,21 +189,21 @@ Download the `nuScenes-C` dataset from the [OpenDataLab](https://opendatalab.com
   - Click the `download` button on the right to download the dataset.
 - CLI download:
   - Install the `openxlab` package.
-  - ```
+  - ```python
     pip install openxlab
     ```
   - Use the following command to download the dataset.
   - 
-    ```
+    ```python
     openxlab dataset get --dataset-repo OpenDataLab/nuScenes-C
     ```
 - Python SDK download:
   - Install the `openxlab` package.
-  - ```
+  - ```python
     pip install openxlab
     ```
   - Use the following command to download the dataset.
-  - ```
+  - ```python
     from openxlab.dataset import get
     get(dataset_repo='OpenDataLab/nuScenes-C', target_path='/path/to/local/folder/')
     ```
