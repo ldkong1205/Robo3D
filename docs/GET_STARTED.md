@@ -37,7 +37,7 @@ Our generated corruption sets follow the same dataset structure as the original 
 - The **Resilience Rate (RR)** for a model $A$ under corruption $i$ across three severity levels is:
   $$\text{RR}\_i^{\text{Model}A} = \frac{\sum\_{l=1}(\text{mIoU}\_{i,l}^{\text{Model}A})}{3\times\text{mIoU}\_{\text{clean}}^{\text{Model}A}} . $$
 
-- The average RR for a model $A$ on all corruptions, *i.e.*, **mean Resilience Rate (mRR)**, is calculated as:
+- The average $\text{RR}$ for a model $A$ on all corruptions, *i.e.*, **mean Resilience Rate (mRR)**, is calculated as:
   $$\text{mRR} = \frac{1}{N}\sum^N\_{i=1}\text{RR}\_i , $$
   where $N=8$ denotes the number of corruption types in the Robo3D benchmark.
 
