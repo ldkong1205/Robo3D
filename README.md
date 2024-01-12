@@ -41,7 +41,7 @@
     <img src="https://img.shields.io/badge/Demo-%F0%9F%8E%AC-pink">
   </a>
   
-  <a href="" target='_blank'>
+  <a href="https://zhuanlan.zhihu.com/p/672935761" target='_blank'>
     <img src="https://img.shields.io/badge/%E4%B8%AD%E8%AF%91%E7%89%88-%F0%9F%90%BC-red">
   </a>
   
@@ -73,6 +73,8 @@ Visit our [project page](https://ldkong.com/Robo3D) to explore more examples. :o
 
 
 ## Updates
+
+- \[2024.01\] - The [toolkit](https://github.com/robodrive-24/toolkit) tailored for [The RoboDrive Challenge](https://robodrive-24.github.io/) has been released. :hammer_and_wrench:
 - \[2023.12\] - We are hosting [The RoboDrive Challenge](https://robodrive-24.github.io/) at [ICRA 2024](https://2024.ieee-icra.org/). :blue_car:
 - \[2023.09\] - Intend to improve the OoD robustness of your 3D perception models? Check out our recent work, [Seal](https://github.com/youquanl/Segment-Any-Point-Cloud) :seal:, an image-to-LiDAR self-supervised pretraining framework that leverages off-the-shelf knowledge from vision foundation models for cross-modality representation learning.
 - \[2023.07\] - Robo3D was accepted to [ICCV 2023](https://iccv2023.thecvf.com/)! :tada:
