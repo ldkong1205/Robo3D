@@ -74,8 +74,8 @@ Visit our [project page](https://ldkong.com/Robo3D) to explore more examples. :o
 
 ## Updates
 
-- \[2024.01\] - The [toolkit](https://github.com/robodrive-24/toolkit) tailored for [The RoboDrive Challenge](https://robodrive-24.github.io/) has been released. :hammer_and_wrench:
-- \[2023.12\] - We are hosting [The RoboDrive Challenge](https://robodrive-24.github.io/) at [ICRA 2024](https://2024.ieee-icra.org/). :blue_car:
+- \[2024.01\] - The [toolkit](https://github.com/robodrive-24/toolkit) tailored for the [RoboDrive Challenge](https://robodrive-24.github.io/) has been released. :hammer_and_wrench:
+- \[2023.12\] - We are hosting the [RoboDrive Challenge](https://robodrive-24.github.io/) at [ICRA 2024](https://2024.ieee-icra.org/). :blue_car:
 - \[2023.09\] - Intend to improve the OoD robustness of your 3D perception models? Check out our recent work, [Seal](https://github.com/youquanl/Segment-Any-Point-Cloud) :seal:, an image-to-LiDAR self-supervised pretraining framework that leverages off-the-shelf knowledge from vision foundation models for cross-modality representation learning.
 - \[2023.07\] - Robo3D was accepted to [ICCV 2023](https://iccv2023.thecvf.com/)! :tada:
 - \[2023.03\] - We establish *"Robust 3D Perception"* leaderboards on [Paper-with-Code](https://paperswithcode.com/paper/robo3d-towards-robust-and-reliable-3d): <sup>1</sup>[`KITTI-C`](https://paperswithcode.com/dataset/kitti-c), <sup>2</sup>[`SemanticKITTI-C`](https://paperswithcode.com/dataset/semantickitti-c), <sup>3</sup>[`nuScenes-C`](https://paperswithcode.com/dataset/nuscenes-c), and <sup>4</sup>[`WOD-C`](https://paperswithcode.com/dataset/wod-c). Join the challenge today! :raising_hand:
