@@ -74,9 +74,9 @@ Visit our [project page](https://ldkong.com/Robo3D) to explore more examples. :o
 
 ## Updates
 
-- \[2024.05\] - Check out the technical report: [The RoboDrive Challenge: Drive Anytime Anywhere in Any Condition](https://arxiv.org/abs/2405.08816).
+- \[2024.05\] - Check out the technical report of this competition: [The RoboDrive Challenge: Drive Anytime Anywhere in Any Condition](https://arxiv.org/abs/2405.08816) :blue_car:.
 - \[2024.05\] - The slides of the 2024 RoboDrive Workshop are available [here](https://robodrive-24.github.io/workshop.pdf) :arrow_heading_up:.
-- \[2024.05\] - The video recordings of the 2024 RoboDrive Workshop are available on [YouTube](https://youtu.be/83_FxdXNNQk) :arrow_heading_up: and [Bilibili](https://www.bilibili.com/video/BV11H4y1M7mp) :arrow_heading_up:.
+- \[2024.05\] - The video recordings are available on [YouTube](https://youtu.be/83_FxdXNNQk) :arrow_heading_up: and [Bilibili](https://www.bilibili.com/video/BV11H4y1M7mp) :arrow_heading_up:.
 - \[2024.05\] - We are glad to announce the winning teams of the [2024 RoboDrive Challenge](https://robodrive-24.github.io/):
   - **Track 1: Robust BEV Detection**
     - :1st_place_medal: `DeepVision`, :2nd_place_medal: `Ponyville Autonauts Ltd`, :3rd_place_medal: `CyberBEV` 
