@@ -74,7 +74,21 @@ Visit our [project page](https://ldkong.com/Robo3D) to explore more examples. :o
 
 ## Updates
 
-- \[2024.01\] - The [toolkit](https://github.com/robodrive-24/toolkit) tailored for the [RoboDrive Challenge](https://robodrive-24.github.io/) has been released. :hammer_and_wrench:
+- \[2024.05\] - Check out the technical report: [The RoboDrive Challenge: Drive Anytime Anywhere in Any Condition](https://arxiv.org/abs/2405.08816).
+- \[2024.05\] - The slides of the 2024 RoboDrive Workshop are available [here](https://robodrive-24.github.io/workshop.pdf) :arrow_heading_up:.
+- \[2024.05\] - The video recordings of the 2024 RoboDrive Workshop are available on [YouTube](https://youtu.be/83_FxdXNNQk) :arrow_heading_up: and [Bilibili](https://www.bilibili.com/video/BV11H4y1M7mp) :arrow_heading_up:.
+- \[2024.05\] - We are glad to announce the winning teams of the [2024 RoboDrive Challenge](https://robodrive-24.github.io/):
+  - **Track 1: Robust BEV Detection**
+    - :1st_place_medal: `DeepVision`, :2nd_place_medal: `Ponyville Autonauts Ltd`, :3rd_place_medal: `CyberBEV` 
+  - **Track 2: Robust Map Segmentation**
+    - :1st_place_medal: `SafeDrive-SSR`, :2nd_place_medal: `CrazyFriday`, :3rd_place_medal: `Samsung Research`
+  - **Track 3: Robust Occupancy Prediction**
+    - :1st_place_medal: `ViewFormer`, :2nd_place_medal: `APEC Blue`, :3rd_place_medal: `hm.unilab`
+  - **Track 4: Robust Depth Estimation**
+    - :1st_place_medal: `HIT-AIIA`, :2nd_place_medal: `BUAA-Trans`, :3rd_place_medal: `CUSTZS`
+  - **Track 5: Robust Multi-Modal BEV Detection**
+    - :1st_place_medal: `safedrive-promax`, :2nd_place_medal: `Ponyville Autonauts Ltd`, :3rd_place_medal: `HITSZrobodrive`
+- \[2024.01\] - The [toolkit](https://github.com/robodrive-24/toolkit) tailored for the [2024 RoboDrive Challenge](https://robodrive-24.github.io/) has been released. :hammer_and_wrench:
 - \[2023.12\] - We are hosting the [RoboDrive Challenge](https://robodrive-24.github.io/) at [ICRA 2024](https://2024.ieee-icra.org/). :blue_car:
 - \[2023.09\] - Intend to improve the OoD robustness of your 3D perception models? Check out our recent work, [Seal](https://github.com/youquanl/Segment-Any-Point-Cloud) :seal:, an image-to-LiDAR self-supervised pretraining framework that leverages off-the-shelf knowledge from vision foundation models for cross-modality representation learning.
 - \[2023.07\] - Robo3D was accepted to [ICCV 2023](https://iccv2023.thecvf.com/)! :tada:
